@@ -1,0 +1,93 @@
+[
+    {
+        "name": "Biermeester",
+        "location": "De Zeppelin",
+        "startDay": "03/03/2023",
+        "startTime": "20:00",
+        "open": true,
+        "imageUrl": "",
+        "linkUrl": "https://www.facebook.com/events/1323297791800056"
+    },
+    {
+        "name": "Krambambouli Cantus",
+        "location": "Onthaalcomplex",
+        "startDay": "10/03/2023",
+        "startTime": "20:00",
+        "open": true,
+        "imageUrl": "",
+        "linkUrl": "https://www.facebook.com/events/471571841740446"
+    },
+    {
+        "name": "LAN-Party",
+        "location": "HOGENT Campus Aalst",
+        "startDay": "24/03/2023",
+        "startTime": "18:00",
+        "open": true,
+        "imageUrl": "https://imgur.com/VhZl3nK",
+        "linkUrl": "https://www.facebook.com/events/6072428239455185"
+    },
+    {
+        "name": "Clubweekend",
+        "location": "Chiro SAS, Stekene",
+        "startDay": "07/04/2023",
+        "startTime": "18:30",
+        "open": false,
+        "imageUrl": "",
+        "linkUrl": "https://www.facebook.com/events/807122720402977"
+    },
+    {
+        "name": "Karaoke & Cocktail Clubavond",
+        "location": "",
+        "startDay": "21/04/2023",
+        "startTime": "20:00",
+        "open": false,
+        "imageUrl": "",
+        "linkUrl": "https://www.facebook.com/events/467361968598198"
+    },
+    {
+        "name": "Vriendjes Cantus",
+        "location": "",
+        "startDay": "29/04/2023",
+        "startTime": "20:00",
+        "open": true,
+        "imageUrl": "",
+        "linkUrl": "https://www.facebook.com/events/889324228771764"
+    },
+    {
+        "name": "Reis Rond de Wereld Cantus",
+        "location": "",
+        "startDay": "05/05/2023",
+        "startTime": "20:00",
+        "open": false,
+        "imageUrl": "",
+        "linkUrl": "https://www.facebook.com/events/650839399816914"
+    },
+    {
+        "name": "Praesesverkiezing",
+        "location": "",
+        "startDay": "06/05/2023",
+        "startTime": "",
+        "open": false,
+        "imageUrl": "",
+        "linkUrl": ""
+    },
+    {
+        "name": "Gala der Gouden Kastanjes",
+        "location": "",
+        "startDay": "01/07/2023",
+        "startTime": "",
+        "open": false,
+        "imageUrl": "",
+        "linkUrl": ""
+    }
+]
+
+// {
+//     "name": "",
+//     "location": "",
+//     "startDay": "",
+//     "startTime": "",
+//     "open": false,
+//     "imageUrl": "",
+//     "linkUrl": ""
+// }

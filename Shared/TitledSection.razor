@@ -1,0 +1,13 @@
+﻿
+<div style="margin-bottom: 4rem;">
+	<MudText Color="Color.Primary" Typo="Typo.h4" Align="Align.Center" Class="mb-4 fw-bold">@Title</MudText>
+
+	@ChildContent
+</div>
+
+
+@code {
+	[Parameter] public RenderFragment? ChildContent { get; set; }
+	[Parameter] public string Title { get; set; } = default!;
+}
+
