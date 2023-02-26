@@ -1,0 +1,13 @@
+﻿.event-div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 1300px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+    .event-grid {
+    }
+}

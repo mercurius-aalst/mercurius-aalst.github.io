@@ -1,0 +1,81 @@
+﻿@page "/media"
+@inject HttpClient Http
+
+<PageTitle>Mercurius Aalst - Media</PageTitle>
+
+<Banner Title="Media"/>
+
+@if (albums == null)
+{
+	<p><em>Loading...</em></p>
+} 
+else
+{
+	<div class="albums">
+		@foreach (Album album in albums.OrderByDescending(a => a.Date))
+		{
+			<a href="@album.Link" target="_blank">
+				<MudPaper Class="album">
+					<MudText Typo="Typo.h5" Align="Align.Center"><b>@album.Name</b></MudText>
+					<MudText Typo="Typo.h6" Align="Align.Center" Class="mb-5">@album.Date.ToString("dd/MM/yyyy")</MudText>
+					<MudText Typo="Typo.body1" Color="Color.Primary" Align="Align.Center"><b>Naar foto-album</b></MudText>
+				</MudPaper>
+			</a>
+		}
+	</div>
+}
+
+<style>
+	.albums {
+		max-width: 1300px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 0 auto;
+		gap: 1rem;
+	}
+
+	.album {
+		width: 300px;
+		padding: 1rem 0;
+		transition: all .2s ease-in-out;
+	}
+
+
+	.album:hover {
+		cursor: pointer;
+		transform: scale(1.05);
+	}
+
+	.album:not(hover) {
+		cursor: default;
+		transform: scale(1);
+	}
+
+	.media-link {
+		color: white;
+		background-color: #217226;
+		padding: 0.5rem 1rem;
+	}
+
+</style>
+
+@code {
+	private Album[]? albums;
+
+	protected override async Task OnInitializedAsync()
+	{
+		albums = await Http.GetFromJsonAsync<Album[]>("sample-data/albums.json");
+		foreach (Album a in albums)
+		{
+			Console.WriteLine(a.Date);
+		}
+	}
+
+	public class Album
+	{
+		public string Name { get; set; } = default!;
+		public DateTime Date { get; set; } = default!;
+		public string Link { get; set; } = default!;
+	}
+}

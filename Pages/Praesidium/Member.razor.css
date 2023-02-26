@@ -1,0 +1,62 @@
+﻿.pr-card {
+    max-width: 400px;
+    width: 400px;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0px 5px 10px #808080;
+    transition: all 0.1s ease-in-out;
+    grid-column: span 2;
+    margin: 0 auto;
+}
+
+.pr-card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.pr-card:not(hover) {
+    cursor: default;
+    transform: scale(1);
+}
+
+.pr-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.pr-text {
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1300px) {
+    .pr-card {
+        max-width: none;
+        width: 80%;
+        grid-column: span 3;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .pr-card {
+        min-width: none;
+        grid-column: span 6;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .pr-card {
+        min-width: none;
+        max-width: none;
+        width: 100%;
+    }
+
+    .pr-card, .pr-image {
+        border-radius: 0;
+    }
+}

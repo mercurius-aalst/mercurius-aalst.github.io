@@ -1,0 +1,51 @@
+﻿.event-card {
+    max-width: 500px;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0px 5px 10px #808080;
+    transition: all 0.1s ease-in-out;
+    margin: 0 auto;
+}
+
+.event-card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    color: inherit;
+}
+
+.event-card:not(hover) {
+    cursor: default;
+    transform: scale(1);
+}
+
+.event-image {
+    width: 100.05%;
+    object-fit: cover;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.event-text {
+    padding: 1rem 2rem 2rem 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .container-xxl {
+        padding: 0;
+    }
+
+    .event-card {
+        min-width: none;
+        max-width: none;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .event-card, .event-image {
+        border-radius: 0;
+    }
+
+    .event-text {
+        padding: 1rem;
+    }
+}

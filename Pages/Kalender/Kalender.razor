@@ -1,0 +1,49 @@
+﻿@page "/kalender"
+@inject HttpClient Http
+
+<PageTitle>Mercurius Aalst - Kalender</PageTitle>
+
+<Banner Title="Kalender" />
+
+@if (events == null)
+{
+	<p><em>Loading...</em></p>
+} 
+else if (events.Length == 0)
+{
+	<p><em>Geen komende evenementen...</em></p>
+}
+else
+{
+	<TitledSection Title="Komende activiteiten">
+		<div class="event-div pt-4" style="padding-bottom: 4rem;">
+			@foreach (Activiteit ev in events.Where(a => a.Start > DateTime.Now).OrderBy(a => a.Start))
+			{
+				<Event EventIndex="ev" />
+			}
+		</div>
+	</TitledSection>
+}
+
+@code {
+	private Activiteit[]? events;
+
+	protected override async Task OnInitializedAsync()
+	{
+		events = await Http.GetFromJsonAsync<Activiteit[]>("sample-data/events.json");
+		foreach(Activiteit a in events)
+		{
+			Console.WriteLine(a.Start);
+		}
+	}
+
+	public class Activiteit
+	{
+		public string Name { get; set; } = default!;
+		public string Location { get; set; } = default!;
+		public DateTime Start { get; set; } = default!;
+		public bool Open { get; set; }
+		public string ImageUrl { get; set; } = default!;
+		public string LinkUrl { get; set; } = default!;
+	}
+}

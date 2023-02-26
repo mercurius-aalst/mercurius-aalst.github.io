@@ -1,0 +1,43 @@
+﻿.banner div {
+    width: 250px;
+}
+
+.banner {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 450px;
+    background: linear-gradient(0deg, rgba(221,221,221,1) 0%, rgba(33,114,38,1) 100%);
+}
+
+.logo {
+    height: 65%;
+    filter: drop-shadow(0px 20px 20px rgba(0,0,0,0.7));
+    animation: sway-animation 4s ease-in-out;
+}
+
+.sway-animation {
+    animation-name: sway-animation;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 4s;
+}
+
+@media only screen and (max-width: 600px) {
+    .banner {
+        flex-direction: column;
+        padding-top: 50px;
+    }
+}
+
+@keyframes sway-animation {
+    0% {
+        transform: rotateY(-20deg) rotateX(10deg);
+    }
+
+    100% {
+        transform: rotateY(20deg) rotateX(10deg);
+    }
+}

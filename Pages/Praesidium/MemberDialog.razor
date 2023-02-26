@@ -1,0 +1,39 @@
+﻿@using static MercuriusStatic.Pages.Praesidium.Praesidium;
+
+<MudDialog Style="max-height: 600px; max-width: 500px">
+	<DialogContent>
+		<MudStack Class="text-left">
+			<h2 style="color: #217226;">@member.Function</h2>
+			<h5>@member.FirstName <b class="@(member.NickName == null ? "d-none": null)">'@member.NickName'</b> @member.LastName</h5>
+			<MudStack Class="overflow-scroll">
+				<MudImage Src="@(member.ImageUrl+".jpg")" Fluid Class="rounded-2" />
+				<h6>
+					<b>Studie:</b>
+					@member.Study
+				</h6>
+				<h6>
+					<b>Doopjaar:</b>
+					@member.BaptiseYear
+				</h6>
+				<h6>
+					<b>Peter / Meter:</b>
+					@member.PetMet
+				</h6>
+				<h6>
+					<b>Favoriete quote:</b>
+					"@member.Quote"
+					<i>- @member.QuoteBy</i>
+				</h6>
+				<h6>
+					<b>Favoriete cantuslied:</b>
+					@member.Song
+				</h6>
+			</MudStack>
+		</MudStack>
+	</DialogContent>
+</MudDialog>
+
+@code {
+    [Parameter]
+    public PrLid member { get; set; } = default!;
+}

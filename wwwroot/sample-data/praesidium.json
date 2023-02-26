@@ -88,7 +88,7 @@
         "petMet": "Bulkie & Kleinen",
         "quote": "Ik weet niks",
         "quoteBy": "Mona",
-        "song": "Krambambouli",
+        "song": "Krambambouli"
     },
     {
         "firstName": "Jarno",
@@ -117,17 +117,3 @@
         "song": "The Wild Rover"
     }
 ]
-
-//{
-//    "firstName": "",
-//    "lastName": "",
-//    "nickName": "",
-//    "function": "",
-//    "imageUrl": "",
-//    "study": "",
-//    "baptiseYear": "",
-//    "petMet": "",
-//    "quote": "",
-//    "quoteBy": "",
-//    "song": ""
-//}

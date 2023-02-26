@@ -1,0 +1,32 @@
+﻿
+.albums {
+    max-width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.album {
+    width: 300px;
+    padding: 1rem 0;
+    transition: all .2s ease-in-out;
+}
+
+
+    .album:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+
+    .album:not(hover) {
+        cursor: default;
+        transform: scale(1);
+    }
+
+.media-link {
+    color: white;
+    background-color: #217226;
+    padding: 0.5rem 1rem;
+}
