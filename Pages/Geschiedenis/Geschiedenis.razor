@@ -9,14 +9,13 @@
 		<MudTimeline id="tijdlijn-part">
 			@foreach (string[] item in _timelineItems)
 			{
-				<MudTimelineItem Color="Color.Primary" Variant="Variant.Filled" Style="padding: 2rem 0;">
-
+				<MudTimelineItem Color="Color.Primary" Variant="Variant.Filled" Style="padding: 2rem 0;" Elevation="5">
 					<ItemOpposite>
-						<MudText Color="Color.Primary" Typo="Typo.h5">@item[0]</MudText>
+						<MudText Color="Color.Primary" Typo="Typo.h5" Style="font-weight: bold;">@item[0]</MudText>
 					</ItemOpposite>
 
 					<ItemContent>
-						<MudText Color="Color.Primary" Typo="Typo.h6">@item[1]</MudText>
+						<MudText Typo="Typo.h6" Style="font-weight: bold;">@item[1]</MudText>
 						<MudText Typo="Typo.body1">@item[2]</MudText>
 					</ItemContent>
 				</MudTimelineItem>
