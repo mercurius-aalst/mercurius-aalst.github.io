@@ -22,14 +22,14 @@ h3 {
     text-decoration: none;
 }
 
-    .menu-link:hover {
-        color: lightgray;
-    }
+.menu-link:hover {
+    color: lightgray;
+}
 
 .active-link {
     text-decoration: underline;
     color: darkkhaki;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 @media only screen and (max-width: 959px) {
