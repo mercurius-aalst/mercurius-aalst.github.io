@@ -31,10 +31,6 @@ else
 	protected override async Task OnInitializedAsync()
 	{
 		events = await Http.GetFromJsonAsync<Activiteit[]>("sample-data/events.json");
-		foreach(Activiteit a in events)
-		{
-			Console.WriteLine(a.Start);
-		}
 	}
 
 	public class Activiteit
