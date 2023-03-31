@@ -1,4 +1,4 @@
-﻿.blog-pic {
+﻿.home-pic {
     width: 95%;
     border: 3px solid green;
     max-width: 1000px;
@@ -6,16 +6,25 @@
     box-shadow: 0px 10px 30px 0px #217226;
 }
 
+.blog-pic {
+    width: 95%;
+    border: 3px solid green;
+    max-width: 1000px;
+    margin: 0 1rem 4rem 1rem;
+}
+
 .blog-text {
     max-width: 700px;
     margin: 0 auto;
+    font-size: 1.25rem;
+    text-align: start;
 }
 
-    .blog-text h5 {
-        font-weight: 400;
-        text-align: left;
-        padding-bottom: 1rem;
-    }
+.blog-text h5 {
+    font-weight: 400;
+    text-align: left;
+    padding-bottom: 1rem;
+}
 
 @media only screen and (max-width: 750px) {
     .blog-pic {

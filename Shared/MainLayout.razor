@@ -6,12 +6,14 @@
 
 <NavMenu />
 
-<div style="min-height:100vh;background-color:#dddddd">
+<div style="min-height:100vh; background-color:#dddddd;">
 	@Body
 	<Footer />
 </div>
 
 @code {
+    private int counter = 0;
+
     MudTheme MyCustomTheme = new MudTheme()
     {
         Palette = new Palette()

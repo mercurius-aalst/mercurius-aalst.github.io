@@ -1,13 +1,21 @@
 ﻿@inject NavigationManager nm
+@inject IJSRuntime JS
 
 <div class="fixed-top">
-	<nav class="navbar container-xxl d-flex align-items-center text-white">
-		<h3 class="me-auto mb-0"><a class="menu-link" href="/"><b>Mercurius</b></a></h3>
+	<nav class="navbar d-flex align-items-center text-white">
+		<h3 class="me-auto mb-0"><a class="logo-link" href="/"><b>Mercurius</b></a></h3>
 
-		<ul class="list-group-horizontal d-none d-md-flex mt-2 gap-3 list-unstyled">
+		<ul class="list-group-horizontal d-none d-md-flex list-unstyled">
 			@foreach (string[] l in _links)
 			{
-				<li><a class="@l[2] menu-link" href="@l[0]"><MudText Typo="Typo.body1">@l[1]</MudText></a></li>
+				if(l[1] != "Kalender")
+				{
+					<a class="@l[2] menu-link" href="@l[0]">@l[1]</a>
+				}
+				else
+				{
+					<a class="@l[2] menu-link" href="@l[0]">@l[1]</a>
+				}
 			}
 		</ul>
 

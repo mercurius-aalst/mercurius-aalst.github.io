@@ -1,5 +1,6 @@
 ﻿.event-card {
     max-width: 500px;
+    width: 100%;
     background-color: white;
     border-radius: 1rem;
     box-shadow: 0px 5px 10px #808080;

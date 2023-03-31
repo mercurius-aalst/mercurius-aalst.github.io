@@ -1,17 +1,56 @@
 ﻿@page "/"
+@inject HttpClient Http
 
 <PageTitle>Mercurius Aalst - Home</PageTitle>
 
 <Banner />
 
 <div style="margin-bottom: 4rem; text-align: center;">
-	<MudText Color="Color.Primary" Typo="Typo.h4" Align="Align.Center" Class="mb-4 fw-bold">Wie zijn wij?</MudText>
+	<MudText Color="Color.Primary" Typo="Typo.h4" Align="Align.Center" Class="fw-bold" Style="margin-bottom: 4rem;">Wie zijn wij?</MudText>
 
-	<img src="/img/praesidium-2223.png" class="blog-pic" loading="eager" />
+	<img src="/img/praesidium-2223.png" class="home-pic" loading="eager" />
 
 	<div class="blog-text">
-		<h5>Wij zijn een door Hogeschool Gent erkende <b>studentenclub</b>. Dit wil zeggen dat wij enkele afspraken ondertekenen die de <b>veiligheid</b> van onze leden garandeert en de opgelegde regels zullen worden nageleefd.</h5>
-		<h5>Bij ons geldt een <b>nultolerantie voor wanpraktijken</b> of situaties die de veiligheid van onze leden op het spel zet.</h5>
-		<h5>Ook ondertekenen wij het <b>Aalsters doopdecreet</b>, waardoor wij een <b>veilige doop</b> kunnen garanderen aan zowel de deelnemers als de mensen rondom ons.</h5>
+		<p>Wij zijn een door Hogeschool Gent erkende <strong>studentenclub</strong>. Dit wil zeggen dat wij enkele afspraken ondertekenen die de <strong>veiligheid</strong> van onze leden garandeert en de opgelegde regels zullen worden nageleefd.</p>
+		<p>Bij ons geldt een <b>nultolerantie voor wanpraktijken</b> of situaties die de veiligheid van onze leden op het spel zet.</p>
+		<p>Ook ondertekenen wij het <b>Aalsters doopdecreet</b>, waardoor wij een <b>veilige doop</b> kunnen garanderen aan zowel de deelnemers als de mensen rondom ons.</p>
 	</div>
 </div>
+
+@if (blogItem != null)
+{
+	<div style="margin: 8rem 0; text-align: center;">
+		<MudText Color="Color.Primary" Typo="Typo.h4" Align="Align.Center" Class="fw-bold" Style="margin-bottom: 4rem;">@blogItem.Title</MudText>
+
+		@if (blogItem.Image != "")
+		{
+			<img src="@(blogItem.Image+".jpg")" class="blog-pic" loading="eager" />
+		}
+
+		<div class="blog-text">
+			@foreach (string par in blogItem.Paragraphs)
+			{
+				<h5>@par</h5>
+			}
+			<h5 class="text-center"><a href="@blogItem.Link" target="_blank" class="link-primary text-decoration-underline">@blogItem.LinkText</a></h5>
+		</div>
+	</div>
+}
+
+@code {
+	private Blog? blogItem;
+
+	protected override async Task OnInitializedAsync()
+	{
+		blogItem = await Http.GetFromJsonAsync<Blog>("sample-data/blog.json");
+	}
+
+	public class Blog
+	{
+		public string Title { get; set; } = default!;
+		public string[] Paragraphs { get; set; } = default!;
+		public string? Link { get; set; } = default!;
+		public string? LinkText { get; set; } = default!;
+		public string? Image { get; set; } = default!;
+	}
+}
