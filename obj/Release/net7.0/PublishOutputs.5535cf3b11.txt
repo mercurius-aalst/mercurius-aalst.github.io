@@ -1,1 +1,0 @@
-C:\Users\jonat\Documents\Projecten\MercuriusStatic\bin\Release\net7.0\publish\web.config
