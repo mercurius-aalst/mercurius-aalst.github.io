@@ -1,27 +1,25 @@
 ﻿@using static MercuriusStatic.Pages.Praesidium.Praesidium;
 
-<div class="pr-card" @onclick="OpenDialog">
-	<img class="pr-image" src="@(PrLid.ImageUrl+".jpg")" />
+<div class="pr-card" @onclick="ToggleDialog">
+	<img class="pr-image" src="@(PrLid.ImageUrl+".png")" />
 	<div class="pr-text">
 		<h3 style="color: #217226;">@PrLid.Function</h3>
 		<h6>@PrLid.FirstName <b class="@(PrLid.NickName == null ? "d-none": null)">'@PrLid.NickName'</b> @PrLid.LastName</h6>
 	</div>
 </div>
 
+<div class="@(toggled ? "d-flex dialog-container" : "d-none")">
+	<MemberDialog Member="@PrLid" ToggleDialog="ToggleDialog" />
+</div>
+
 @code {
 	[Parameter]
 	public PrLid PrLid { get; set; } = default!;
 
-	[Inject]
-	public IDialogService Dialog { get; set; } = default!;
+	private bool toggled = false;
 
-	private void OpenDialog()
+	private void ToggleDialog()
 	{
-		var parameters = new DialogParameters { { "Member", PrLid } };
-		var options = new DialogOptions()
-		{ 
-			CloseButton = true, CloseOnEscapeKey = true, MaxWidth = MaxWidth.Medium, FullWidth = true 
-		};
-		Dialog.Show<MemberDialog>("", parameters, options);
+		toggled = !toggled;
 	}
 }

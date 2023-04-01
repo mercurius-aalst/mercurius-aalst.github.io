@@ -1,39 +1,21 @@
 ﻿@using static MercuriusStatic.Pages.Praesidium.Praesidium;
 
-<MudDialog Style="max-height: 600px; max-width: 500px">
-	<DialogContent>
-		<MudStack Class="text-left">
-			<h2 style="color: #217226;">@member.Function</h2>
-			<h5>@member.FirstName <b class="@(member.NickName == null ? "d-none": null)">'@member.NickName'</b> @member.LastName</h5>
-			<MudStack Class="overflow-scroll">
-				<MudImage Src="@(member.ImageUrl+".jpg")" Fluid Class="rounded-2" />
-				<h6>
-					<b>Studie:</b>
-					@member.Study
-				</h6>
-				<h6>
-					<b>Doopjaar:</b>
-					@member.BaptiseYear
-				</h6>
-				<h6>
-					<b>Peter / Meter:</b>
-					@member.PetMet
-				</h6>
-				<h6>
-					<b>Favoriete quote:</b>
-					"@member.Quote"
-					<i>- @member.QuoteBy</i>
-				</h6>
-				<h6>
-					<b>Favoriete cantuslied:</b>
-					@member.Song
-				</h6>
-			</MudStack>
-		</MudStack>
-	</DialogContent>
-</MudDialog>
+<div class="dialog">
+    <button class="btn-close" onclick="@ToggleDialog" />
+    <img src="@(Member.ImageUrl+".png")" class="image" />
+    <div class="text">
+        <h3 class="function"><b>@Member.Function</b></h3>
+        <h5 class="name">@Member.FirstName <b class="@(Member.NickName == null ? "d-none": null)">'@Member.NickName'</b> @Member.LastName</h5>
+        <br />
+
+        <h6 class="card-subtitle">Vraag</h6>
+        <h6>Antwoord op de vraag</h6>
+    </div>
+</div>
 
 @code {
     [Parameter]
-    public PrLid member { get; set; } = default!;
+    public PrLid Member { get; set; } = default!;
+    [Parameter]
+    public Action ToggleDialog { get; set; } = default!;
 }

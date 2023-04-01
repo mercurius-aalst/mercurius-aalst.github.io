@@ -1,0 +1,37 @@
+﻿.dialog {
+    width: 80%;
+    height: 60%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+
+.btn-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    transform: scale(1.5)
+}
+
+.image {
+    grid-column: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text {
+    grid-column: 2;
+    margin: 3rem;
+    overflow: scroll;
+    position: relative;
+}
+
+.function {
+    color: #217226;
+}
+
+.name {
+}
+

@@ -4,7 +4,7 @@
 @if (EventIndex.LinkUrl == "")
 {
 	<div class="event-card" @onclick="OnClick">
-		<img class="event-image" src=@(EventIndex.ImageUrl == ""? "https://imgur.com/NhrMwiG.jpg": $"{@EventIndex.ImageUrl}.jpg") loading="eager" />
+		<img class="event-image" src=@(EventIndex.ImageUrl == ""? "https://imgur.com/NhrMwiG.png": $"{@EventIndex.ImageUrl}.png") loading="eager" />
 		<div class="event-text">
 			<MudText Align="Align.Center" Typo="Typo.h5" Class="mb-4"><b>@EventIndex.Name</b></MudText>
 
@@ -22,7 +22,7 @@
 else
 {
 	<a class="event-card" href="@EventIndex.LinkUrl" target="_blank">
-		<img class="event-image" src=@(EventIndex.ImageUrl == ""? "https://imgur.com/NhrMwiG.jpg": $"{@EventIndex.ImageUrl}.jpg") />
+		<img class="event-image" src=@(EventIndex.ImageUrl == ""? "https://imgur.com/NhrMwiG.png": $"{@EventIndex.ImageUrl}.png") />
 		<div class="event-text">
 			<MudText Align="Align.Center" Typo="Typo.h5" Class="mb-4"><b>@EventIndex.Name</b></MudText>
 
