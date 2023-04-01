@@ -38,7 +38,6 @@ a {
 
 a:hover {
     color: lightgray;
-    box-shadow: inset 0px 0px 5px rgba(0,0,0, 0.3);
 }
 
 .menu-link {
@@ -100,6 +99,8 @@ a {
 .active-link::before {
     height: 100%;
     width: 100%;
+    box-shadow: inset 0px 0px 5px rgba(0,0,0, 0.3);
+    transition: 0.2s ease;
     border-bottom: 2px solid white;
 }
 
