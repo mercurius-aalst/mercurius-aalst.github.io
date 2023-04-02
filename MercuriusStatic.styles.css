@@ -28,7 +28,7 @@
 }
 
 @media only screen and (max-width: 750px) {
-    .blog-pic[b-9jsqrn8y1t] {
+    .blog-pic[b-9jsqrn8y1t], .home-pic[b-9jsqrn8y1t] {
         margin: 0 0 4rem 0;
         width: 100%;
         border-radius: 0;
@@ -487,6 +487,11 @@
     margin: 6rem 0 0 0;
 }
 
+h5[b-81g2plhqll] {
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
 .footer-top[b-81g2plhqll] {
     width: 100%;
 }
@@ -500,6 +505,10 @@
 
 .promo a[b-81g2plhqll] {
     color: white;
+}
+
+.socials[b-81g2plhqll] {
+    margin-left: -0.75rem;
 }
 
 .promo[b-81g2plhqll] {
@@ -529,11 +538,12 @@
     }
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 700px) {
     .footer-bot[b-81g2plhqll] {
         display: flex;
         flex-direction: column;
         gap: 3rem;
+        padding: 2rem 1rem;
     }
 }
 /* /Shared/MainLayout.razor.rz.scp.css */
