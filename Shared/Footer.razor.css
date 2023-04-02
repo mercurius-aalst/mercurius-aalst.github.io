@@ -2,6 +2,11 @@
     margin: 6rem 0 0 0;
 }
 
+h5 {
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
 .footer-top {
     width: 100%;
 }
@@ -15,6 +20,10 @@
 
 .promo a {
     color: white;
+}
+
+.socials {
+    margin-left: -0.75rem;
 }
 
 .promo {
@@ -44,10 +53,11 @@
     }
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 700px) {
     .footer-bot {
         display: flex;
         flex-direction: column;
         gap: 3rem;
+        padding: 2rem 1rem;
     }
 }
