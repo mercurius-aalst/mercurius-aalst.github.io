@@ -4,12 +4,12 @@
 	<img class="pr-image" src="@(PrLid.ImageUrl+".png")" />
 	<div class="pr-text">
 		<h3 style="color: #217226;">@PrLid.Function</h3>
-		<h6>@PrLid.FirstName <b class="@(PrLid.NickName == null ? "d-none": null)">'@PrLid.NickName'</b> @PrLid.LastName</h6>
+		<h6>@PrLid.FirstName <b class="@(PrLid.NickName == null ? "d-none": null)">"@PrLid.NickName"</b> @PrLid.LastName</h6>
 	</div>
 </div>
 
-<div class="@(toggled ? "d-flex dialog-container" : "d-none")">
-	<MemberDialog Member="@PrLid" ToggleDialog="ToggleDialog" />
+<div class="@(toggled ? "d-flex dialog-container" : "d-none")" @onclick="ToggleDialog">
+	<MemberDialog Member="PrLid" ToggleDialog="ToggleDialog" />
 </div>
 
 @code {
