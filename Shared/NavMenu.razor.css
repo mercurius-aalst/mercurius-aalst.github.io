@@ -120,4 +120,8 @@ a {
     .fixed-top {
         margin: 0;
     }
+
+    .logo-link {
+        padding: 0.7rem 1rem 0.7rem 1rem;
+    }
 }
