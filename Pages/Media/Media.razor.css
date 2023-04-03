@@ -46,6 +46,26 @@
     }
 }
 
+@media only screen and (max-width: 400px) {
+    .album::after {
+        content: "Naar foto-album";
+        position: absolute;
+        z-index: 2;
+        bottom: 0.5rem;
+        right: 0.5rem;
+        color: #217226;
+        background-color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 5rem;
+        font-weight: bold;
+        transition: ease-in-out 0.5s;
+    }
+
+    .album {
+        min-width: 200px;
+    }
+}
+
 @media only screen and (min-width: 767px) {
 
     .album:hover::after {
