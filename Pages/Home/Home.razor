@@ -1,7 +1,7 @@
 ﻿@page "/"
 @inject HttpClient Http
 
-<PageTitle>Mercurius Aalst - Home</PageTitle>
+<PageTitle>Mercurius Aalst - De oudste studentenvereniging van Aalst</PageTitle>
 
 <Banner />
 
@@ -17,7 +17,7 @@
 	</div>
 </div>
 
-@if (blogItem != null)
+@if (blogItem != null && blogItem.Title != "")
 {
 	<div style="margin: 8rem 0; text-align: center;">
 		<MudText Color="Color.Primary" Typo="Typo.h4" Align="Align.Center" Class="fw-bold" Style="margin-bottom: 4rem;">@blogItem.Title</MudText>

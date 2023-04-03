@@ -83,7 +83,7 @@ a {
 .menu-link:hover::before {
     height: 100%;
     width: 100%;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid lightgray;
 }
 
 .menu-link:last-child::before {
@@ -92,8 +92,8 @@ a {
 }
 
 .menu-link:last-child:hover::before {
-    width:100%;
-    border-right: 2px solid white;
+    width: 100%;
+    border-right: 2px solid lightgray;
 }
 
 .active-link::before {

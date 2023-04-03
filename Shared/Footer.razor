@@ -1,7 +1,14 @@
-﻿<footer class="footer">
+﻿@inject NavigationManager NM
+@inject IJSRuntime JS
+
+<footer class="footer">
 	<img class="footer-top" src="img/footer-top.png" />
 	<div class="footer-bot">
-
+		<a class="to-top" onclick="@(() => BackToTop())">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-up to-top-icon" viewBox="0 0 16 16">
+			  <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
+			</svg>
+		</a>
 		<div class="footer-icon">
 			<img src="img/mercurius-logo.png" height="200" />
 		</div>
@@ -18,7 +25,7 @@
 		<div class="footer-contact">
 			<h5>Contact</h5>
 			<div>
-				<a href="https://goo.gl/maps/GrR8Tng5JRvrQova7" target="_blank">Arbeidstraat 14, 9300 Aalst</a><br />
+				<a href="https://goo.gl/maps/GrR8Tng5JRvrQova7" target="_blank">Arbeidstraat&nbsp;14, 9300&nbsp;Aalst</a><br />
 				<a href="mailto:mercuriusaalst.studentenclub@gmail.com" target="_blank">mercuriusaalst.studentenclub@gmail.com</a><br />
 			</div>
 			<h5 style="margin-top: 3rem;">Clubstatuten</h5>
@@ -41,10 +48,16 @@
 		</div>
 	</div>
 	<div class="promo">
-		Webdesign & development by <a href="http://www.jonathancouck.be/" target="_blank"><b>Jonathan Couck</b></a>
+		Webdesign & development by <a href="http://www.jonathancouck.be/" target="_blank"><b>Jonathan&nbsp;Couck</b></a>
 	</div>
 </footer>
 
 @code {
 	private string link = "https://www.tiktok.com/@mercurius.aalst?is_from_webapp=1&sender_device=pc";
+
+	private async Task BackToTop()
+	{
+		Console.Write("here");
+		await JS.InvokeVoidAsync("backToTop");
+	}
 }
