@@ -47,7 +47,7 @@
     background-color: white;
     border-radius: 1rem;
     box-shadow: 0px 5px 10px #808080;
-    transition: all 0.1s ease-in-out;
+    transition: 0.1s;
     margin: 0 auto;
 }
 
@@ -71,6 +71,21 @@
 
 .event-text[b-ov08ttcqlf] {
     padding: 1rem 2rem 2rem 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .event-card:hover[b-ov08ttcqlf]::after {
+        position: absolute;
+        bottom: 1rem;
+        right: 1rem;
+        padding: 0.5rem 1rem;
+        border-radius: 1rem;
+        content: "Naar facebook event  →";
+        color: white;
+        background-color: #217226;
+        font-weight: bold;
+        opacity: 100;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -151,6 +166,26 @@
     }
 }
 
+@media only screen and (max-width: 400px) {
+    .album[b-jkcy88g78f]::after {
+        content: "Naar foto-album";
+        position: absolute;
+        z-index: 2;
+        bottom: 0.5rem;
+        right: 0.5rem;
+        color: #217226;
+        background-color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 5rem;
+        font-weight: bold;
+        transition: ease-in-out 0.5s;
+    }
+
+    .album[b-jkcy88g78f] {
+        min-width: 200px;
+    }
+}
+
 @media only screen and (min-width: 767px) {
 
     .album:hover[b-jkcy88g78f]::after {
@@ -186,6 +221,7 @@
     height: 100%;
     object-fit: cover;
     border: solid 2px #217226;
+    background-color: white;
 }
 
 .back-image[b-jkcy88g78f] {
@@ -281,6 +317,7 @@
     z-index: 10000;
     justify-content: center;
     align-items: center;
+    cursor: zoom-out;
 }
 /* /Pages/Praesidium/MemberDialog.razor.rz.scp.css */
 .dialog[b-93apr55cxb] {
@@ -292,7 +329,8 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 4fr;
     position: relative;
-    margin: 0 2rem;
+    margin: 0 3rem;
+    cursor: default;
 }
 
 .btn-close[b-93apr55cxb] {
@@ -364,6 +402,10 @@
 }
 
 @media only screen and (max-width: 1100px) {
+    .dialog[b-93apr55cxb] {
+        margin: 0 2rem;
+    }
+
     .function[b-93apr55cxb] {
         font-size: 2.5rem;
     }
@@ -381,6 +423,7 @@
         display: flex;
         flex-direction: column;
         overflow: scroll;
+        margin: 0 1rem;
         max-width: 500px;
         height: 90%;
         max-height: none;
@@ -432,27 +475,43 @@
     }
 }
 /* /Shared/Banner.razor.rz.scp.css */
-.banner div[b-1xo1cob7me] {
-    width: 250px;
+.banner-container[b-1xo1cob7me] {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    padding: 2.5rem 2rem 0 2rem;
+    display: flex;
+    background: linear-gradient(0deg, rgba(221,221,221,1) 0%, rgba(33,114,38,1) 100%);
+    overflow-x: hidden;
 }
 
 .banner[b-1xo1cob7me] {
+    display: grid;
+    grid-template-columns: 20% 1fr 20%;
     position: relative;
-    z-index: -1;
-    margin-bottom: 2rem;
+    z-index: 0;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    height: 28rem;
+}
+
+.title[b-1xo1cob7me] {
+    color: white;
+    font-weight: bold;
+    text-align: left;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    height: 450px;
-    background: linear-gradient(0deg, rgba(221,221,221,1) 0%, rgba(33,114,38,1) 100%);
+    font-size: 2rem;
 }
 
 .logo[b-1xo1cob7me] {
     position: relative;
     z-index: -1;
-    position: relative;
-    height: 65%;
-    filter: drop-shadow(0px 20px 20px rgba(0,0,0,0.7));
+    display: flex;
+    margin: auto;
+    max-height: 20rem;
+    max-width: 100%;
     animation: sway-animation-b-1xo1cob7me 4s ease-in-out;
 }
 
@@ -464,10 +523,14 @@
     animation-duration: 4s;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .banner[b-1xo1cob7me] {
+        display: flex;
         flex-direction: column;
         padding-top: 50px;
+    }
+    .title[b-1xo1cob7me] {
+        justify-content: center;
     }
 }
 
@@ -485,6 +548,7 @@
 /* /Shared/Footer.razor.rz.scp.css */
 .footer[b-81g2plhqll] {
     margin: 6rem 0 0 0;
+    overflow-x: hidden;
 }
 
 h5[b-81g2plhqll] {
@@ -501,6 +565,7 @@ h5[b-81g2plhqll] {
     background-color: #AAAAAA;
     display: grid;
     gap: 3rem;
+    position: relative;
 }
 
 .promo a[b-81g2plhqll] {
@@ -526,6 +591,25 @@ h5[b-81g2plhqll] {
 .pages[b-81g2plhqll] {
     display: flex;
     flex-direction: column;
+}
+
+.pages a[b-81g2plhqll] {
+    width: min-content;
+}
+
+.to-top[b-81g2plhqll] {
+    position: absolute;
+    bottom: -1rem;
+    right: 0rem;
+    transform: rotate(-25deg);
+    padding: 2rem;
+    background-color: #217226;
+    cursor: pointer;
+}
+
+.to-top-icon[b-81g2plhqll] {
+    color: white;
+    transform: rotate(25deg);
 }
 
 @media only screen and (max-width: 1100px) {
@@ -714,7 +798,7 @@ a[b-6wwsayw1sz] {
 .menu-link:hover[b-6wwsayw1sz]::before {
     height: 100%;
     width: 100%;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid lightgray;
 }
 
 .menu-link:last-child[b-6wwsayw1sz]::before {
@@ -723,8 +807,8 @@ a[b-6wwsayw1sz] {
 }
 
 .menu-link:last-child:hover[b-6wwsayw1sz]::before {
-    width:100%;
-    border-right: 2px solid white;
+    width: 100%;
+    border-right: 2px solid lightgray;
 }
 
 .active-link[b-6wwsayw1sz]::before {
@@ -750,5 +834,9 @@ a[b-6wwsayw1sz] {
 
     .fixed-top[b-6wwsayw1sz] {
         margin: 0;
+    }
+
+    .logo-link[b-6wwsayw1sz] {
+        padding: 0.7rem 1rem 0.7rem 1rem;
     }
 }

@@ -1,3 +1,7 @@
 {
-    "//standardBlogItem": "title, paragraphs, link, linkText, image",
+    "title": "",
+    "paragraphs": [],
+    "link": "",
+    "linkText": "",
+    "image": ""
 }
