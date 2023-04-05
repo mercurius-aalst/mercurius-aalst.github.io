@@ -1,8 +1,8 @@
 ﻿.banner-container {
     position: relative;
     z-index: 0;
-    width: 100vw;
-    padding: 2.5rem 3rem 0 3rem;
+    width: 100%;
+    padding: 2.5rem 2rem 0 2rem;
     display: flex;
     background: linear-gradient(0deg, rgba(221,221,221,1) 0%, rgba(33,114,38,1) 100%);
     overflow-x: hidden;
