@@ -6,21 +6,44 @@
 <Banner />
 
 <div style="margin-bottom: 4rem; text-align: center;">
-	<MudText Color="Color.Primary" Typo="Typo.h4" Align="Align.Center" Class="fw-bold" Style="margin-bottom: 4rem;">Wie zijn wij?</MudText>
+	<div class="blog-text">
+		<p style="text-align: center;">
+			Beste Mercurianen en geïnteresseerden,<br />
+			Welkom op de officiële website van onze studentenclub!
+		</p>
+	</div>
+	<MudText Color="Color.Primary" Typo="Typo.h4" Align="Align.Center" Class="fw-bold">Wie zijn we?</MudText>
 
 	<img src="/img/praesidium-2223.png" class="home-pic" loading="eager" />
 
 	<div class="blog-text">
-		<p>Wij zijn een door Hogeschool Gent erkende <strong>studentenclub</strong>. Dit wil zeggen dat wij enkele afspraken ondertekenen die de <strong>veiligheid</strong> van onze leden garandeert en de opgelegde regels zullen worden nageleefd.</p>
-		<p>Bij ons geldt een <b>nultolerantie voor wanpraktijken</b> of situaties die de veiligheid van onze leden op het spel zet.</p>
-		<p>Ook ondertekenen wij het <b>Aalsters doopdecreet</b>, waardoor wij een <b>veilige doop</b> kunnen garanderen aan zowel de deelnemers als de mensen rondom ons.</p>
+		<p>
+			Mercurius is dé studentenclub bij uitstek voor de studenten aan de HOGENT stadscampus Aalst. Bij ons voel je je meteen thuis door onze familiale, vriendschappelijke sfeer.
+		</p>
+		<p>
+			Het doel van onze club is namelijk studenten uit allerlei verschillende richtingen samenbrengen in tal van studentikoze activiteiten en een hechte vriendengroep vormen.
+		</p>
+	</div>
+	<MudText Color="Color.Primary" Typo="Typo.h4" Align="Align.Center" Class="fw-bold">Hoe zit het met de doop?</MudText>
+
+	<div class="blog-text">
+		<p>
+			Wij zijn een door Hogeschool Gent erkende studentenclub. Dit wil zeggen dat wij enkele afspraken ondertekenen die strikt nageleefd worden. Daarnaast ondertekenen wij het Aalsters en het Gents doopdecreet. Hierdoor kunnen wij een veilige en aangename doop garanderen voor alle deelnemers. Bij ons geldt een nultolerantie voor wanpraktijken of situaties die de veiligheid van onze leden op het spel zet.
+		</p>
+		<p>
+			Nog niet overtuigd? Kom dan zeker eens een kijkje nemen op één (of veel) van onze gezellige clubavonden of open activiteiten doorheen het jaar. Mercurius is een studentenclub waar je vrienden en herinneringen voor het leven maakt!
+		</p>
+		<p>
+			Tot binnenkort! <br />
+			XOXO praesidium @year
+		</p>
 	</div>
 </div>
 
 @if (blogItem != null && blogItem.Title != "")
 {
 	<div style="margin: 8rem 0; text-align: center;">
-		<MudText Color="Color.Primary" Typo="Typo.h4" Align="Align.Center" Class="fw-bold" Style="margin-bottom: 4rem;">@blogItem.Title</MudText>
+		<MudText Color="Color.Primary" Typo="Typo.h4" Align="Align.Center" Class="fw-bold">@blogItem.Title</MudText>
 
 		@if (blogItem.Image != "")
 		{
@@ -37,20 +60,3 @@
 	</div>
 }
 
-@code {
-	private Blog? blogItem;
-
-	protected override async Task OnInitializedAsync()
-	{
-		blogItem = await Http.GetFromJsonAsync<Blog>("sample-data/blog.json");
-	}
-
-	public class Blog
-	{
-		public string Title { get; set; } = default!;
-		public string[] Paragraphs { get; set; } = default!;
-		public string? Link { get; set; } = default!;
-		public string? LinkText { get; set; } = default!;
-		public string? Image { get; set; } = default!;
-	}
-}
