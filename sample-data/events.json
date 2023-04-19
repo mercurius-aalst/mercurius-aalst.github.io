@@ -56,17 +56,9 @@
         "linkUrl": "https://www.facebook.com/events/650839399816914"
     },
     {
-        "name": "Praesesverkiezing",
-        "location": "",
-        "start": "2023-05-06T00:00:00.000Z",
-        "open": false,
-        "imageUrl": "",
-        "linkUrl": ""
-    },
-    {
-        "name": "Gala der Gouden Kastanjes",
-        "location": "",
-        "start": "2023-07-01T00:00:00.000Z",
+        "name": "Praesesverkiezing & Gala der Gouden Kastanjes",
+        "location": "Onthaalcomplex Keizershallen",
+        "start": "2023-05-06T18:00:00.000Z",
         "open": false,
         "imageUrl": "",
         "linkUrl": ""
