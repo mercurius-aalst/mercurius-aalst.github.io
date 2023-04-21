@@ -1,6 +1,6 @@
 ﻿
-<div style="margin-bottom: 4rem;">
-	<MudText Color="Color.Primary" Typo="Typo.h4" Align="Align.Center" Class="mb-4 fw-bold">@Title</MudText>
+<div style=@("margin: 4rem inherit;"+Style)>
+	<MudText Color="Color.Primary" Typo="Typo.h4" Align="@Alignment" Class="mb-4 fw-bold">@Title</MudText>
 
 	@ChildContent
 </div>
@@ -9,5 +9,7 @@
 @code {
 	[Parameter] public RenderFragment? ChildContent { get; set; }
 	[Parameter] public string Title { get; set; } = default!;
+	[Parameter] public Align Alignment { get; set; } = Align.Center;
+	[Parameter] public string Style { get; set; } = "";
 }
 

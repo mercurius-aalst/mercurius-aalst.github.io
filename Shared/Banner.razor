@@ -1,18 +1,25 @@
-﻿@*<div class="container">
-	<div class="banner" style="z-index: 0;">
-		<div class="h1 fw-bold text-white text-center">@Title</div>
-		<img src="img/mercurius-logo.png" class="logo sway-animation" />
-	</div>
-</div>*@
-
-<div class="banner-container">
-	<div class="banner">
+﻿<div class="banner-container">
+	<div class="banner" style="@(style404?Banner404Style:"")">
 		<h1 class="title">@Title</h1>
-		<img src="img/mercurius-logo.png" class="logo sway-animation"/>
+		<img src="img/mercurius-logo.png" class="logo sway-animation" style="@(style404?Logo404Style:"")" />
 	</div>
 </div>
 
 @code {
 	[Parameter]
 	public string? Title { get; set; }
+
+	[Inject]
+	public NavigationManager NM { get; set; }
+	private string Logo404Style = "display: none;";
+	private string Banner404Style = "height: 14rem";
+	private bool style404 = false;
+
+	protected override void OnInitialized()
+	{
+		if (NM.Uri.Contains("404"))
+		{
+			style404 = true;
+		}
+	}
 }

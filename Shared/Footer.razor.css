@@ -29,6 +29,7 @@ h5 {
 }
 
 .promo {
+    position: relative;
     color: white;
     background-color: #222222;
     text-align: center;

@@ -17,7 +17,7 @@ else
 {
 	<TitledSection Title="Komende activiteiten">
 		<div class="event-div pt-4" style="padding-bottom: 4rem;">
-			@foreach (Activiteit ev in events.Where(a => a.Start > DateTime.Now).OrderBy(a => a.Start))
+			@foreach (Activiteit ev in events.Where(a => a.Start > DateTime.Now.Date).OrderBy(a => a.Start))
 			{
 				<Event EventIndex="ev" />
 			}

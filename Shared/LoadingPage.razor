@@ -1,0 +1,20 @@
+﻿<div class="@loadClass">
+    <img src="img/mercurius-logo.png" class="logo sway-animation"/>
+    <h4>Welkom op de Mercurius-pagina!</h4>
+</div>
+<div style="position:relative;" class="">
+    @ChildContent
+</div>
+
+@code {
+    private string loadClass = "loading-page";
+
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Delay(3000);
+
+    }
+}

@@ -1,12 +1,54 @@
-﻿<Router AppAssembly="@typeof(App).Assembly">
+﻿@inject NavigationManager NM
+
+<Router AppAssembly="@typeof(App).Assembly">
     <Found Context="routeData">
         <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
         <FocusOnNavigate RouteData="@routeData" Selector="h1" />
     </Found>
     <NotFound>
-        <PageTitle>Not found</PageTitle>
+        @if (!NM.Uri.Contains("404"))
+        {
+            NM.NavigateTo("/404");
+        }
+        <PageTitle>404 - Mercurius Aalst</PageTitle>
         <LayoutView Layout="@typeof(MainLayout)">
-            <p role="alert">Sorry, there's nothing at this address.</p>
+            <div class="container-404">
+                <h2>4<img class="logo" src="img/mercurius-logo.png" />4</h2>
+                <p class="niet-beschikbaar">Oeps, deze pagina is niet beschikbaar!</p>
+            </div>
         </LayoutView>
     </NotFound>
 </Router>
+
+<style>
+    .logo {
+        display:inline;
+        height: 8rem;
+        transform: translateY(-0.5rem)
+    }
+
+    .container-404 {
+        height: 100vh;
+        background: linear-gradient(0deg, rgba(221,221,221, 0.5) 0%, rgba(33,114,38, 0.5) 100%), url(img/praesidium-2223.png);
+        background-size: auto 100vh;
+        background-position: center;
+        background-repeat: revert;
+        margin-bottom: -20rem;
+        color: white;
+    }
+
+    h2 {
+        padding-top: 10rem;
+        font-size: 9rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .niet-beschikbaar {
+        text-align: center;
+        max-width: 600px;
+        font-size: 1.25rem;
+        margin: 1rem auto;
+        padding: 0 1rem;
+    }
+</style>
