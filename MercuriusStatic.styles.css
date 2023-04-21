@@ -47,6 +47,8 @@
     box-shadow: 0px 5px 10px #808080;
     transition: 0.1s;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .event-card:hover[b-ov08ttcqlf] {
@@ -69,6 +71,10 @@
 
 .event-text[b-ov08ttcqlf] {
     padding: 1rem 2rem 2rem 2rem;
+    margin-top: auto;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 @media only screen and (min-width: 768px) {
@@ -509,7 +515,7 @@
     display: flex;
     margin: auto;
     max-height: 20rem;
-    max-width: 100%;
+    height: 100%;
     animation: sway-animation-b-1xo1cob7me 4s ease-in-out;
 }
 
@@ -575,6 +581,7 @@ h5[b-81g2plhqll] {
 }
 
 .promo[b-81g2plhqll] {
+    position: relative;
     color: white;
     background-color: #222222;
     text-align: center;
@@ -626,6 +633,53 @@ h5[b-81g2plhqll] {
         flex-direction: column;
         gap: 3rem;
         padding: 2rem 1rem;
+    }
+}
+/* /Shared/LoadingPage.razor.rz.scp.css */
+.loading-page[b-wt5ihv1xva] {
+    z-index: 10000;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: #dddddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    animation-name: moveUp-b-wt5ihv1xva;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+.logo[b-wt5ihv1xva] {
+    position: relative;
+    z-index: -10;
+    margin: 0 auto;
+    max-height: 20rem;
+    max-width: 100%;
+    margin: 0 2rem;
+    animation: sway-animation-b-wt5ihv1xva 3s ease-in-out;
+}
+
+@keyframes sway-animation-b-wt5ihv1xva {
+    20% {
+        transform: rotateY(0);
+    }
+    60% {
+        transform: rotateY(360deg);
+    }
+    100% {
+        transform: rotateY(0deg);
+    }
+}
+
+@keyframes moveUp-b-wt5ihv1xva {
+    to {
+        height: 0;
+        opacity: 0;
     }
 }
 /* /Shared/MainLayout.razor.rz.scp.css */
