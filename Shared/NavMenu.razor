@@ -1,9 +1,9 @@
-﻿@inject NavigationManager nm
+﻿@inject NavigationManager NM
 @inject IJSRuntime JS
 
 <div class="fixed-top">
 	<nav class="navbar d-flex align-items-center text-white">
-		<h3 class="me-auto mb-0"><a class="logo-link" href="/"><b>Mercurius</b></a></h3>
+		<top-link class="me-auto mb-0"><a class="logo-link" href="/"><b>Mercurius</b></a></top-link>
 
 		<ul class="list-group-horizontal d-none d-md-flex list-unstyled">
 			@foreach (string[] l in _links)
@@ -19,19 +19,21 @@
 			}
 		</ul>
 
-		<MudIconButton Class="d-flex d-md-none hamburger my-0" Icon="@Icons.Material.Filled.Notes" Color="Color.Secondary" OnClick="() => _open = true" />
+		<MudIconButton Class="d-block d-md-none" Style="height: 3.5rem; width: 3.5rem; margin: 0;" Icon="@Icons.Material.Filled.Notes" Color="Color.Secondary" OnClick="OpenDrawer" />
 	</nav>
 </div>
 
-
-<MudDrawer @bind-Open="@_open" Anchor="Anchor.Start" Variant="DrawerVariant.Temporary" Class="mud-drawer-fixed">
-	<MudNavMenu>
-		<MudNavLink Href="/" Match="NavLinkMatch.All" Class="mt-5">Home</MudNavLink>
-		<MudNavLink Href="/praesidium" Match="NavLinkMatch.Prefix">Praesidium</MudNavLink>
-		<MudNavLink Href="/media" Match="NavLinkMatch.Prefix">Media</MudNavLink>
-		<MudNavLink Href="/geschiedenis" Match="NavLinkMatch.Prefix">Geschiedenis</MudNavLink>
-		<MudNavLink Href="/clublied" Match="NavLinkMatch.Prefix">Clublied</MudNavLink>
-		<MudNavLink Href="/kalender" Match="NavLinkMatch.Prefix">Kalender</MudNavLink>
-	</MudNavMenu>
-</MudDrawer>
-
+<div class=@("drawer " + (_open ? "opened" : ""))>
+	<div class="top-drawer">
+		<a href="/" class="top-drawer-link" onclick="@(() => ClickLink("/"))">Mercurius</a>
+		<button class="btn-close" onclick="@(() => CloseDrawer())" />
+	</div>
+	<div class="drawer-links">
+		<a class="drawer-link" onclick="@(() => ClickLink("/"))">Home</a>
+		<a class="drawer-link" onclick="@(() => ClickLink("/praesidium"))">Praesidium</a>
+		<a class="drawer-link" onclick="@(() => ClickLink("/media"))">Media</a>
+		<a class="drawer-link" onclick="@(() => ClickLink("/geschiedenis"))">Geschiedenis</a>
+		<a class="drawer-link" onclick="@(() => ClickLink("/clublied"))">Clublied</a>
+		<a class="drawer-link" onclick="@(() => ClickLink("/kalender"))">Kalender</a>
+	</div>
+</div>

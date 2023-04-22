@@ -1,12 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Components;
-using System.Net.Http;
-using System.Net.Http.Json;
-using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Components.Routing;
+using Microsoft.JSInterop;
 
 namespace MercuriusStatic.Shared
 {
@@ -18,14 +11,14 @@ namespace MercuriusStatic.Shared
 		{
 			// Add classes for active links
 			LocationChanged(null, null);
-            nm.LocationChanged += LocationChanged;
+			NM.LocationChanged += LocationChanged;
         }
 
         void LocationChanged(object sender, LocationChangedEventArgs e)
         {
             for (int i = 0; i < _links.Length; i++)
             {
-                if (!nm.Uri.Equals(nm.BaseUri + _links[i][0]))
+                if (!NM.Uri.Equals(NM.BaseUri + _links[i][0]))
                 {
                     _links[i][2] = "";
                 }
@@ -33,11 +26,27 @@ namespace MercuriusStatic.Shared
                 {
 					_links[i][2] = "active-link";
                 }
-
-
             }
-
             StateHasChanged();
         }
-    }
+
+        private async void CloseDrawer() 
+        {
+            _open = false;
+			await JS.InvokeVoidAsync("enableScroll");
+		}
+
+        private async void OpenDrawer()
+        {
+            _open = true;
+			await JS.InvokeVoidAsync("disableScroll");
+		}
+
+        private void ClickLink(string to)
+        {
+            CloseDrawer();
+            NM.NavigateTo(to);
+        }
+
+	}
 }
