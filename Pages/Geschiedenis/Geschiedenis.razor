@@ -4,8 +4,8 @@
 
 <Banner Title="Geschiedenis" />
 
-<div style="max-width: 1000px; font-size: 1.25rem; margin: 4rem auto;">
-	<TitledSection Title="Ontstaan" Alignment="Align.Center">
+<div style="max-width: 1000px; margin: 4rem auto;">
+	<TitledSection Title="Ontstaan" Alignment="Align.Center" Style="font-size: 1.25rem; margin-left: 1rem; margin-right: 1rem;">
 		<p style="margin: inherit auto;">
 			Het in 1948 ontstane Mercurius is de oudste nog bestaande studentenclub van Aalst.
 			In de pas opgerichte Rijkshogere Handelsschool werd door toenmalig directeur Reychler Studentenbond
@@ -24,8 +24,8 @@
 	</TitledSection>
 </div>
 
-<div style="max-width: 1000px; font-size: 1.25rem; margin: 4rem auto;">
-	<TitledSection Title="Naamgeving" Alignment="Align.Center">
+<div style="max-width: 1000px; margin: 4rem auto;">
+	<TitledSection Title="Naamgeving" Alignment="Align.Center" Style="font-size: 1.25rem; margin-left: 1rem; margin-right: 1rem;">
 		<p style="margin: inherit auto; text-align: left;">
 			Mercurius was de Romeinse god van de handelaren (ook wel van de dieven en bedriegers).
 			Zijn Griekse tegenhanger was Hermes, net zoals nu de Gentse tegenhanger van Mercurius heet. <br />
@@ -36,26 +36,24 @@
 	</TitledSection>
 </div>
 
-<div class="d-lg-flex justify-content-center gap-5">
-	<TitledSection Title="Prosenioren">
-		<MudTable id="proseniors-part" Style="padding: 0;" Items="_proseniorItems" Elevation="10" Dense Hover Outlined Striped Breakpoint="Breakpoint.None">
-			<HeaderContent>
-				<MudTh>Jaar</MudTh>
-				<MudTh>Naam</MudTh>
-				<MudTh>Bijnaam</MudTh>
-			</HeaderContent>
-			<RowTemplate>
-				<MudTd>@context[0]</MudTd>
-				<MudTd>@context[1]</MudTd>
-				<MudTd>@(context[2] == "" ? "-" : context[2])</MudTd>
-			</RowTemplate>
+<TitledSection Title="Prosenioren" Style="display: flex; margin: 4rem auto; max-width: 500px;">
+	<MudTable id="proseniors-part" Style="padding: 0; border-radius: 0;" Items="_proseniorItems" Elevation="10" Dense Hover Outlined Striped Breakpoint="Breakpoint.None">
+		<HeaderContent>
+			<MudTh>Jaar</MudTh>
+			<MudTh>Naam</MudTh>
+			<MudTh>Bijnaam</MudTh>
+		</HeaderContent>
+		<RowTemplate>
+			<MudTd>@context[0]</MudTd>
+			<MudTd>@context[1]</MudTd>
+			<MudTd>@(context[2] == "" ? "-" : context[2])</MudTd>
+		</RowTemplate>
 
-			<PagerContent>
-				<MudTablePager HideRowsPerPage />
-			</PagerContent>
-		</MudTable>
-	</TitledSection>
-</div>
+		<PagerContent>
+			<MudTablePager HideRowsPerPage />
+		</PagerContent>
+	</MudTable>
+</TitledSection>
 
 <style>
 	#tijdlijn-part {

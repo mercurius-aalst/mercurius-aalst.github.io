@@ -134,14 +134,14 @@ a {
     position: fixed;
     height: 100vh;
     width: 100vw;
-    right: 100vh;
+    left: -100vh;
     z-index: 10000;
     background-color: rgba(221,221,221, 0.98);
     transition: 0.2s ease-in-out;
 }
 
 .drawer.opened {
-    right: 0;
+    left: 0;
 }
 
 .top-drawer {
