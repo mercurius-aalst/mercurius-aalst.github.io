@@ -9,5 +9,6 @@
 @media only screen and (max-width: 600px) {
     .pr-grid {
         overflow: hidden;
+        margin-top: 2rem;
     }
 }

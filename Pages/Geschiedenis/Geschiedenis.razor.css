@@ -1,0 +1,11 @@
+﻿#tijdlijn-part {
+    margin: 0 auto 2rem auto;
+}
+
+#proseniors-part {
+    margin: 0 auto 2rem auto;
+}
+
+.mud-timeline-vertical.mud-timeline-position-alternate::before {
+    background-color: #444444;
+}

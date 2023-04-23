@@ -15,9 +15,8 @@
     position: absolute;
     margin-top: 1rem;
     right: 1rem;
-    transform: scale(1.5);
+    font-size: 1.25rem;
     padding:0.5rem;
-    color: black;
 }
 
 .title {

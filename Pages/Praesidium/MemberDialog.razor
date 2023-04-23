@@ -1,7 +1,7 @@
 ﻿@using static MercuriusStatic.Pages.Praesidium.Praesidium;
 
 <div class="dialog" @onclick="ToggleDialog">
-    <button class="btn-close" @onclick="ToggleDialog" />
+    <button class="btn-close btn-close" @onclick="ToggleDialog" />
     <div class="title">
         <h3 class="function"><b>@Member.Function</b></h3>
         <h5 class="name">@Member.FirstName <b class="@(Member.NickName == null ? "d-none": null)">"@Member.NickName"</b> @Member.LastName</h5>
@@ -21,9 +21,4 @@
     </div>
 </div>
 
-@code {
-    [Parameter]
-    public PrLid Member { get; set; } = default!;
-    [Parameter]
-    public Action ToggleDialog { get; set; } = default!;
-}
+
