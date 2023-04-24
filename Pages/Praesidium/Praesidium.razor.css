@@ -6,9 +6,14 @@
     margin: 0 auto;
 }
 
+@media only screen and (max-width: 959px) {
+    .pr-grid {
+        margin-top: 2rem;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .pr-grid {
         overflow: hidden;
-        margin-top: 2rem;
     }
 }

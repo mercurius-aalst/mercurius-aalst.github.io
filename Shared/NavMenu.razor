@@ -8,14 +8,7 @@
 		<ul class="list-group-horizontal d-none d-md-flex list-unstyled">
 			@foreach (string[] l in _links)
 			{
-				if(l[1] != "Kalender")
-				{
-					<a class="@l[2] menu-link" href="@l[0]">@l[1]</a>
-				}
-				else
-				{
-					<a class="@l[2] menu-link" href="@l[0]">@l[1]</a>
-				}
+				<a class="@l[2] menu-link" href="@l[0]">@l[1]</a>
 			}
 		</ul>
 
@@ -25,15 +18,16 @@
 
 <div class=@("drawer " + (_open ? "opened" : ""))>
 	<div class="top-drawer">
-		<a href="/" class="top-drawer-link" onclick="@(() => ClickLink("/"))">Mercurius</a>
+		<a href="/" class="top-drawer-link" onclick="@(() => ClickLink("/"))">
+			<img src="img/mercurius-logo.png" style="height: 2.5rem; margin-right: 1rem;" />
+			Mercurius
+		</a>
 		<button class="btn-close" onclick="@(() => CloseDrawer())" />
 	</div>
 	<div class="drawer-links">
-		<a class="drawer-link" onclick="@(() => ClickLink("/"))">Home</a>
-		<a class="drawer-link" onclick="@(() => ClickLink("/praesidium"))">Praesidium</a>
-		<a class="drawer-link" onclick="@(() => ClickLink("/media"))">Media</a>
-		<a class="drawer-link" onclick="@(() => ClickLink("/geschiedenis"))">Geschiedenis</a>
-		<a class="drawer-link" onclick="@(() => ClickLink("/clublied"))">Clublied</a>
-		<a class="drawer-link" onclick="@(() => ClickLink("/kalender"))">Kalender</a>
+		@foreach (string[] l in _links)
+		{
+			<a class="@l[3] drawer-link" onclick="@(() => ClickLink("/"+l[0]))">@l[1]</a>
+		}
 	</div>
 </div>

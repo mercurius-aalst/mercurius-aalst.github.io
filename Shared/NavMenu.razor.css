@@ -157,6 +157,13 @@ a {
     color: #217226;
     margin: 0;
     padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.top-drawer-link:hover {
+    color: #217226;
 }
 
 .btn-close {
@@ -168,7 +175,7 @@ a {
 
 .drawer-links {
     width: 100%;
-    padding-top: 2rem;
+    padding-top: 6rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -185,10 +192,21 @@ a {
 .drawer-link:hover {
     cursor: pointer;
     color: black;
+    background-color: #cccccc
 }
 
-@media only screen and (min-width: 959px) {
+@media only screen and (min-width: 960px) {
     .drawer {
         display: none;
     }
+}
+
+.active-drawer-link {
+    background-color: #aec2af;
+    font-weight: 700;
+    color: #217226;
+}
+
+.active-drawer-link:hover {
+    color: #217226;
 }
