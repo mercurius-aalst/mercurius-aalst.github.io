@@ -1,0 +1,19 @@
+.pr-grid[b-b383b6gld6] {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2rem;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 959px) {
+    .pr-grid[b-b383b6gld6] {
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .pr-grid[b-b383b6gld6] {
+        overflow: hidden;
+    }
+}
