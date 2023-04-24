@@ -24,12 +24,10 @@
 
 <body style="background-color: #dddddd">
     <div id="app" />
-
-    <div id="blazor-error-ui">
-        An unhandled error has occurred.
-        <a href="" class="reload">Reload</a>
-        <a class="dismiss">🗙</a>
+    <div class="loading-page">
+        <div class="spinner-border text-success" role="status" />
     </div>
+
     <script src="_framework/blazor.webassembly.js"></script>
     <script src="_content/MudBlazor/MudBlazor.min.js"></script>
     <script>
@@ -45,6 +43,39 @@
             document.body.style.overflow = "visible";
         }
     </script>
+    <style>
+        .loading-page {
+            z-index: 10000;
+            position: fixed;
+            height: 100vh;
+            width: 100vw;
+            background-color: #dddddd;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            bottom: 0;
+            right: 0;
+            animation-name: moveUp;
+            animation-duration: 0.2s;
+            animation-timing-function: ease-in;
+            animation-delay: 4s;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes moveUp {
+            to {
+                top: 50%;
+                bottom: 50%;
+                left: 50%;
+                right: 50%;
+                height: 0;
+                width: 0;
+                opacity: 0;
+            }
+        }
+    </style>
 </body>
 
 </html>
