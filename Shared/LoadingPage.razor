@@ -1,6 +1,5 @@
 ﻿<div class="@loadClass">
-    <img src="img/mercurius-logo.png" class="logo sway-animation"/>
-    <h4>Welkom op de Mercurius-pagina!</h4>
+    <div class="spinner-border text-success" role="status" />
 </div>
 <div style="position:relative;">
     @ChildContent
@@ -12,9 +11,13 @@
     [Parameter]
     public RenderFragment ChildContent { get; set; }
 
+    [Inject]
+    public IJSRuntime JS { get; set; } = default!;
+
     protected override async Task OnInitializedAsync()
     {
-        await Task.Delay(3000);
-
+        await JS.InvokeVoidAsync("disableScroll");
+        await Task.Delay(4000);
+        await JS.InvokeVoidAsync("enableScroll");
     }
 }
