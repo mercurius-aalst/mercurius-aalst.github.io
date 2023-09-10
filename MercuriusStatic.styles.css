@@ -134,6 +134,13 @@
     margin: 0 auto;
     overflow: hidden;
 }
+
+.google-link[b-p7ckrmsm1s] {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1300px;
+    font-size: 1.25rem;
+}
 /* /Pages/Media/Media.razor.rz.scp.css */
 .albums[b-jkcy88g78f] {
     max-width: 1300px;
@@ -568,10 +575,14 @@
         transform: rotateY(20deg) rotateX(10deg);
     }
 }
+/* /Shared/EmptyMessage.razor.rz.scp.css */
+.empty-container[b-sh4fvwj21z] {
+    text-align: center
+}
 /* /Shared/Footer.razor.rz.scp.css */
 .footer[b-81g2plhqll] {
     margin: 6rem 0 0 0;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 h5[b-81g2plhqll] {
@@ -654,6 +665,10 @@ h5[b-81g2plhqll] {
         gap: 3rem;
         padding: 2rem 1rem;
     }
+}
+/* /Shared/LoadingMessage.razor.rz.scp.css */
+.empty-container[b-ixv63isoob] {
+    text-align: center
 }
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-hfb645j2nb] {
