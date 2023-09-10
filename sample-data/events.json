@@ -1,34 +1,10 @@
 [
     {
-        "name": "Karaoke & Cocktail Clubavond",
-        "location": "O'Learys Gent",
-        "start": "2023-04-21T19:30:00.000Z",
-        "open": true,
-        "imageUrl": "https://imgur.com/kx0Bhxh",
-        "linkUrl": "https://www.facebook.com/events/467361968598198"
-    },
-    {
-        "name": "Vriendjes Cantus",
-        "location": "Onthaalcomplex Keizershallen",
-        "start": "2023-04-29T20:00:00.000Z",
-        "open": false,
-        "imageUrl": "https://imgur.com/1kB5SCf",
-        "linkUrl": "https://www.facebook.com/events/889324228771764"
-    },
-    {
-        "name": "Reis Rond de Wereld Cantus",
-        "location": "",
-        "start": "2023-05-05T20:00:00.000Z",
+        "name": "Praesidiumverkiezing",
+        "location": "Cafe De Klok",
+        "start": "2023-05-14T15:00:00.000Z",
         "open": false,
         "imageUrl": "",
-        "linkUrl": "https://www.facebook.com/events/650839399816914"
-    },
-    {
-        "name": "Praesesverkiezing & Gala der Gouden Kastanjes",
-        "location": "Onthaalcomplex Keizershallen",
-        "start": "2023-05-06T18:00:00.000Z",
-        "open": false,
-        "imageUrl": "",
-        "linkUrl": "https://www.facebook.com/events/543898884555370"
+        "linkUrl": "https://www.facebook.com/events/250958457468125"
     }
 ]
