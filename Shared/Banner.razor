@@ -1,7 +1,6 @@
 ﻿<div class="banner-container">
-	<div class="banner" style="@(style404?Banner404Style:"")">
+	<div class="banner" style="@(style404 ? Banner404Style : "")">
 		<h1 class="title">@Title</h1>
-		<img src="img/mercurius-logo.png" class="logo sway-animation" style="@(style404?Logo404Style:"")" />
+		<img src="img/mercurius-logo.png" class="logo sway-animation" style="@(style404 ? Logo404Style : "")" />
 	</div>
 </div>
-

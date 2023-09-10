@@ -1,7 +1,7 @@
 ﻿@using static MercuriusStatic.Pages.Praesidium.Praesidium;
 
 <div class="pr-card" @onclick="ToggleDialog">
-	<img class="pr-image" src="@(PrLid.ImageUrl+".png")" />
+	<img class="pr-image" src="@("/img/praesidium/"+PrLid.ImageUrl)" />
 	<div class="pr-text">
 		<h3 style="color: #217226;">@PrLid.Function</h3>
 		<h6>@PrLid.FirstName <b class="@(PrLid.NickName == null ? "d-none": null)">"@PrLid.NickName"</b> @PrLid.LastName</h6>

@@ -6,7 +6,7 @@
         <h3 class="function"><b>@Member.Function</b></h3>
         <h5 class="name">@Member.FirstName <b class="@(Member.NickName == null ? "d-none": null)">"@Member.NickName"</b> @Member.LastName</h5>
     </div>
-    <img src="@(Member.ImageUrl+".png")" class="image" />
+    <img src="@("/img/praesidium/"+Member.ImageUrl)" class="image" />
     <div class="text">
         <h6 class="question">Studie</h6>
         <h6 class="answer">@Member.Study</h6>

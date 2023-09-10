@@ -7,11 +7,11 @@
 
 @if (events == null)
 {
-	<p><em>Loading...</em></p>
+	<LoadingMessage />
 } 
-else if (events.Length == 0)
+else if (events.Where(a => a.Start > DateTime.Now.Date).OrderBy(a => a.Start).Count() == 0)
 {
-	<p><em>Geen komende evenementen...</em></p>
+	<EmptyMessage Text="Voorlopig is onze kalender leeg." />
 }
 else
 {

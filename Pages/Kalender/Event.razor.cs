@@ -7,7 +7,7 @@ namespace MercuriusStatic.Pages.Kalender
     public partial class Event
     {
         [Parameter]
-        public Activiteit EventIndex { get; set; } = default !;
+        public Activiteit EventIndex { get; set; } = default!;
         public void OnClick()
         {
             Console.WriteLine("here");

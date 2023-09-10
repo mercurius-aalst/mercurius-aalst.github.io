@@ -7,8 +7,13 @@
 
 @if (leden == null)
 {
-	<p><em>Loading...</em></p>
-} else
+	<LoadingMessage />
+}
+else if (leden.Length == 0)
+{
+	<EmptyMessage Text="Ons praesidium wordt binnenkort aangepast." />
+}
+else
 {
 	<div class="pr-grid">
 		@foreach (PrLid member in leden)
@@ -17,7 +22,3 @@
 		}
 	</div>
 }
-
-
-
-

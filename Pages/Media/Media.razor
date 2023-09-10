@@ -8,7 +8,12 @@
 @if (albums == null)
 {
 	<p><em>Loading...</em></p>
-} 
+}
+else if (albums.Length == 0)
+{
+	<EmptyMessage Text="Voorlopig hebben wij geen albums." />
+
+}
 else
 {
 	<div class="albums">

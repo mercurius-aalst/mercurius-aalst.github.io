@@ -7,8 +7,9 @@ namespace MercuriusStatic.Pages.Kalender
         private Activiteit[]? events;
         protected override async Task OnInitializedAsync()
         {
-            events = await Http.GetFromJsonAsync<Activiteit[]>("sample-data/events.json");
-        }
+            events = await Http.GetFromJsonAsync<Activiteit[]>("/sample-data/events.json");
+            Console.WriteLine(events);
+		}
 
         public class Activiteit
         {
@@ -16,7 +17,6 @@ namespace MercuriusStatic.Pages.Kalender
             public string Location { get; set; } = default !;
             public DateTime Start { get; set; } = default !;
             public bool Open { get; set; }
-
             public string ImageUrl { get; set; } = default !;
             public string LinkUrl { get; set; } = default !;
         }
