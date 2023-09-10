@@ -1,59 +1,43 @@
 [
     {
-        "name": "Kroegentocht",
-        "location": "De Zeppelin",
-        "start": "2023-07-08T19:00:00.000Z",
-        "open": true,
-        "imageUrl": "",
-        "linkUrl": "https://www.facebook.com/events/607902384611051"
-    },
-    {
-        "name": "Overdrachtscantus",
-        "location": "",
-        "start": "2023-09-09T20:00:00.000Z",
-        "open": false,
-        "imageUrl": "",
-        "linkUrl": ""
-    },
-    {
         "name": "Muurklimmen",
-        "location": "",
-        "start": "2023-09-16T20:00:00.000Z",
+        "location": "Tragel Sport Aalst",
+        "start": "2023-09-16T15:30:00.000Z",
         "open": true,
-        "imageUrl": "",
-        "linkUrl": ""
+        "imageUrl": "https://imgur.com/6nQJ7dT",
+        "linkUrl": "https://www.facebook.com/photo/?fbid=674481841379896"
     },
     {
-        "name": "Pizza & Onesie clubavond",
-        "location": "",
-        "start": "2023-04-21T20:00:00.000Z",
+        "name": "Food & Onesie clubavond",
+        "location": "Zeppelin",
+        "start": "2023-09-16T19:00:00.000Z",
         "open": true,
-        "imageUrl": "",
-        "linkUrl": ""
+        "imageUrl": "https://imgur.com/y2q7qXw",
+        "linkUrl": "https://www.facebook.com/events/961193918443884"
     },
     {
         "name": "Gratis vat",
-        "location": "De Zeppelin",
+        "location": "Zeppelin",
         "start": "2023-09-22T20:00:00.000Z",
         "open": true,
-        "imageUrl": "",
-        "linkUrl": ""
+        "imageUrl": "https://imgur.com/FdETCxf",
+        "linkUrl": "https://www.facebook.com/events/841973700840462"
     },
     {
         "name": "Australische cantus",
-        "location": "",
+        "location": "Ontmoetingshuis De Brug",
         "start": "2023-09-30T20:00:00.000Z",
         "open": true,
-        "imageUrl": "",
-        "linkUrl": ""
+        "imageUrl": "https://imgur.com/tLcShn5",
+        "linkUrl": "https://www.facebook.com/events/965737887970388"
     },
     {
-        "name": "Doop & Doopcantus",
-        "location": "",
-        "start": "2023-10-14T20:00:00.000Z",
+        "name": "Doop",
+        "location": "Parking Stadspark Aalst",
+        "start": "2023-10-14T09:30:00.000Z",
         "open": true,
-        "imageUrl": "",
-        "linkUrl": ""
+        "imageUrl": "https://imgur.com/ly0EQFB",
+        "linkUrl": "https://www.facebook.com/events/141094879042640"
     },
     {
         "name": "Nadoop & Halloweencantus",
@@ -74,10 +58,10 @@
     {
         "name": "LAN-party",
         "location": "",
-        "start": "2023-11-17T20:00:00.000Z",
+        "start": "2023-11-10T18:00:00.000Z",
         "open": true,
-        "imageUrl": "",
-        "linkUrl": ""
+        "imageUrl": "https://imgur.com/mOL8T3V",
+        "linkUrl": "https://www.facebook.com/events/844931793874324"
     },
     {
         "name": "Kerstmarkt Duitsland",

@@ -6,3 +6,10 @@
     margin: 0 auto;
     overflow: hidden;
 }
+
+.google-link {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1300px;
+    font-size: 1.25rem;
+}

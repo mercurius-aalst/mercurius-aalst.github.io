@@ -15,6 +15,11 @@ else if (events.Where(a => a.Start > DateTime.Now.Date).OrderBy(a => a.Start).Co
 }
 else
 {
+	<div class="google-link">
+		<p style="text-align: center; width: 100%; margin: 0;">
+			Voeg de kalender toe aan jouw Google-calendar via <a class="text-decoration-underline" href="https://calendar.google.com/calendar/u/0?cid=bWVyY3VyaXVzYWFsc3Quc3R1ZGVudGVuY2x1YkBnbWFpbC5jb20"> deze link</a>
+		</p>
+	</div>
 	<TitledSection Title="Komende activiteiten">
 		<div class="event-div pt-4" style="padding-bottom: 4rem;">
 			@foreach (Activiteit ev in events.Where(a => a.Start > DateTime.Now.Date).OrderBy(a => a.Start))

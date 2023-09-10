@@ -57,12 +57,12 @@
         "nickName": "Cremer",
         "function": "Cantor",
         "imageUrl": "cremer.jpg",
-        "study": "/",
+        "study": "Graduaat Productiebeheer",
         "baptiseYear": "2021-22",
         "petMet": "Krissy & Wies",
-        "quote": "The mouth of a perfectly happy man is filled with beer.",
-        "quoteBy": "Ancient Egyptian Wisdom, 2200 B.C.",
-        "song": "Clementine"
+        "quote": "You see, it’s like I always say, ‘Anything worth doing is worth doing with a beer.'",
+        "quoteBy": "Peter Griffin",
+        "song": "Loch Lomon'"
     },
     {
         "firstName": "Kiran",
@@ -104,6 +104,19 @@
         "song": "Het Zwartbruine Bier"
     },
     {
+        "firstName": "Sven",
+        "lastName": "Pepermans",
+        "nickName": "Duivenmelker",
+        "function": "PR",
+        "imageUrl": "sven.jpg",
+        "study": "Toegepaste Informatica (afgestudeerd)",
+        "baptiseYear": "2018-19",
+        "petMet": "Krissy & Bally",
+        "quote": "-Hoeveel bier moet er zijn? -GENOEG",
+        "quoteBy": "Mona & Duivenmelker",
+        "song": "Blauwvoet"
+    },
+    {
         "firstName": "Jonathan",
         "lastName": "Couck",
         "nickName": "Couckie",
@@ -112,21 +125,8 @@
         "study": "Toegepaste Informatica",
         "baptiseYear": "2021-22",
         "petMet": "Kleinen & Dwerg 2",
-        "quote": "You are too concerned with what was and what will be. There is a saying: Yesterday is history, tomorrow is a mistery, but Today is a gift. That is why it is called the present.",
+        "quote": "You are too concerned with what was and what will be. There is a saying: Yesterday is history, tomorrow is a mistery, but today is a gift. That is why it is called the present.",
         "quoteBy": "Master Oogway",
         "song": "The Wild Rover"
-    },
-    {
-        "firstName": "Sven",
-        "lastName": "Pepermans",
-        "nickName": "Duivenmelker",
-        "function": "PR",
-        "imageUrl": "https://imgur.com/RQHWuQf",
-        "study": "Toegepaste Informatica (afgestudeerd)",
-        "baptiseYear": "2018-19",
-        "petMet": "Krissy & Bally",
-        "quote": "-Hoeveel bier moet er zijn? -GENOEG",
-        "quoteBy": "Mona & Duivenmelker",
-        "song": "Blauwvoet"
     }
 ]
