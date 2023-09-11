@@ -31,12 +31,25 @@
         "nickName": null,
         "function": "Ab-Actis",
         "imageUrl": "lorenzo.jpg",
-        "study": "Accountancy Fiscaliteit",
+        "study": "Accountancy & Fiscaliteit",
         "baptiseYear": "2022-23",
         "petMet": "Kano",
         "quote": "The ability to speak does not make you intelligent.",
         "quoteBy": "Qui-Gon Jinn",
         "song": "Boemelaar"
+    },
+    {
+        "firstName": "Andries",
+        "lastName": "Van Caelenberg",
+        "nickName": "",
+        "function": "Schachtentemmer",
+        "imageUrl": "andries.jpg",
+        "study": "Werforganisatie",
+        "baptiseYear": "2022-23",
+        "petMet": "Anaïs & Mona",
+        "quote": "'T leven is een soep en wij zijn de ballekes",
+        "quoteBy": "Paul Wouters",
+        "song": "Clementine"
     },
     {
         "firstName": "Fleur",
