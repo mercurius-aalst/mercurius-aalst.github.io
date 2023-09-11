@@ -41,7 +41,7 @@
     {
         "firstName": "Andries",
         "lastName": "Van Caelenberg",
-        "nickName": "",
+        "nickName": null,
         "function": "Schachtentemmer",
         "imageUrl": "andries.jpg",
         "study": "Werforganisatie",
