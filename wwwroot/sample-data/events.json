@@ -27,7 +27,7 @@
         "name": "Australische cantus",
         "location": "Ontmoetingshuis De Brug",
         "start": "2023-09-30T20:00:00.000Z",
-        "open": true,
+        "open": false,
         "imageUrl": "https://imgur.com/tLcShn5",
         "linkUrl": "https://www.facebook.com/events/965737887970388"
     },
@@ -38,6 +38,14 @@
         "open": true,
         "imageUrl": "https://imgur.com/ly0EQFB",
         "linkUrl": "https://www.facebook.com/events/141094879042640"
+    },
+    {
+        "name": "Doopcantus",
+        "location": "Onthaalcomplex",
+        "start": "2023-10-14T20:30:00.000Z",
+        "open": false,
+        "imageUrl": "https://imgur.com/ly0EQFB",
+        "linkUrl": "https://www.facebook.com/events/1067716374198766"
     },
     {
         "name": "Nadoop & Halloweencantus",
@@ -57,7 +65,7 @@
     },
     {
         "name": "LAN-party",
-        "location": "",
+        "location": "HOGENT stadscampus Aalst",
         "start": "2023-11-10T18:00:00.000Z",
         "open": true,
         "imageUrl": "https://imgur.com/mOL8T3V",
