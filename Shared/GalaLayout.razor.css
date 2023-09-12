@@ -1,0 +1,9 @@
+﻿.gala-layout {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #0E2714;
+    opacity: 1;
+    background: linear-gradient(135deg, #00300d55 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(225deg, #00300d 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(315deg, #00300d55 25%, transparent 25%) 0px 0/ 80px 80px, linear-gradient(45deg, #00300d 25%, #0E2714 25%) 0px 0/ 80px 80px;
+}

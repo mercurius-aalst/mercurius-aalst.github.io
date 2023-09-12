@@ -4,7 +4,26 @@
 <MudSnackbarProvider />
 <NavMenu />
 
-<div style="min-height:100vh; background-color:#dddddd;">
+<div style="min-height:100vh; background-color:#dddddd; display: flex; flex-direction: column; justify-content: space-between">
     @Body
     <Footer />
 </div>
+
+@code {
+    MudTheme MyCustomTheme = new MudTheme()
+    {
+        Palette = new Palette()
+        {
+            Primary = "#217226",
+            Secondary = "#EEEEEE",
+            TextPrimary = "#000000"
+        },
+        Typography = new Typography()
+        {
+            Default = new Default()
+            {
+                FontFamily = new[] { "DM Sans", "Gotham", "Helvetica", "Arial", "sans-serif" }
+            }
+        }
+    };
+}
