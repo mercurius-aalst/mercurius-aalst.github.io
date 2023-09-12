@@ -4,8 +4,14 @@
     position: relative;
     flex-direction: column;
     justify-content: space-between;
-    background: url(img/gala/gala-background.png);
+    background: url(img/gala/gala-background-long.png);
     background-position-y: -5rem; 
     background-attachment: fixed;
     background-size: 100%;
+}
+
+@media only screen and (min-width: 959px) {
+    .gala-layout {
+        background: url(img/gala/gala-background.png);
+    }
 }

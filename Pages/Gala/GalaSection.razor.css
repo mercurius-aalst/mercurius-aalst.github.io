@@ -2,20 +2,21 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-height: 500px;
     color: #E1A93C;
 }
 
 .image-div {
     flex: 1 1 0;
     box-shadow: 0px 0px 40px 0px rgba(229,178,73,0.5);
-    display: none;
+    max-height: 250px;
+    margin-bottom: 2rem;
 }
 
 @media only screen and (min-width: 959px) {
     .gala-section {
         padding: 0;
         flex-direction: row;
+        max-height: 500px;
     }
 
     .gala-section:nth-child(2n) {
@@ -26,12 +27,13 @@
         flex-direction: row-reverse;
     }
 
-    .text-div {
-        padding: 2rem;
+    .image-div {
+        max-height: unset;
+        margin-bottom: 0;
     }
 
-    .image-div {
-        display: block;
+    .text-div {
+        padding: 2rem;
     }
 }
 
