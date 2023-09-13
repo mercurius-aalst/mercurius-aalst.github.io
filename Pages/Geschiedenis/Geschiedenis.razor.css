@@ -7,5 +7,8 @@
 }
 
 .mud-timeline-vertical.mud-timeline-position-alternate::before {
-    background-color: #444444;
+    background-color: #217226;
+}
+.mud-timeline-vertical .mud-timeline-item {
+    padding-bottom: 3rem;
 }

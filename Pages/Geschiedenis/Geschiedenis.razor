@@ -1,8 +1,34 @@
 ﻿@page "/geschiedenis"
+@inject HttpClient Http
 
 <PageTitle>Geschiedenis - Mercurius Aalst</PageTitle>
 
 <Banner Title="Geschiedenis" />
+
+<div style="max-width: 1000px; margin: 4rem auto;">
+	<TitledSection Title="Tijdslijn" Alignment="Align.Center" Style="font-size: 1.25rem; margin-left: 1rem; margin-right: 1rem;">
+		@if (timelinePoints == null)
+		{
+			<LoadingMessage />
+		}
+		else
+		{
+			<MudTimeline TimelineAlign="TimelineAlign.Start">
+				@foreach (TimelinePoint tlp in timelinePoints)
+				{
+					<MudTimelineItem Color="Color.Primary" Size="Size.Small" Elevation="5">
+						<ItemOpposite>
+							<MudText  Color="Color.Primary" Typo="Typo.h5">@tlp.Date</MudText>
+						</ItemOpposite>
+						<ItemContent>
+							<MudText Typo="Typo.body1">@tlp.Text</MudText>
+						</ItemContent>
+					</MudTimelineItem>
+				}
+			</MudTimeline>
+		}
+	</TitledSection>
+</div>
 
 <div style="max-width: 1000px; margin: 4rem auto;">
 	<TitledSection Title="Ontstaan" Alignment="Align.Center" Style="font-size: 1.25rem; margin-left: 1rem; margin-right: 1rem;">
@@ -54,3 +80,19 @@
 		</PagerContent>
 	</MudTable>
 </TitledSection>
+
+	@code {
+	private TimelinePoint[]? timelinePoints;
+
+	protected override async Task OnInitializedAsync()
+	{
+		timelinePoints = await Http.GetFromJsonAsync<TimelinePoint[]>("sample-data/timeline.json");
+	}
+
+	public class TimelinePoint
+	{
+		public string Date { get; set; } = default!;
+		public string Text { get; set; } = default!;
+		public string Link { get; set; } = default!;
+	}
+}
