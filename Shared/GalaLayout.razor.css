@@ -5,13 +5,21 @@
     flex-direction: column;
     justify-content: space-between;
     background: url(img/gala/gala-background-long.png);
-    background-position-y: -5rem; 
+    background-position-y: -5rem;
     background-attachment: fixed;
     background-size: 100%;
 }
 
 @media only screen and (min-width: 959px) {
     .gala-layout {
+        min-height: 100vh;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: space-between;
         background: url(img/gala/gala-background.png);
+        background-position-y: -5rem;
+        background-attachment: fixed;
+        background-size: 100%;
     }
 }
