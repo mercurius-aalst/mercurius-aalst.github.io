@@ -5,7 +5,7 @@
 
 <Banner Title="Geschiedenis" />
 
-<div style="max-width: 1000px; margin: 4rem auto;">
+<div style="margin: 4rem auto;">
 	<TitledSection Title="Tijdslijn" Alignment="Align.Center" Style="font-size: 1.25rem; margin-left: 1rem; margin-right: 1rem;">
 		@if (timelinePoints == null)
 		{
@@ -13,19 +13,26 @@
 		}
 		else
 		{
-			<MudTimeline TimelineAlign="TimelineAlign.Start">
-				@foreach (TimelinePoint tlp in timelinePoints)
-				{
-					<MudTimelineItem Color="Color.Primary" Size="Size.Small" Elevation="5">
-						<ItemOpposite>
-							<MudText  Color="Color.Primary" Typo="Typo.h5">@tlp.Date</MudText>
-						</ItemOpposite>
-						<ItemContent>
-							<MudText Typo="Typo.body1">@tlp.Text</MudText>
-						</ItemContent>
-					</MudTimelineItem>
-				}
-			</MudTimeline>
+			<div>
+				<MudTimeline TimelineAlign="TimelineAlign.Start" TimelineOrientation="TimelineOrientation.Horizontal" Style="overflow-x: scroll; height: 425px;">
+					@foreach (TimelinePoint tlp in timelinePoints)
+					{
+						<MudTimelineItem Color="Color.Primary" Size="Size.Small" Elevation="5" Style="min-width: 325px; margin: 0 2rem;">
+							<ItemOpposite>
+								<MudText Color="Color.Primary" Typo="Typo.h5"><b>@tlp.Date</b></MudText>
+							</ItemOpposite>
+							<ItemContent>
+								<MudText Typo="Typo.body1" Style="background-color: darkseagreen; padding: 1rem; border-radius: 1rem;">
+									@tlp.Text @if(tlp.Link != null) {
+										<br />
+										<MudText Style="text-decoration: underline;"> <a href="@tlp.Link" target="_blank">Link</a> </MudText>
+									}
+									</MudText>
+							</ItemContent>
+						</MudTimelineItem>
+					}
+				</MudTimeline>
+			</div>
 		}
 	</TitledSection>
 </div>
