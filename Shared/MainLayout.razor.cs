@@ -8,8 +8,8 @@ namespace MercuriusStatic.Shared
         {
             Palette = new Palette()
             {
-                Primary = "#217226", Secondary = "#EEEEEE", TextPrimary = "#000000"
-            }, 
+                Primary = "#217226", Secondary = "#EEEEEE", TextPrimary = "#000000", Divider = "#217226"
+			}, 
             Typography = new Typography()
             {
                 Default = new Default()

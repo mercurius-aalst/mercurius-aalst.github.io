@@ -7,27 +7,50 @@
 
 <div style="margin: 4rem auto;">
 	<TitledSection Title="Tijdslijn" Alignment="Align.Center" Style="font-size: 1.25rem; margin-left: 1rem; margin-right: 1rem;">
+		<div style="max-width: 1300px; margin: 0 auto;">
+			<span class="timeline-asterisk">* Is er een puntje verkeerd, of heb je nog een mooie toevoeging? Contacteer zeker en vast een praesidiumlid, en dan passen wij dit zo snel mogelijk aan!</span>
+		</div>
 		@if (timelinePoints == null)
 		{
 			<LoadingMessage />
 		}
 		else
 		{
-			<div>
-				<MudTimeline TimelineAlign="TimelineAlign.Start" TimelineOrientation="TimelineOrientation.Horizontal" Style="overflow-x: scroll; height: 425px;">
+			<div class="timeline-div">
+				<MudTimeline TimelinePosition="TimelinePosition.Start" Class="d-block d-md-none">
 					@foreach (TimelinePoint tlp in timelinePoints)
 					{
-						<MudTimelineItem Color="Color.Primary" Size="Size.Small" Elevation="5" Style="min-width: 325px; margin: 0 2rem;">
-							<ItemOpposite>
-								<MudText Color="Color.Primary" Typo="Typo.h5"><b>@tlp.Date</b></MudText>
-							</ItemOpposite>
+						<MudTimelineItem Color="Color.Primary" Size="Size.Small" Elevation="5" Style="min-width: 250px; margin: 2 0;">
 							<ItemContent>
-								<MudText Typo="Typo.body1" Style="background-color: darkseagreen; padding: 1rem; border-radius: 1rem;">
-									@tlp.Text @if(tlp.Link != null) {
-										<br />
-										<MudText Style="text-decoration: underline;"> <a href="@tlp.Link" target="_blank">Link</a> </MudText>
+								<MudText Color="Color.Primary" Typo="Typo.h5">
+									<b>@tlp.Date</b>
+								</MudText>
+								<p class="@(tlp.Link != null ? "timeline-text timeline-text-link" : "timeline-text")">
+									@tlp.Text
+									@if (tlp.Link != null)
+									{
+										<a href="@tlp.Link" target="_blank" class="timeline-link">Link</a>
 									}
-									</MudText>
+								</p>
+							</ItemContent>
+						</MudTimelineItem>
+					}
+				</MudTimeline>
+				<MudTimeline TimelinePosition="TimelinePosition.Alternate" Class="d-none d-md-block">
+					@foreach (TimelinePoint tlp in timelinePoints)
+					{
+						<MudTimelineItem Color="Color.Primary" Size="Size.Small" Elevation="5" Style="min-width: 325px; margin: 2 0;">
+							<ItemContent>
+								<MudText Color="Color.Primary" Typo="Typo.h5">
+									<b>@tlp.Date</b> 
+								</MudText>
+								<p class="@(tlp.Link != null ? "timeline-text timeline-text-link" : "timeline-text")">
+									@tlp.Text 
+									@if (tlp.Link != null)
+									{
+										<a href="@tlp.Link" target="_blank" class="timeline-link">Link</a>
+									}
+								</p>
 							</ItemContent>
 						</MudTimelineItem>
 					}
@@ -102,4 +125,7 @@
 		public string Text { get; set; } = default!;
 		public string Link { get; set; } = default!;
 	}
+
+
+
 }
