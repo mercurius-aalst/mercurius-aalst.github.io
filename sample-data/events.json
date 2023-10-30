@@ -1,80 +1,24 @@
 [
     {
-        "name": "Muurklimmen",
-        "location": "Tragel Sport Aalst",
-        "start": "2023-09-16T15:30:00.000Z",
+        "name": "Mercurius On Ice",
+        "location": "Schaatsbaan Liedekerke",
+        "start": "2023-11-04T14:00:00.000Z",
         "open": true,
-        "imageUrl": "https://imgur.com/6nQJ7dT",
-        "linkUrl": "https://www.facebook.com/photo/?fbid=674481841379896"
+        "imageUrl": "https://imgur.com/VmmmHYG",
+        "linkUrl": "https://www.facebook.com/events/797188128770391"
     },
     {
-        "name": "Food & Onesie clubavond",
-        "location": "Zeppelin",
-        "start": "2023-09-16T19:00:00.000Z",
-        "open": true,
-        "imageUrl": "https://imgur.com/y2q7qXw",
-        "linkUrl": "https://www.facebook.com/events/961193918443884"
-    },
-    {
-        "name": "Gratis vat",
-        "location": "Zeppelin",
-        "start": "2023-09-22T20:00:00.000Z",
-        "open": true,
-        "imageUrl": "https://imgur.com/FdETCxf",
-        "linkUrl": "https://www.facebook.com/events/841973700840462"
-    },
-    {
-        "name": "Australische cantus",
-        "location": "Ontmoetingshuis De Brug",
-        "start": "2023-09-30T20:00:00.000Z",
-        "open": false,
-        "imageUrl": "https://imgur.com/tLcShn5",
-        "linkUrl": "https://www.facebook.com/events/965737887970388"
-    },
-    {
-        "name": "Doop",
-        "location": "Parking Stadspark Aalst",
-        "start": "2023-10-14T09:30:00.000Z",
-        "open": true,
-        "imageUrl": "https://imgur.com/ly0EQFB",
-        "linkUrl": "https://www.facebook.com/events/141094879042640"
-    },
-    {
-        "name": "Doopcantus",
-        "location": "Onthaalcomplex",
-        "start": "2023-10-14T20:30:00.000Z",
-        "open": false,
-        "imageUrl": "https://imgur.com/ly0EQFB",
-        "linkUrl": "https://www.facebook.com/events/1067716374198766"
-    },
-    {
-        "name": "Nadoop: Halloween",
-        "location": "HOGENT Campus Aalst",
-        "start": "2023-10-28T13:30:00.000Z",
-        "open": false,
-        "imageUrl": "https://imgur.com/WyVI4Zo",
-        "linkUrl": "https://www.facebook.com/events/2048735422132105/"
-    },
-    {
-        "name": "Halloweencantus",
-        "location": "Ontmoetingshuis De Brug",
-        "start": "2023-10-28T20:00:00.000Z",
-        "open": true,
-        "imageUrl": "https://imgur.com/XgWEosm",
-        "linkUrl": "https://www.facebook.com/events/6581155945295020"
-    },
-    {
-        "name": "Schaatsen & Winterclubavond",
+        "name": "Winterclubavond",
         "location": "",
         "start": "2023-11-04T20:00:00.000Z",
         "open": true,
         "imageUrl": "",
-        "linkUrl": ""
+        "linkUrl": "https://www.facebook.com/events/1526879294520376"
     },
     {
         "name": "LAN-party",
         "location": "HOGENT stadscampus Aalst",
-        "start": "2023-11-10T18:00:00.000Z",
+        "start": "2023-11-17T18:00:00.000Z",
         "open": true,
         "imageUrl": "https://imgur.com/mOL8T3V",
         "linkUrl": "https://www.facebook.com/events/844931793874324"
