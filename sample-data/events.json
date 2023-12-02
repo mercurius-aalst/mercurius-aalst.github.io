@@ -1,91 +1,19 @@
 [
     {
-        "name": "Muurklimmen",
-        "location": "Tragel Sport Aalst",
-        "start": "2023-09-16T15:30:00.000Z",
-        "open": true,
-        "imageUrl": "https://imgur.com/6nQJ7dT",
-        "linkUrl": "https://www.facebook.com/photo/?fbid=674481841379896"
-    },
-    {
-        "name": "Food & Onesie clubavond",
-        "location": "Zeppelin",
-        "start": "2023-09-16T19:00:00.000Z",
-        "open": true,
-        "imageUrl": "https://imgur.com/y2q7qXw",
-        "linkUrl": "https://www.facebook.com/events/961193918443884"
-    },
-    {
-        "name": "Gratis vat",
-        "location": "Zeppelin",
-        "start": "2023-09-22T20:00:00.000Z",
-        "open": true,
-        "imageUrl": "https://imgur.com/FdETCxf",
-        "linkUrl": "https://www.facebook.com/events/841973700840462"
-    },
-    {
-        "name": "Australische cantus",
-        "location": "Ontmoetingshuis De Brug",
-        "start": "2023-09-30T20:00:00.000Z",
-        "open": false,
-        "imageUrl": "https://imgur.com/tLcShn5",
-        "linkUrl": "https://www.facebook.com/events/965737887970388"
-    },
-    {
-        "name": "Doop",
-        "location": "Parking Stadspark Aalst",
-        "start": "2023-10-14T09:30:00.000Z",
-        "open": true,
-        "imageUrl": "https://imgur.com/ly0EQFB",
-        "linkUrl": "https://www.facebook.com/events/141094879042640"
-    },
-    {
-        "name": "Doopcantus",
-        "location": "Onthaalcomplex",
-        "start": "2023-10-14T20:30:00.000Z",
-        "open": false,
-        "imageUrl": "https://imgur.com/ly0EQFB",
-        "linkUrl": "https://www.facebook.com/events/1067716374198766"
-    },
-    {
-        "name": "Nadoop & Halloweencantus",
-        "location": "",
-        "start": "2023-10-28T20:00:00.000Z",
-        "open": true,
-        "imageUrl": "",
-        "linkUrl": ""
-    },
-    {
-        "name": "Schaatsen & Winterclubavond",
-        "location": "",
-        "start": "2023-11-04T20:00:00.000Z",
-        "open": true,
-        "imageUrl": "",
-        "linkUrl": ""
-    },
-    {
-        "name": "LAN-party",
-        "location": "HOGENT stadscampus Aalst",
-        "start": "2023-11-10T18:00:00.000Z",
-        "open": true,
-        "imageUrl": "https://imgur.com/mOL8T3V",
-        "linkUrl": "https://www.facebook.com/events/844931793874324"
-    },
-    {
         "name": "Kerstmarkt Duitsland",
-        "location": "",
-        "start": "2023-12-08T20:00:00.000Z",
+        "location": "Frans Blanckaertdreef",
+        "start": "2023-12-09T08:30:00.000Z",
         "open": true,
-        "imageUrl": "",
-        "linkUrl": ""
+        "imageUrl": "https://scontent-bru2-1.xx.fbcdn.net/v/t39.30808-6/403958274_6846105822124415_6875372941321210387_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=Fp4bZ9OwFiMAX8l7l3N&_nc_ht=scontent-bru2-1.xx&oh=00_AfA_f3gLbDO8zFHjaid0CFSzNKbUQR2KBsbzWA1U4HX47Q&oe=65702A80",
+        "linkUrl": "https://www.facebook.com/events/712949667386580"
     },
     {
         "name": "Cadeautjes clubavond",
-        "location": "",
+        "location": "Zeppelin",
         "start": "2023-12-16T20:00:00.000Z",
         "open": true,
-        "imageUrl": "",
-        "linkUrl": ""
+        "imageUrl": "https://scontent-bru2-1.xx.fbcdn.net/v/t39.30808-6/405935359_745775624250517_5931055098731313263_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=yPgFNriF-mYAX98rjAx&_nc_ht=scontent-bru2-1.xx&oh=00_AfDMPnszq10dqOBFZtctC3gq8GmrZqoSec3ixfiq5odV3g&oe=657154C0",
+        "linkUrl": "https://www.facebook.com/events/187524254427178"
     },
     {
         "name": "Blokpauze clubavond",
