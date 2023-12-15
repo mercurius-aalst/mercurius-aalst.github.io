@@ -39,17 +39,17 @@
         "song": "Boemelaar"
     },
     {
-        "firstName": "Andries",
-        "lastName": "Van Caelenberg",
+        "firstName": "Kylian",
+        "lastName": "Lenoir",
         "nickName": null,
         "function": "Schachtentemmer",
-        "imageUrl": "andries.jpg",
-        "study": "Werforganisatie",
-        "baptiseYear": "2022-23",
-        "petMet": "Anaïs & Mona",
-        "quote": "'T leven is een soep en wij zijn de ballekes",
-        "quoteBy": "Paul Wouters",
-        "song": "Clementine"
+        "imageUrl": "kylian.jpg",
+        "study": "Grafische & Digitale Media",
+        "baptiseYear": "2021-22",
+        "petMet": "Ballie",
+        "quote": "Be yourself, everyone else is already taken.",
+        "quoteBy": "Oscar Wilde",
+        "song": "A la claire fontaine"
     },
     {
         "firstName": "Fleur",
@@ -135,7 +135,7 @@
         "nickName": "Couckie",
         "function": "Webmaster",
         "imageUrl": "jonathan.jpg",
-        "study": "Toegepaste Informatica",
+        "study": "Toegepaste Informatica (afgestudeerd)",
         "baptiseYear": "2021-22",
         "petMet": "Kleinen & Dwerg 2",
         "quote": "You are too concerned with what was and what will be. There is a saying: Yesterday is history, tomorrow is a mistery, but today is a gift. That is why it is called the present.",
