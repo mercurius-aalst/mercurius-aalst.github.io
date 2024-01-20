@@ -93,16 +93,16 @@
 </div>
 
 <TitledSection Title="Prosenioren" Style="display: flex; margin: 4rem auto; max-width: 500px;">
-	<MudTable id="proseniors-part" Style="padding: 0; border-radius: 0;" Items="_proseniorItems" Elevation="10" Dense Hover Outlined Striped Breakpoint="Breakpoint.None">
+	<MudTable id="proseniors-part" Style="padding: 0; border-radius: 0;" Items="proseniors" Elevation="10" Dense Hover Outlined Striped Breakpoint="Breakpoint.None">
 		<HeaderContent>
 			<MudTh>Jaar</MudTh>
 			<MudTh>Naam</MudTh>
 			<MudTh>Bijnaam</MudTh>
 		</HeaderContent>
 		<RowTemplate>
-			<MudTd>@context[0]</MudTd>
-			<MudTd>@context[1]</MudTd>
-			<MudTd>@(context[2] == "" ? "-" : context[2])</MudTd>
+			<MudTd>@context.Year</MudTd>
+			<MudTd>@context.Name</MudTd>
+			<MudTd>@(context.Nickname == "" ? "-" : context.Nickname)</MudTd>
 		</RowTemplate>
 
 		<PagerContent>
@@ -111,21 +111,3 @@
 	</MudTable>
 </TitledSection>
 
-	@code {
-	private TimelinePoint[]? timelinePoints;
-
-	protected override async Task OnInitializedAsync()
-	{
-		timelinePoints = await Http.GetFromJsonAsync<TimelinePoint[]>("sample-data/timeline.json");
-	}
-
-	public class TimelinePoint
-	{
-		public string Date { get; set; } = default!;
-		public string Text { get; set; } = default!;
-		public string Link { get; set; } = default!;
-	}
-
-
-
-}
