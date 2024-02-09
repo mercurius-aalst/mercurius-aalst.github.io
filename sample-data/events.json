@@ -1,18 +1,18 @@
 [
     {
         "name": "Nieuwjaarsreceptie",
-        "location": "Café Zeppelin",
+        "location": "",
         "start": "2024-02-02T20:00:00.000Z",
         "open": true,
-        "imageUrl": "https://imgur.com/0UV0Jfy",
+        "imageUrl": "",
         "linkUrl": "https://www.facebook.com/events/746477836909648"
     },
     {
         "name": "Oude zakkencantus",
-        "location": "De Brug",
+        "location": "",
         "start": "2024-02-24T20:00:00.000Z",
-        "open": false,
-        "imageUrl": "https://imgur.com/ZPVKZxW",
+        "open": true,
+        "imageUrl": "",
         "linkUrl": "https://www.facebook.com/events/600314422240934"
     },
     {
@@ -35,7 +35,7 @@
         "name": "Clubweekend",
         "location": "",
         "start": "2024-03-29T20:00:00.000Z",
-        "open": true,
+        "open": false,
         "imageUrl": "",
         "linkUrl": ""
     },
@@ -59,7 +59,7 @@
         "name": "Ontgroening",
         "location": "",
         "start": "2024-05-04T20:00:00.000Z",
-        "open": true,
+        "open": false,
         "imageUrl": "",
         "linkUrl": ""
     },
@@ -67,7 +67,7 @@
         "name": "Praesesverkiezing",
         "location": "",
         "start": "2024-05-11T20:00:00.000Z",
-        "open": true,
+        "open": false,
         "imageUrl": "",
         "linkUrl": ""
     }

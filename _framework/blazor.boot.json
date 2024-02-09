@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "MercuriusStatic.dll": "sha256-m8fHARxOZrtdUIpAoVrX2wRJ+xg6aVcdQq7qt6IGjkI=",
+      "MercuriusStatic.dll": "sha256-f976o8s6by+gK+KSGC9JLLN8BVd0iO6vHgGtqLM7ito=",
       "Microsoft.AspNetCore.Components.dll": "sha256-1FdNfsz9lan6VYHvD91W+Zg1gXIUZvdQyiUinu1utec=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-mMAvME0N3JYHVEVcs\/l3o685lcq\/fJC6xr3mJ3iNAGY=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-YO6SJttD5on10\/9jxg\/ue\/17lGTatPLgUwa8dxc5S7k=",
