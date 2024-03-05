@@ -34,18 +34,18 @@
     {
         "name": "Clubweekend",
         "location": "",
-        "start": "2024-03-29T20:00:00.000Z",
+        "start": "2024-03-29T00:00:00.000Z",
         "open": false,
         "imageUrl": "",
         "linkUrl": ""
     },
     {
-        "name": "Lustrumgala",
-        "location": "",
-        "start": "2024-04-20T20:00:00.000Z",
+        "name": "Lustrumbal",
+        "location": "De Keirk",
+        "start": "2024-04-20T22:00:00.000Z",
         "open": true,
         "imageUrl": "",
-        "linkUrl": ""
+        "linkUrl": "https://www.facebook.com/events/888215352930541"
     },
     {
         "name": "Biermeester",
