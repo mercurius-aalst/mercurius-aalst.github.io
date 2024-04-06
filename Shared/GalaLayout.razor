@@ -1,0 +1,28 @@
+﻿@inherits LayoutComponentBase
+
+<MudThemeProvider Theme="MyCustomTheme" />
+
+<div class="gala-layout">
+    @Body
+    <Footer />
+</div>
+
+@code {
+    MudTheme MyCustomTheme = new MudTheme()
+        {
+            Palette = new Palette()
+            {
+                Primary = "#E1A93C",
+                Secondary = "#EEEEEE",
+                TextPrimary = "#000000",
+                TextSecondary = "#E1A93C",
+            },
+            Typography = new Typography()
+            {
+                Default = new Default()
+                {
+                    FontFamily = new[] { "DM Sans", "Gotham", "Helvetica", "Arial", "sans-serif" }
+                }
+            }
+        };
+}
