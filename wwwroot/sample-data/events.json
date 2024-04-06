@@ -1,45 +1,5 @@
 [
     {
-        "name": "Nieuwjaarsreceptie",
-        "location": "",
-        "start": "2024-02-02T20:00:00.000Z",
-        "open": true,
-        "imageUrl": "",
-        "linkUrl": "https://www.facebook.com/events/746477836909648"
-    },
-    {
-        "name": "Oude zakkencantus",
-        "location": "",
-        "start": "2024-02-24T20:00:00.000Z",
-        "open": true,
-        "imageUrl": "",
-        "linkUrl": "https://www.facebook.com/events/600314422240934"
-    },
-    {
-        "name": "Krambamboulicantus",
-        "location": "Het Wereldhuis",
-        "start": "2024-03-09T20:00:00.000Z",
-        "open": true,
-        "imageUrl": "https://imgur.com/9LNdDa2",
-        "linkUrl": "https://www.facebook.com/events/377965874907207"
-    },
-    {
-        "name": "Boardgame clubavond",
-        "location": "Hermelijn Aalst",
-        "start": "2024-03-16T20:00:00.000Z",
-        "open": true,
-        "imageUrl": "https://imgur.com/MqeGmym",
-        "linkUrl": "https://www.facebook.com/events/1710496462810044"
-    },
-    {
-        "name": "Clubweekend",
-        "location": "",
-        "start": "2024-03-29T00:00:00.000Z",
-        "open": false,
-        "imageUrl": "",
-        "linkUrl": ""
-    },
-    {
         "name": "Vriendjescantus",
         "location": "Onthaalcomplex Keizershallen",
         "start": "2024-04-06T20:00:00.000Z",
