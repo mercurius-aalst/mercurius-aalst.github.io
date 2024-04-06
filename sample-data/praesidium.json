@@ -39,17 +39,17 @@
         "song": "Boemelaar"
     },
     {
-        "firstName": "Andries",
-        "lastName": "Van Caelenberg",
+        "firstName": "Kylian",
+        "lastName": "Lenoir",
         "nickName": null,
         "function": "Schachtentemmer",
-        "imageUrl": "andries.jpg",
-        "study": "Werforganisatie",
-        "baptiseYear": "2022-23",
-        "petMet": "Anaïs & Mona",
-        "quote": "'T leven is een soep en wij zijn de ballekes",
-        "quoteBy": "Paul Wouters",
-        "song": "Clementine"
+        "imageUrl": "kylian.jpg",
+        "study": "Grafische & Digitale Media",
+        "baptiseYear": "2021-22",
+        "petMet": "Ballie",
+        "quote": "Be yourself, everyone else is already taken.",
+        "quoteBy": "Oscar Wilde",
+        "song": "A la claire fontaine"
     },
     {
         "firstName": "Fleur",
@@ -102,19 +102,6 @@
         "quote": "Bierimpotent? Das goed jong, ik ben toch aan't cantussen op cava!",
         "quoteBy": "Krissy",
         "song": "De Blauwvoet"
-    },
-    {
-        "firstName": "Mathias",
-        "lastName": "Bolle",
-        "nickName": "Puppy",
-        "function": "Sport & Cultuur",
-        "imageUrl": "mathias.jpg",
-        "study": "Toegepaste Informatica (afgestudeerd)",
-        "baptiseYear": "2022-23",
-        "petMet": "Couckie & Koeke",
-        "quote": "Not everyone or everything deserves your energy.",
-        "quoteBy": "Random shitty Pinterest quote",
-        "song": "Het Zwartbruine Bier"
     },
     {
         "firstName": "Sven",

@@ -1,147 +1,19 @@
 [
     {
-        "name": "Muurklimmen",
-        "location": "Tragel Sport Aalst",
-        "start": "2023-09-16T15:30:00.000Z",
+        "name": "Vriendjescantus",
+        "location": "Onthaalcomplex Keizershallen",
+        "start": "2024-04-06T20:00:00.000Z",
         "open": true,
-        "imageUrl": "https://imgur.com/6nQJ7dT",
-        "linkUrl": "https://www.facebook.com/photo/?fbid=674481841379896"
+        "imageUrl": "https://imgur.com/6UuIlZB",
+        "linkUrl": "https://www.facebook.com/events/336445059349140"
     },
     {
-        "name": "Food & Onesie clubavond",
-        "location": "Zeppelin",
-        "start": "2023-09-16T19:00:00.000Z",
-        "open": true,
-        "imageUrl": "https://imgur.com/y2q7qXw",
-        "linkUrl": "https://www.facebook.com/events/961193918443884"
-    },
-    {
-        "name": "Gratis vat",
-        "location": "Zeppelin",
-        "start": "2023-09-22T20:00:00.000Z",
-        "open": true,
-        "imageUrl": "https://imgur.com/FdETCxf",
-        "linkUrl": "https://www.facebook.com/events/841973700840462"
-    },
-    {
-        "name": "Australische cantus",
-        "location": "Ontmoetingshuis De Brug",
-        "start": "2023-09-30T20:00:00.000Z",
-        "open": false,
-        "imageUrl": "https://imgur.com/tLcShn5",
-        "linkUrl": "https://www.facebook.com/events/965737887970388"
-    },
-    {
-        "name": "Doop",
-        "location": "Parking Stadspark Aalst",
-        "start": "2023-10-14T09:30:00.000Z",
-        "open": true,
-        "imageUrl": "https://imgur.com/ly0EQFB",
-        "linkUrl": "https://www.facebook.com/events/141094879042640"
-    },
-    {
-        "name": "Doopcantus",
-        "location": "Onthaalcomplex",
-        "start": "2023-10-14T20:30:00.000Z",
-        "open": false,
-        "imageUrl": "https://imgur.com/ly0EQFB",
-        "linkUrl": "https://www.facebook.com/events/1067716374198766"
-    },
-    {
-        "name": "Nadoop & Halloweencantus",
-        "location": "",
-        "start": "2023-10-28T20:00:00.000Z",
+        "name": "Lustrumbal",
+        "location": "De Keirk",
+        "start": "2024-04-20T22:00:00.000Z",
         "open": true,
         "imageUrl": "",
-        "linkUrl": ""
-    },
-    {
-        "name": "Schaatsen & Winterclubavond",
-        "location": "",
-        "start": "2023-11-04T20:00:00.000Z",
-        "open": true,
-        "imageUrl": "",
-        "linkUrl": ""
-    },
-    {
-        "name": "LAN-party",
-        "location": "HOGENT stadscampus Aalst",
-        "start": "2023-11-10T18:00:00.000Z",
-        "open": true,
-        "imageUrl": "https://imgur.com/mOL8T3V",
-        "linkUrl": "https://www.facebook.com/events/844931793874324"
-    },
-    {
-        "name": "Kerstmarkt Duitsland",
-        "location": "",
-        "start": "2023-12-08T20:00:00.000Z",
-        "open": true,
-        "imageUrl": "",
-        "linkUrl": ""
-    },
-    {
-        "name": "Cadeautjes clubavond",
-        "location": "",
-        "start": "2023-12-16T20:00:00.000Z",
-        "open": true,
-        "imageUrl": "",
-        "linkUrl": ""
-    },
-    {
-        "name": "Blokpauze clubavond",
-        "location": "",
-        "start": "2024-01-19T20:00:00.000Z",
-        "open": true,
-        "imageUrl": "",
-        "linkUrl": ""
-    },
-    {
-        "name": "Nieuwjaarsreceptie",
-        "location": "",
-        "start": "2024-02-02T20:00:00.000Z",
-        "open": true,
-        "imageUrl": "",
-        "linkUrl": ""
-    },
-    {
-        "name": "Oude zakkencantus",
-        "location": "",
-        "start": "2024-02-24T20:00:00.000Z",
-        "open": true,
-        "imageUrl": "",
-        "linkUrl": ""
-    },
-    {
-        "name": "Krambamboulicantus",
-        "location": "",
-        "start": "2024-03-09T20:00:00.000Z",
-        "open": true,
-        "imageUrl": "",
-        "linkUrl": ""
-    },
-    {
-        "name": "Boardgame clubavond",
-        "location": "",
-        "start": "2024-03-16T20:00:00.000Z",
-        "open": true,
-        "imageUrl": "",
-        "linkUrl": ""
-    },
-    {
-        "name": "Clubweekend",
-        "location": "",
-        "start": "2024-03-29T20:00:00.000Z",
-        "open": true,
-        "imageUrl": "",
-        "linkUrl": ""
-    },
-    {
-        "name": "Lustrumgala",
-        "location": "",
-        "start": "2024-04-20T20:00:00.000Z",
-        "open": true,
-        "imageUrl": "",
-        "linkUrl": ""
+        "linkUrl": "https://www.facebook.com/events/888215352930541"
     },
     {
         "name": "Biermeester",
@@ -155,7 +27,7 @@
         "name": "Ontgroening",
         "location": "",
         "start": "2024-05-04T20:00:00.000Z",
-        "open": true,
+        "open": false,
         "imageUrl": "",
         "linkUrl": ""
     },
@@ -163,7 +35,7 @@
         "name": "Praesesverkiezing",
         "location": "",
         "start": "2024-05-11T20:00:00.000Z",
-        "open": true,
+        "open": false,
         "imageUrl": "",
         "linkUrl": ""
     }
