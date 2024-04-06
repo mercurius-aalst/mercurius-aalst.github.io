@@ -8,7 +8,7 @@ namespace MercuriusStatic.Shared
         private bool _open = false;
         private string[][] _links = new string[][]{
             new string[]{"", "Home", "", ""}, 
-            new string[]{"lustrum", "Gala", "", ""},
+            new string[]{ "lustrumbal", "Gala", "", ""},
             new string[]{"praesidium", "Praesidium", "", ""}, 
             new string[]{"media", "Media", "", ""}, 
             new string[]{"geschiedenis", "Geschiedenis", "", ""}, 
