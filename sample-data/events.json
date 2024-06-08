@@ -1,5 +1,13 @@
 [
     {
+        "name": "Fin d'Examen",
+        "location": "Stadspark Aalst",
+        "start": "2024-06-29T15:30:00.000Z",
+        "open": true,
+        "imageUrl": "https://imgur.com/bX8wkVp",
+        "linkUrl": "https://www.facebook.com/events/1482898612434045"
+    },
+    {
         "name": "Vriendjescantus",
         "location": "Onthaalcomplex Keizershallen",
         "start": "2024-04-06T20:00:00.000Z",
