@@ -1,0 +1,846 @@
+[
+  {
+    "year": "2023-2024",
+    "praeses": "Jarno 'Mona' Simons",
+    "image": "2023-2024.png",
+    "members": [
+      {
+        "function": "Vice-Praeses",
+        "name": "Ilke 'Dwerg 2' Kestemont"
+      },
+      {
+        "function": "Ab-Actis",
+        "name": "Lorenzo Troch"
+      },
+      {
+        "function": "Schachtentemmer",
+        "name": "Kylian Lenoir"
+      },
+      {
+        "function": "Feest",
+        "name": "Fleur 'Luna' Schietecat"
+      },
+      {
+        "function": "Cantor",
+        "name": "Jarno 'Cremer' De Cremer"
+      },
+      {
+        "function": "Quaestor",
+        "name": "Kiran 'BrAkKe' JoNgEn"
+      },
+      {
+        "function": "Zedenmeester",
+        "name": "Michiel 'Kleinen' Van Herreweghe"
+      },
+      {
+        "function": "P.R.",
+        "name": "Sven 'Duivenmelker' Pepermans"
+      },
+      {
+        "function": "Webmaster",
+        "name": "Jonathan 'Couckie' Couck"
+      }
+    ]
+  },
+  {
+    "year": "2022-2023",
+    "praeses": "Fleur 'Luna' Schietecat",
+    "members": [
+      {
+        "function": "Vice-Praeses",
+        "name": "Jarno 'Mona' Simons"
+      },
+      {
+        "function": "Ab-Actis",
+        "name": "Ruth 'Springduif' De Ridder"
+      },
+      {
+        "function": "Quaestor",
+        "name": "Kiran 'BrAkKe' JoNgEn"
+      },
+      {
+        "function": "Schachtentemmer",
+        "name": "Michiel 'Kleinen' Van Herreweghe"
+      },
+      {
+        "function": "Cantor",
+        "name": "Jarno 'Cremer' De Cremer"
+      },
+      {
+        "function": "Sport & Cultuur",
+        "name": "Maaike 'Maajk' Van Den Bossche"
+      },
+      {
+        "function": "Zedenmeester",
+        "name": "Ilke 'Dwerg 2' Kestemont"
+      },
+      {
+        "function": "Webmaster",
+        "name": "Jonathan 'Couckie' Couck"
+      }
+    ]
+  },
+  {
+    "year": "2021-2022",
+    "praeses": "Sven 'Duivenmelker' Pepermans",
+    "members": [
+      {
+        "function": "Vice-Praeses",
+        "name": "Jarno 'Mona' Simons"
+      },
+      {
+        "function": "Ab-Actis",
+        "name": "Fleur 'Luna' Schietecat"
+      },
+      {
+        "function": "Quaestor",
+        "name": "Michiel 'De Kleine' Van Herreweghe"
+      },
+      {
+        "function": "Moeder Praesidium",
+        "name": "Lisl 'Tetter' Piens"
+      },
+      {
+        "function": "Sport & Cultuur",
+        "name": "Ilke 'Dwerg 2' Kestemont"
+      },
+      {
+        "function": "Webmaster",
+        "name": "Thomas 'Sir Caderyn' Struyf"
+      }
+    ]
+  },
+  {
+    "year": "2020-2021",
+    "praeses": "Julie Deboel",
+    "members": [
+      {
+        "function": "Vice-Praeses",
+        "name": "Jarno 'Mona' Simons"
+      },
+      {
+        "function": "Ab-Actis",
+        "name": "Fleur 'Luna' Schietecat"
+      },
+      {
+        "function": "Quaestor",
+        "name": "Lucas Letor"
+      },
+      {
+        "function": "Schachtentemmer",
+        "name": "Sven 'Duivenmelker' Pepermans"
+      },
+      {
+        "function": "Zedenmeester",
+        "name": "Keanu 'Kano' Robberechts"
+      },
+      {
+        "function": "Sport & Cultuur",
+        "name": "Lynn Juchtmans"
+      },
+      {
+        "function": "P.R.",
+        "name": "Iris Van Eeckhout"
+      },
+      {
+        "function": "Webmaster",
+        "name": "Shauni Van de Velde"
+      }
+    ]
+  },
+  {
+    "year": "2019-2020",
+    "praeses": "Elien 'Backie' De Backer",
+    "members": [
+      {
+        "function": "Vice-Praeses",
+        "name": "Hanne 'Jeanine' Van Dorpe"
+      },
+      {
+        "function": "Quaestor",
+        "name": "Stijn 'Schacht' Boel"
+      },
+      {
+        "function": "Ab-Actis",
+        "name": "Lore Corryn"
+      },
+      {
+        "function": "Cantor",
+        "name": "Julie Deboel"
+      },
+      {
+        "function": "Schachtentemmer",
+        "name": "Sven 'Duivenmelker' Pepermans"
+      },
+      {
+        "function": "Sport & Cultuur",
+        "name": "Jarno 'Mona' Simons"
+      },
+      {
+        "function": "Zedenmeester",
+        "name": "Keanu 'Kano' Robberechts"
+      },
+      {
+        "function": "P.R.",
+        "name": "Lynn Juchtmans"
+      },
+      {
+        "function": "Webmaster",
+        "name": "Shauni Van de Velde"
+      }
+    ]
+  },
+  {
+    "year": "2018-2019",
+    "praeses": "Elien 'Backie' De Backer",
+    "members": [
+      {
+        "function": "Vice-Praeses",
+        "name": "Kristof 'Krissy' van Moorter"
+      },
+      {
+        "function": "Ab-Actis",
+        "name": "Hanne 'Jeanine' Van Dorpe"
+      },
+      {
+        "function": "Quaestor",
+        "name": "Stijn 'Schacht' Boel"
+      },
+      {
+        "function": "Schachtentemmer",
+        "name": "Eline 'Dwaynie' De Blander"
+      },
+      {
+        "function": "Cantor",
+        "name": "Elien 'Backie' De Backer"
+      },
+      {
+        "function": "Zedenmeester",
+        "name": "Timothy 'hardstijl' Aerts"
+      },
+      {
+        "function": "Feest",
+        "name": "Quirine Supply"
+      },
+      {
+        "function": "Sport",
+        "name": "Nikolas 'Bally' De Backer"
+      },
+      {
+        "function": "Cultuur",
+        "name": "Schana 'Scania' Tierin"
+      },
+      {
+        "function": "P.R.'s",
+        "name": "Julie Hendrickx & Sander 'Wasabi' Abbasali"
+      },
+      {
+        "function": "Webmaster",
+        "name": "Mathias Persoons"
+      }
+    ]
+  },
+  {
+    "year": "2017-2018",
+    "praeses": "Kristof 'Krissy' van Moorter",
+    "members": [
+      {
+        "function": "Vice-Praeses",
+        "name": "Elien 'Backie' De Backer"
+      },
+      {
+        "function": "Ab-Actis",
+        "name": "Pieter 'PP' Pletinckx"
+      },
+      {
+        "function": "Quaestor",
+        "name": "Stijn Boel"
+      },
+      {
+        "function": "Schachtentemmer",
+        "name": "Eline 'Dwaynie' De Blander"
+      },
+      {
+        "function": "Cantor",
+        "name": "Timothy 'hardstijl' Aerts"
+      },
+      {
+        "function": "Zedenmeesters",
+        "name": "Dardo 'Brouwer' Helpers & Davy 'Spavy' Schouppe"
+      },
+      {
+        "function": "Feest & Cultuur",
+        "name": "Schana 'Scania' Tierin"
+      }
+    ]
+  },
+  {
+    "year": "2016-2017",
+    "praeses": "Sander Vonck",
+    "members": [
+      {
+        "function": "Vice-Praeses",
+        "name": "Arno Vlasschaert"
+      },
+      {
+        "function": "Quaestor",
+        "name": "Kristof 'Krissy' van Moorter"
+      },
+      {
+        "function": "Schachtentemmer",
+        "name": "Anne-sofie Sienaert"
+      },
+      {
+        "function": "Doopmeester",
+        "name": "Thomas Piercourt"
+      },
+      {
+        "function": "Webmaster",
+        "name": "Erika Walraet"
+      },
+      {
+        "function": "Cantor",
+        "name": "Schana 'Scania' Tierin"
+      },
+      {
+        "function": "LAN-Master",
+        "name": "Jorre De Neve"
+      },
+      {
+        "function": "P.R.",
+        "name": "Dylan Pletinckx"
+      },
+      {
+        "function": "Zedenmeesters",
+        "name": "Eline De Backer & Dieter Verwimp"
+      },
+      {
+        "function": "Sport & Cultuur",
+        "name": "Margot Deleenheer"
+      }
+    ]
+  },
+  {
+    "year": "2015-2016",
+    "praeses": "Anke De Spiegeleer",
+    "members": [
+      {
+        "function": "Vice-Praeses",
+        "name": "Erika Walraet"
+      },
+      {
+        "function": "Quaestor & Sport",
+        "name": "Margot Deleenheer"
+      },
+      {
+        "function": "Ab-Actis",
+        "name": "Sander Vonck"
+      },
+      {
+        "function": "Schachtentemmer",
+        "name": "Jordi Exposito"
+      },
+      {
+        "function": "Doopmeesters",
+        "name": "Kristof 'Krissy' van Moorter & Jorre De Neve"
+      },
+      {
+        "function": "Webmaster",
+        "name": "Evan de Batselier"
+      },
+      {
+        "function": "Cantors",
+        "name": "Lindsey Van Laecken & Jordy Roosens"
+      },
+      {
+        "function": "P.R. & Cultuur",
+        "name": "Arno Vlasschaert"
+      },
+      {
+        "function": "Zedenmeester",
+        "name": "Dries van Strythem"
+      },
+      {
+        "function": "Feestpraeses",
+        "name": "Kim De Bock"
+      }
+    ]
+  },
+  {
+    "year": "2014-2015",
+    "praeses": "Ken Roosens",
+    "members": [
+      {
+        "function": "Vice-Praeses",
+        "name": "Jurgen 'Woody' Tiré"
+      },
+      {
+        "function": "Quaestor",
+        "name": "Sander Vonck"
+      },
+      {
+        "function": "Ab-Actis",
+        "name": "Olivier D'Hooghe"
+      },
+      {
+        "function": "Schachtentemmer",
+        "name": "Anke De Spiegeleer"
+      },
+      {
+        "function": "Doopmeesters",
+        "name": "Erika Walraet & Wolfgang Snel"
+      },
+      {
+        "function": "Webmaster",
+        "name": "Thomas Piercourt"
+      },
+      {
+        "function": "Cantors",
+        "name": "Jordy 'Rosse Rachid' Roosens & Dieter 'Mario' Verwimp"
+      },
+      {
+        "function": "Sport & Cultuur",
+        "name": "Arno Vlasschaert"
+      },
+      {
+        "function": "P.R.",
+        "name": "Thomas 'Gandalf' de Boeck"
+      },
+      {
+        "function": "Zedenmeester",
+        "name": "Annelies De Corte"
+      },
+      {
+        "function": "Moeder Praesidium",
+        "name": "Liesia Lapin"
+      },
+      {
+        "function": "Feestpraeses",
+        "name": "Kim 'Bockie' De Bock"
+      }
+    ]
+  },
+  {
+    "year": "2013-2014",
+    "praeses": "Brigitte 'B' Bauwens",
+    "members": [
+      {
+        "function": "Vice-Praeses",
+        "name": "Stéfanie Masquelier"
+      },
+      {
+        "function": "Ab-Actis",
+        "name": "Jurgen 'Woody' Tiré"
+      },
+      {
+        "function": "Quaestor",
+        "name": "Stef Dieu"
+      },
+      {
+        "function": "Schachtentemmer",
+        "name": "Annelies De Corte"
+      },
+      {
+        "function": "Doopmeesters",
+        "name": "Olivier D'Hooghe & Wies De Rybel"
+      },
+      {
+        "function": "Cantor",
+        "name": "Jordy Vlassembrouck"
+      },
+      {
+        "function": "Sport & Cultuur",
+        "name": "Yenthe Roelandt"
+      },
+      {
+        "function": "P.R.",
+        "name": "Dwayne 'DJ' De Blander"
+      },
+      {
+        "function": "Feestpraesessen",
+        "name": "Robin Franz & Anke Kerger"
+      },
+      {
+        "function": "Zedenmeester",
+        "name": "Steven Meert"
+      },
+      {
+        "function": "Webmaster",
+        "name": "Thomas Piercourt"
+      },
+      {
+        "function": "Moeder Praesidium",
+        "name": "Siegii Dierickx"
+      }
+    ]
+  },
+  {
+    "year": "2012-2013",
+    "praeses": "Ignace 'Lowie' De Brucker",
+    "members": [
+      {
+        "function": "Vice-Praeses",
+        "name": "Brigitte 'B' Bauwens"
+      },
+      {
+        "function": "Quaestor",
+        "name": "Stef 'Emmerken' Dieu"
+      },
+      {
+        "function": "Ab-Actis",
+        "name": "Dwayne 'DJ' De Blander"
+      },
+      {
+        "function": "Schachtentemmer",
+        "name": "Jurgen 'Woody' Tiré"
+      },
+      {
+        "function": "Doopmeester",
+        "name": "Jochen De Clerq"
+      },
+      {
+        "function": "Cantor",
+        "name": "Jochen De Clerq"
+      },
+      {
+        "function": "Zedenmeester",
+        "name": "Wies De Rybel"
+      },
+      {
+        "function": "Sport & Cultuur",
+        "name": "Yenthe Roelandt"
+      },
+      {
+        "function": "P.R.",
+        "name": "Steven Meert"
+      },
+      {
+        "function": "Feestpraesessen",
+        "name": "Nick 'Vanessa' Schouppe & Joeri 'Sherlock' Hulsbosch"
+      },
+      {
+        "function": "Paparazi",
+        "name": "Stéfanie Masquelier"
+      },
+      {
+        "function": "Materiaalmeester",
+        "name": "Ken Roossens"
+      },
+      {
+        "function": "Webmaster",
+        "name": "Kevin 'Bulkie' Van den Bulcke"
+      }
+    ]
+  },
+  {
+    "year": "2011-2012",
+    "praeses": "Michaël 'Ketten' De Corte",
+    "members": []
+  },
+  {
+    "year": "2010-2011",
+    "praeses": "Michaël 'Ketten' De Corte",
+    "members": [
+      {
+        "function": "Vice-Praeses",
+        "name": "Sylvie De Boeck"
+      },
+      {
+        "function": "Quaestor",
+        "name": "Sarah 'Facteur' De Kesmaeker"
+      },
+      {
+        "function": "Ab-Actis",
+        "name": "Nicky Keppens"
+      },
+      {
+        "function": "Schachtentemmer",
+        "name": "Kevin 'Bulkie' Van den Bulcke"
+      },
+      {
+        "function": "Zedenmeester",
+        "name": "Candice De Witte"
+      },
+      {
+        "function": "Sport & Cultuur",
+        "name": "Glenn 'Le blanc' Jacobs"
+      },
+      {
+        "function": "P.R.",
+        "name": "Benjamin Steeman"
+      },
+      {
+        "function": "Feestpraeses",
+        "name": "Katrien Aelbrecht"
+      },
+      {
+        "function": "Webmaster",
+        "name": "Ignace De Brucker"
+      }
+    ]
+  },
+  {
+    "year": "2009-2010",
+    "praeses": "Sarah 'Facteur' De Mesmaeker",
+    "members": [
+      {
+        "function": "Vice-Praeses",
+        "name": "Anthony 'Jules' Hélin"
+      },
+      {
+        "function": "Quaestor",
+        "name": "Jeroen 'Barney' Van den Driessche"
+      },
+      {
+        "function": "Ab-Actis",
+        "name": "Sven 'Speedo' De Crem"
+      },
+      {
+        "function": "Schachtentemmer",
+        "name": "Michaël 'Ketten' De Corte"
+      },
+      {
+        "function": "Zedenmeester",
+        "name": "Joris 'De Snee' Vinck"
+      },
+      {
+        "function": "Cantor",
+        "name": "Jonas '`T Kopken' Verhaevert"
+      },
+      {
+        "function": "Sport & Cultuur",
+        "name": "Glenn 'Le blanc' Jacobs"
+      }
+    ]
+  },
+  {
+    "year": "2008-2009",
+    "praeses": "Kenneth 'Filiep' De Meyer",
+    "members": [
+      {
+        "function": "Vice-Praeses",
+        "name": "Jovanni 'Valère' Van Wijnendaele"
+      },
+      {
+        "function": "Quaestor",
+        "name": "Sarah 'Belotto' De Mesmaeker"
+      },
+      {
+        "function": "Ab-Actis & P.R.",
+        "name": "Sofie 'Banaan' Van Der Bruggen"
+      },
+      {
+        "function": "Schachtentemmer",
+        "name": "Joris 'De Snee' Vinck"
+      },
+      {
+        "function": "Zedenmeester",
+        "name": "Anthony 'Jules' Hélin"
+      },
+      {
+        "function": "P.R.",
+        "name": "Jonathan 'Richie Rich' Vereman"
+      },
+      {
+        "function": "Feestpraeses",
+        "name": "Michaël 'Ketten' De Corte"
+      },
+      {
+        "function": "Sport & Cultuur",
+        "name": "Jeroen 'Barney' Van den Driessche"
+      },
+      {
+        "function": "Webmaster",
+        "name": "Jonas '`T Kopken' Verhaevert"
+      }
+    ]
+  },
+  {
+    "year": "2007-2008",
+    "praeses": "Lindsay 'Linsken' Van Den Bremt",
+    "members": [
+      {
+        "function": "Vice-Praeses",
+        "name": "Kenneth 'Goosses' Goossens"
+      },
+      {
+        "function": "Quaestor",
+        "name": "Kenneth 'Schaamhaarpariksken' De Meyer"
+      },
+      {
+        "function": "Ab-Actis",
+        "name": "Tessa '`t Balkonsken' Timmermans"
+      },
+      {
+        "function": "Schachtentemmer",
+        "name": "Jeroen 'Jerre' De Moor"
+      },
+      {
+        "function": "P.R.",
+        "name": "Jonathan 'Richie Rich' Vereman"
+      },
+      {
+        "function": "Feestpraeses",
+        "name": "Dimitri 'Dimi' De Backer"
+      },
+      {
+        "function": "Zedenmeester",
+        "name": "Bart 'Dommel' Van Wayenbergh"
+      },
+      {
+        "function": "Webmaster",
+        "name": "Sven 'cockstar' Van Cauwelaert"
+      },
+      {
+        "function": "Sport & Cultuur",
+        "name": "Thibaut 'Shitlocks' De Pauw"
+      }
+    ]
+  },
+  {
+    "year": "2006-2007",
+    "praeses": "Jonas 'Jones' De Bruyn",
+    "members": [
+      {
+        "function": "Vice-Praeses",
+        "name": "Kristof 'Bogaar' Bogaert"
+      },
+      {
+        "function": "Quaestor",
+        "name": "Jeroen 'Jerre' De Moor"
+      },
+      {
+        "function": "Ab-Actis",
+        "name": "Tessa '`t Balkonsken' Timmermans"
+      },
+      {
+        "function": "Schachtentemmer",
+        "name": "Levy 'Fistfucker' De Vos"
+      },
+      {
+        "function": "P.R.'s",
+        "name": "Lindsay 'Papierken' Van Den Bremt & Julie Van Nieuwenhove"
+      },
+      {
+        "function": "Feestpraeses",
+        "name": "Davy 'Gordijntjen' Lievens"
+      },
+      {
+        "function": "Zedenmeester",
+        "name": "Sabrina 'Triplex' Van Hauwe"
+      },
+      {
+        "function": "Webmaster",
+        "name": "Kenneth 'Goosses' Goossens"
+      },
+      {
+        "function": "Sport & Cultuur",
+        "name": "Kristof 'VDS' Van Der Schueren"
+      },
+      {
+        "function": "Bierwaker",
+        "name": "Karel 'Sjarel' Dauwe"
+      }
+    ]
+  },
+  {
+    "year": "2005-2006",
+    "praeses": "Koen 'Ludo' De Spiegeleir",
+    "members": []
+  },
+  {
+    "year": "2004-2005",
+    "praeses": "Joris 'Jak' De Groot",
+    "members": [
+      {
+        "function": "Vice-Praeses",
+        "name": "Toon Keppens"
+      },
+      {
+        "function": "Quaestor",
+        "name": "Jeroen De Brandt"
+      },
+      {
+        "function": "Ab-Actis",
+        "name": "Levy De Vos"
+      },
+      {
+        "function": "P.R.",
+        "name": "Kenny Osselaer"
+      },
+      {
+        "function": "Feestcommissaris",
+        "name": "Rik De Coen"
+      },
+      {
+        "function": "Sport & Cultuur",
+        "name": "Bram Van den Brande"
+      }
+    ]
+  },
+  {
+    "year": "2003-2004",
+    "praeses": "Sabrina 'Triplex' Van Hauwe",
+    "members": []
+  },
+  {
+    "year": "2002-2003",
+    "praeses": "Stijn 'Zwerver' De Brucker",
+    "members": []
+  },
+  {
+    "year": "2001-2002",
+    "praeses": "Dimitri 'Pinky' Dubois",
+    "members": []
+  },
+  {
+    "year": "2000-2001",
+    "praeses": "Gwendy 'Tandje' Van Ransbeek",
+    "members": []
+  },
+  {
+    "year": "1999-2000",
+    "praeses": "Frederik 'Fred' Van Hecke",
+    "members": []
+  },
+  {
+    "year": "1998-1999",
+    "praeses": "Kim 'El Lankour' Schollaert",
+    "members": []
+  },
+  {
+    "year": "1997-1998",
+    "praeses": "David 'De Kont' Vermeir",
+    "members": []
+  },
+  {
+    "year": "1995-1997",
+    "praeses": "Pascal 'Scalle' Claessens",
+    "members": []
+  },
+  {
+    "year": "1994-1995",
+    "praeses": "Tony 'Den Bleeken' Mouton",
+    "members": []
+  },
+  {
+    "year": "1993-1994",
+    "praeses": "Geert 'Den Broinen' Bruyneel",
+    "members": []
+  },
+  {
+    "year": "1992-1993",
+    "praeses": "Tom Van Pelt",
+    "members": []
+  },
+  {
+    "year": "1991-1992",
+    "praeses": "Wim 'Badmoesj' Wachtelaer",
+    "members": []
+  },
+  {
+    "year": "1990-1991",
+    "praeses": "Dirk De Munter",
+    "members": []
+  }
+]

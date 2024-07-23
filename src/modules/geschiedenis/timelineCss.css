@@ -1,0 +1,78 @@
+.ExtraControls-sc-cif21b-7 {
+  display: none !important;
+}
+
+.ToolbarWrapper-sc-exupb5-0 {
+  justify-content: center !important;
+  padding: 0.25rem 0 !important;
+}
+
+.TimelineMainWrapper-sc-cif21b-1 {
+  overflow-y: hidden !important;
+  overflow-x: scroll !important;
+}
+
+.TimelineContentDetailsWrapper-sc-d7qjm1-7 {
+  margin-left: 0 !important; 
+  margin-right: 0 !important;
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+  width: 100% !important;
+}
+
+.TimelineContentRender-sc-cif21b-5 {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  margin: 0 !important;
+  padding: 1rem !important;
+
+  @media (min-width: 64rem) {
+    padding: 1rem 4rem !important;
+  }
+}
+
+.TimelineItemContentWrapper-sc-d7qjm1-0 {
+  border: none !important;
+  margin: 0 !important;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2) !important;
+}
+
+.TimelineContentContainer-sc-18iuiou-5 {
+  max-width: 80rem;
+  width: 100%;
+  margin: 0 !important;
+}
+
+.TitleWrapper-sc-13izrht-0 {
+  padding: 0.5rem 0.5rem 0.25rem 0.5rem !important;
+  border-radius: 0 !important;
+}
+
+.Shape-sc-18iuiou-3 {
+  height: 24px !important;
+  width: 24px !important;
+}
+
+.CardTitle-sc-d7qjm1-3 > a {
+  position: relative;
+}
+
+.CardTitle-sc-d7qjm1-3 > a::after {
+  content: '►';
+  position: absolute;
+  right: -1rem;
+  padding-left: 4rem;
+  top: 0;
+  display: flex;
+  width: 3rem;
+  height: 1rem;
+}
+
+.TimelineNavButton-sc-1apb8f9-2 {
+  height: 2rem !important;
+  width: 2rem !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}

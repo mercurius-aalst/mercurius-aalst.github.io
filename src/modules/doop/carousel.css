@@ -1,0 +1,11 @@
+.carousel-root {
+  max-width: 100%;
+}
+
+.thumbs {
+  padding: 0;
+}
+
+.slide {
+  max-height: 40rem;
+}
