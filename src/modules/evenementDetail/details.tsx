@@ -38,7 +38,7 @@ const Details = (props: EventType) => {
         { props.what && (
         <div>
           <DTitle>Wat?</DTitle>
-          <DText dangerouslySetInnerHTML={{ __html: props.what }}></DText>
+          <DText dangerouslySetInnerHTML={{ __html: props.what }}/>
         </div>
         )}
       </DetailsPart>

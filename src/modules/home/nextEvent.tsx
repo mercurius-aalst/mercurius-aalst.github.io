@@ -63,9 +63,7 @@ const NextEvent = () => {
           </ImgDiv>
           <TextDiv>
             <EventTitle>{nextEvent.title}</EventTitle>
-            <Text>
-              {nextEvent.what}
-            </Text>
+            <Text dangerouslySetInnerHTML={{ __html: nextEvent.what }}/>
             <Btn to={`/evenementen/${nextEvent.url}`}>Meer informatie</Btn>
           </TextDiv>
         </Event>
