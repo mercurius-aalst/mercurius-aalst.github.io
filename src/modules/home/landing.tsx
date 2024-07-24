@@ -57,10 +57,7 @@ const Span = styled.div`
   font-weight: 600;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
   bottom: 8rem;
-  width: max-content;
-  max-width: 100vw;
-  left: 50%;
-  transform: translateX(calc(-50% - 1rem));
+  width: 100vw;
   text-align: center;
   user-select: none;
   opacity: 0;
