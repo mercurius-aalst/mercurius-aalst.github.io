@@ -93,7 +93,7 @@ const Footer = () => (
         <Link to='/evenementen'>Evenementen</Link>
       </Links>
       <div style={{ fontWeight: 300 }}>
-        Copyright ©2024; Created by CookieBuilds
+        Copyright © 2024; Created by CookieBuilds
       </div>
     </SInnerDiv>
   </SOuterSec>
