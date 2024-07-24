@@ -39,7 +39,7 @@ const Evenementen = () => {
     setFilteredEvents(pastEvents.filter(v => {
       if (filter.onlyPictures && !v.picturesUrl) return false;
       if (filter.search.length > 0) {
-        return v.title.toLowerCase().includes(filter.search.toLowerCase()) || v.orderDate.startsWith(filter.search.toLowerCase())
+        return v.title.toLowerCase().includes(filter.search.toLowerCase()) || v.orderDateString.startsWith(filter.search.toLowerCase())
       }
       return true;
     }));

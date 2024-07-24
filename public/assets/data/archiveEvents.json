@@ -16,7 +16,7 @@
     "where": "Café De Zeppelin",
     "who": "Leden van Mercurius",
     "facebookUrl": "https://www.facebook.com/events/2139730166385136",
-    "orderDate": "2024-05-18 16:30",
+    "orderDateString": "2024-05-18 16:30",
     "url": "praesidiumverkiezing-2024"
   },
   {
@@ -26,7 +26,7 @@
     "where": "Stadspark Aalst",
     "who": "Iedereen",
     "facebookUrl": "https://www.facebook.com/events/1337047496967346",
-    "orderDate": "2024-05-09 10:00",
+    "orderDateString": "2024-05-09 10:00",
     "url": "ontgroening-2024"
   },
   {
@@ -36,7 +36,7 @@
     "where": "Café De Zeppelin",
     "who": "Leden van Mercurius",
     "facebookUrl": "https://www.facebook.com/events/795551182061951",
-    "orderDate": "2024-04-26 20:00",
+    "orderDateString": "2024-04-26 20:00",
     "url": "biermeester-2024"
   },
   {
@@ -47,7 +47,7 @@
     "who": "Iedereen",
     "price": "€15 VVK - €17 ADK",
     "facebookUrl": "https://www.facebook.com/events/888215352930541",
-    "orderDate": "2024-04-20 22:00",
+    "orderDateString": "2024-04-20 22:00",
     "url": "lustrumbal-2024"
   },
   {
@@ -57,7 +57,7 @@
     "where": "Onthaalcomplex Keizershallen",
     "who": "Leden van Mercurius + Uitgenodigden",
     "facebookUrl": "https://www.facebook.com/events/336445059349140",
-    "orderDate": "2024-04-06 20:00",
+    "orderDateString": "2024-04-06 20:00",
     "url": "vriendjescantus-2024"
   },
   {
@@ -66,7 +66,7 @@
     "where": "Chiroheem De Korendries",
     "who": "Leden van Mercurius",
     "facebookUrl": "https://www.facebook.com/events/1071967414007035",
-    "orderDate": "2024-03-29 17:00",
+    "orderDateString": "2024-03-29 17:00",
     "url": "clubweekend-2024"
   },
   {
@@ -76,7 +76,7 @@
     "where": "Hermelijn",
     "who": "Iedereen",
     "facebookUrl": "https://www.facebook.com/events/1710496462810044",
-    "orderDate": "2024-03-23 19:00",
+    "orderDateString": "2024-03-23 19:00",
     "url": "boardgame-2024-2"
   },
   {
@@ -87,7 +87,7 @@
     "who": "Leden van Mercurius",
     "picturesUrl": "https://photos.app.goo.gl/S6LwRVB6JTxgcapG7",
     "facebookUrl": "https://www.facebook.com/events/600314422240934",
-    "orderDate": "2024-02-24 20:00",
+    "orderDateString": "2024-02-24 20:00",
     "url": "oude-zakken-2024"
   },
   {
@@ -98,7 +98,7 @@
     "who": "Iedereen",
     "price": "€15",
     "facebookUrl": "https://www.facebook.com/events/941274043995267",
-    "orderDate": "2024-02-17 14:00",
+    "orderDateString": "2024-02-17 14:00",
     "url": "brouwerijbezoek-2024"
   },
   {
@@ -109,7 +109,7 @@
     "who": "Leden van Mercurius",
     "picturesUrl": "https://photos.app.goo.gl/oV7Q82HA3iogTjBC6",
     "facebookUrl": "https://www.facebook.com/events/746477836909648",
-    "orderDate": "2024-02-02 20:00",
+    "orderDateString": "2024-02-02 20:00",
     "url": "nieuwjaarsreceptie-2024"
   },
   {
@@ -118,7 +118,7 @@
     "where": "Café De Zeppelin",
     "who": "Iedereen",
     "facebookUrl": "https://www.facebook.com/events/1311481319527191",
-    "orderDate": "2024-01-19 20:00",
+    "orderDateString": "2024-01-19 20:00",
     "url": "boardgame-2024-1"
   },
   {
@@ -128,7 +128,7 @@
     "where": "Café De Zeppelin",
     "who": "Iedereen",
     "facebookUrl": "https://www.facebook.com/events/187524254427178",
-    "orderDate": "2023-12-16 20:00",
+    "orderDateString": "2023-12-16 20:00",
     "url": "cadeautjes-2023"
   },
   {
@@ -139,7 +139,7 @@
     "who": "Iedereen",
     "facebookUrl": "https://www.facebook.com/events/712949667386580",
     "registerUrl": "https://forms.gle/f9Sv8zjgSzy8oMKQ8",
-    "orderDate": "2023-12-09 08:30",
+    "orderDateString": "2023-12-09 08:30",
     "url": "kerstmarkt-2023"
   },
   {
@@ -152,7 +152,7 @@
     "picturesUrl": "https://photos.app.goo.gl/PsCndM26UG24fBXe8",
     "facebookUrl": "https://www.facebook.com/events/797188128770391",
     "registerUrl": "https://forms.gle/svL6EXsgcZJQzfvg6",
-    "orderDate": "2023-11-04 14:00",
+    "orderDateString": "2023-11-04 14:00",
     "url": "on-ice-2023"
   },
   {
@@ -163,7 +163,7 @@
     "who": "Iedereen",
     "picturesUrl": "https://photos.app.goo.gl/kVcHLjWhXnZF3w8d6",
     "facebookUrl": "https://www.facebook.com/events/6581155945295020",
-    "orderDate": "2023-10-28 20:00",
+    "orderDateString": "2023-10-28 20:00",
     "url": "halloweencantus-2023"
   },
   {
@@ -173,7 +173,7 @@
     "where": "Frans Blanckaertdreef",
     "who": "Iedereen",
     "facebookUrl": "https://www.facebook.com/events/141094879042640",
-    "orderDate": "2023-10-14 09:30",
+    "orderDateString": "2023-10-14 09:30",
     "url": "doop-2023"
   },
   {
@@ -183,7 +183,7 @@
     "where": "Café De Klok",
     "who": "Iedereen",
     "facebookUrl": "https://www.facebook.com/events/965737887970388",
-    "orderDate": "2023-09-30 20:00",
+    "orderDateString": "2023-09-30 20:00",
     "url": "australische-2023"
   },
   {
@@ -193,7 +193,7 @@
     "where": "Café De Zeppelin",
     "who": "16 september 2023 om 19:00",
     "facebookUrl": "https://www.facebook.com/events/961193918443884",
-    "orderDate": "2023-09-16 19:00",
+    "orderDateString": "2023-09-16 19:00",
     "url": "food-and-onesie-2023"
   },
   {
@@ -205,7 +205,7 @@
     "picturesUrl": "https://photos.app.goo.gl/tvVA6guKh9aeMwYf9",
     "facebookUrl": "https://www.facebook.com/events/1270150793870062",
     "registerUrl": "https://forms.gle/PP4BDU1zBj3enzUE8",
-    "orderDate": "2023-09-16 15:30",
+    "orderDateString": "2023-09-16 15:30",
     "url": "muurklimmen-2023"
   },
   {
@@ -216,7 +216,7 @@
     "who": "Leden van Mercurius",
     "facebookUrl": "https://www.facebook.com/events/922628156008789",
     "picturesUrl": "https://photos.app.goo.gl/f14izKuqssqFUVFh7",
-    "orderDate": "2023-09-09 20:00",
+    "orderDateString": "2023-09-09 20:00",
     "url": "overdracht-2023"
   },
   {
@@ -227,7 +227,7 @@
     "who": "Iedereen",
     "picturesUrl": "https://photos.app.goo.gl/SLHB1xrFoeQKzQAw9",
     "facebookUrl": "https://www.facebook.com/events/729718852243410",
-    "orderDate": "2023-08-04 20:00",
+    "orderDateString": "2023-08-04 20:00",
     "url": "happy-socks-2023"
   },
   {
@@ -236,7 +236,7 @@
     "where": "Café De Zeppelin",
     "who": "Iedereen",
     "facebookUrl": "https://www.facebook.com/events/607902384611051",
-    "orderDate": "2023-07-08 19:00",
+    "orderDateString": "2023-07-08 19:00",
     "url": "kroegentocht-2023"
   },
   {
@@ -246,7 +246,7 @@
     "who": "Leden van Mercurius",
     "picturesUrl": "https://photos.app.goo.gl/odmeAgVuYeGFXMeY8",
     "facebookUrl": "https://www.facebook.com/events/250958457468125",
-    "orderDate": "2023-05-14 15:00",
+    "orderDateString": "2023-05-14 15:00",
     "url": "praesidiumverkiezing-2023"
   },
   {
@@ -257,7 +257,7 @@
     "who": "Leden van Mercurius",
     "picturesUrl": "https://photos.app.goo.gl/qafxG8hRJVs5h1cd7",
     "facebookUrl": "https://www.facebook.com/events/543898884555370",
-    "orderDate": "2023-05-06 18:00",
+    "orderDateString": "2023-05-06 18:00",
     "url": "praesesverkiezing-2023"
   },
   {
@@ -268,7 +268,7 @@
     "who": "Leden van Mercurius + andere verenigingen",
     "picturesUrl": "https://photos.app.goo.gl/dqhBqXFSbKkTvbVHA",
     "facebookUrl": "https://www.facebook.com/events/650839399816914",
-    "orderDate": "2023-05-05 20:00",
+    "orderDateString": "2023-05-05 20:00",
     "url": "reis-rond-de-wereld-2023"
   },
   {
@@ -278,7 +278,7 @@
     "where": "Onthaalcomplex Keizershallen",
     "who": "Leden van Mercurius + Uitgenodigden",
     "facebookUrl": "https://www.facebook.com/events/889324228771764",
-    "orderDate": "2023-04-29 20:00",
+    "orderDateString": "2023-04-29 20:00",
     "url": "vriendjescantus-2023"
   },
   {
@@ -289,7 +289,7 @@
     "who": "Iedereen",
     "price": "€9",
     "facebookUrl": "https://www.facebook.com/events/467361968598198",
-    "orderDate": "2023-04-21 19:30",
+    "orderDateString": "2023-04-21 19:30",
     "url": "karaoke-cocktail-2023"
   },
   {
@@ -299,7 +299,7 @@
     "where": "HOGENT stadscampus Aalst",
     "who": "Iedereen",
     "facebookUrl": "https://www.facebook.com/events/6072428239455185",
-    "orderDate": "2023-03-24 18:00",
+    "orderDateString": "2023-03-24 18:00",
     "url": "lan-2023"
   },
   {
@@ -310,7 +310,7 @@
     "who": "Leden van Mercurius + andere verenigingen",
     "picturesUrl": "https://photos.app.goo.gl/e4xosbLj2k42M3LW7",
     "facebookUrl": "https://www.facebook.com/events/471571841740446",
-    "orderDate": "2023-03-10 20:00",
+    "orderDateString": "2023-03-10 20:00",
     "url": "krambambouli-2023"
   },
   {
@@ -319,7 +319,7 @@
     "where": "Café De Zeppelin",
     "who": "Leden van Mercurius",
     "facebookUrl": "https://www.facebook.com/events/1323297791800056",
-    "orderDate": "2023-03-03 20:00",
+    "orderDateString": "2023-03-03 20:00",
     "url": "biermeester-2023"
   },
   {
@@ -329,7 +329,7 @@
     "where": "Café De Klok",
     "who": "Iedereen",
     "facebookUrl": "https://www.facebook.com/events/449308604024024",
-    "orderDate": "2023-02-25 19:30",
+    "orderDateString": "2023-02-25 19:30",
     "url": "potc-2023"
   },
   {
@@ -340,7 +340,7 @@
     "who": "Leden van Mercurius",
     "picturesUrl": "https://photos.app.goo.gl/mSUVvZpWay6UtpkG9",
     "facebookUrl": "https://www.facebook.com/events/489327623140200",
-    "orderDate": "2023-02-03 20:00",
+    "orderDateString": "2023-02-03 20:00",
     "url": "nieuwjaarsreceptie-2023"
   },
   {
@@ -351,7 +351,7 @@
     "who": "Iedereen",
     "picturesUrl": "https://photos.app.goo.gl/VmXFkjHbF64avYLW6",
     "facebookUrl": "https://www.facebook.com/events/731530705053700",
-    "orderDate": "2023-01-27 20:00",
+    "orderDateString": "2023-01-27 20:00",
     "url": "blokpauze-2023"
   }
 ]

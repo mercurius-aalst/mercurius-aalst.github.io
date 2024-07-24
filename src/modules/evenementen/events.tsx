@@ -28,7 +28,7 @@ const Events = (props: { events: EventType[], noEventsColor: string }) => {
 
   return (
     <EventsDiv>
-      {props.events.map((v) => <Event key={`${v.title} ${v.orderDate}`} {...v} />)}
+      {props.events.map((v) => <Event key={`${v.title} ${v.orderDateString}`} {...v} />)}
     </EventsDiv>
   )
 }

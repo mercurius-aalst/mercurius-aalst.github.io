@@ -10,7 +10,7 @@ export const event = {
   "facebookUrl": "",
   "registerUrl": "",
   "mapsUrl": "",
-  "orderDate": "2023-08-31 20:00",
+  "orderDateString": "2023-08-31 20:00",
   "url": ""
 }
 

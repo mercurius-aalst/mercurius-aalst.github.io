@@ -35,12 +35,12 @@ const EvenementDetail = () => {
   if (!event) return (<>loading</>)
   return (
     <>
-      <Helmet title={`Mercurius Aalst | ${event.title} ${event.orderDate.getFullYear()}`} type="article" description={event.what} image={event.imageUrl} />
+      <Helmet title={`Mercurius Aalst | ${event.title} ${event.orderDateString.getFullYear()}`} type="article" description={event.what} image={event.imageUrl} />
       <div>
         <Banner imgUrl={event.imageUrl} event />
         <OuterSec>
           <InnerDiv style={{ paddingTop: '1.5rem'}}>
-            <Title color="--green" text={`${event.title} ${event.orderDate < new Date() ? `(${event.orderDate.getFullYear()})` : ''}`} />
+            <Title color="--green" text={`${event.title} ${event.orderDateString < new Date() ? `(${event.orderDateString.getFullYear()})` : ''}`} />
             <Details {...event} />
             <Buttons {...event} />
             {event.mapsUrl && <IFrame src={event.mapsUrl} loading="lazy" />}

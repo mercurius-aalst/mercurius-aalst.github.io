@@ -24,7 +24,7 @@ const Buttons = (props: EventType) => {
   if (!props.registerUrl && !props.facebookUrl && !props.picturesUrl ) return <></>;
   return (
     <ButtonDiv>
-      {(props.registerUrl && props.orderDate > dayjs().format('YYYY-MM-DD HH:mm')) && <Button to={props.registerUrl} $color="--g-btn">Inschrijven</Button>}
+      {(props.registerUrl && props.orderDateString > dayjs().format('YYYY-MM-DD HH:mm')) && <Button to={props.registerUrl} $color="--g-btn">Inschrijven</Button>}
       {props.picturesUrl && <Button to={props.picturesUrl} $color="--y-btn">Foto's</Button>}
       {props.facebookUrl && <Button to={props.facebookUrl} $color="--b-btn">Facebook-evenement</Button>}
     </ButtonDiv>

@@ -51,7 +51,7 @@ export const ContentProvider = ({children}: { children: React.ReactNode}) => {
       .map(v => ({
         ...v,
         imageUrl: v.imageUrl || BASE_IMAGE,
-        orderDate: new Date(v.orderDate),
+        orderDate: new Date(v.orderDateString),
       }))
       .map(v => ({
         ...v,
