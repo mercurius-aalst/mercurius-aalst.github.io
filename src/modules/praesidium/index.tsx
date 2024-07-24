@@ -4,7 +4,7 @@ import { InnerDiv, OuterSec } from "../../components/standard";
 import Title from "../../components/title";
 import CurrentPraesidium from "./currentPraesidium";
 import ProPraesidia from "./proPraesidia";
-import PraesidiumModal from "./praesidiumModal";
+import NewModal from "./newModal";
 import { useContent } from "../../context/contentContext";
 import React from "react";
 import Helmet from "../../components/helmet";
@@ -20,7 +20,7 @@ const Praesidium = () => {
   return (
     <>
       <Helmet title="Mercurius Aalst | Praesidium" />
-      <PraesidiumModal />
+      <NewModal />
       <div>
         <Banner imgUrl={BannerImg} />
         <OuterSec>

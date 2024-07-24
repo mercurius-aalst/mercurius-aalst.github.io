@@ -48,9 +48,9 @@ const Loader = styled.div`
   }
 `;
 
-const OutletDiv = styled.div`
-  flex: 1 1 0;
-`;
+// const OutletDiv = styled.div`
+//   flex: 1 1 0;
+// `;
 
 const MainRoot = () => {
   const content = useContent();
@@ -97,9 +97,7 @@ const MainRoot = () => {
     <Site style={cssVariables}>
       {/* <Doop $show={!pathname.includes('doop')} /> */}
       <NavMenu />
-      <OutletDiv>
-        <Outlet/>
-      </OutletDiv>
+      <Outlet/>
       <Footer />
     </Site>
   )

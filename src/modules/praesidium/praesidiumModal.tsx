@@ -5,20 +5,17 @@ import { PraesidiumMember } from '../../context/models';
 import { useContent } from '../../context/contentContext';
 import { IoClose } from "react-icons/io5";
 import Title from '../../components/title';
-import { boxShadow } from '../../assets/styling';
-
 
 const ModalDiv = styled.div<{$open: number}>`
   position: fixed;
-  top: 0;
-  right: ${p => p.$open ? '-100%' : '0'};
-  width: 100%;
-  max-width: 25rem;
-  background-color: var(--white);
+  width: 100vw;
+  height: 100vw;
+  background-color: #00000080;
   z-index: 15000;
-  ${boxShadow}
   transition: 0.2s ease;
-  overflow: scroll;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 const InsideDiv = styled.div`
@@ -26,7 +23,9 @@ const InsideDiv = styled.div`
   flex-direction: column;
   padding: 1rem;
   gap: 1rem;
-  max-height: 100vh;
+  max-height: 50rem;
+  max-width: 100rem;
+  background-color: var(--white);
 `;
 const Text = styled.h2`
   font-weight: 300;
