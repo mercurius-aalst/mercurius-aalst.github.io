@@ -11,7 +11,7 @@ export type EventType = {
   registerUrl?: string;
   picturesUrl?: string;
   mapsUrl?: string;
-  orderDate: string;
+  orderDate: Date;
   url: string;
 }
 

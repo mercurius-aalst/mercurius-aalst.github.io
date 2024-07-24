@@ -5,7 +5,6 @@ import { useParams } from "react-router-dom";
 import Banner from "../../components/banner";
 import { InnerDiv, OuterSec } from "../../components/standard";
 import Title from "../../components/title";
-import dayjs from "dayjs";
 import Buttons from "./buttons";
 import Details from "./details";
 import styled from "styled-components";
@@ -36,12 +35,12 @@ const EvenementDetail = () => {
   if (!event) return (<>loading</>)
   return (
     <>
-      <Helmet title={`Mercurius Aalst | ${event.title} ${event.orderDate.slice(0, 4)}`} type="article" description={event.what} image={event.imageUrl} />
+      <Helmet title={`Mercurius Aalst | ${event.title} ${event.orderDate.getFullYear()}`} type="article" description={event.what} image={event.imageUrl} />
       <div>
         <Banner imgUrl={event.imageUrl} event />
         <OuterSec>
           <InnerDiv style={{ paddingTop: '1.5rem'}}>
-            <Title color="--green" text={`${event.title} ${event.orderDate < dayjs().format('YYYY-MM-DD HH:mm') ? `(${event.orderDate.slice(0, 4)})` : ''}`} />
+            <Title color="--green" text={`${event.title} ${event.orderDate < new Date() ? `(${event.orderDate.getFullYear()})` : ''}`} />
             <Details {...event} />
             <Buttons {...event} />
             {event.mapsUrl && <IFrame src={event.mapsUrl} loading="lazy" />}

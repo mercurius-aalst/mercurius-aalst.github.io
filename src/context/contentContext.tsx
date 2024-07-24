@@ -1,5 +1,4 @@
 /* eslint-disable react-refresh/only-export-components */
-import dayjs from 'dayjs';
 import React from 'react';
 import { Content, EventType, PraesidiumMember, ProPraesidium, TimelineJson, TimelinePart } from './models';
 
@@ -38,20 +37,32 @@ export const ContentProvider = ({children}: { children: React.ReactNode}) => {
   }, [initialized]);
 
   const initEvents = React.useCallback(async () => {
+    const days = ['Maandag', 'Dinsdag', 'Woensdag', 'Donderdag', 'Vrijdag', 'Zaterdag', 'Zondag'];
+    const months = ['januari', 'februari', 'maart', 'april', 'mei', 'juni', 'juli', 'augustus', 'september', 'oktober', 'november', 'december'];
+
     setLoading(true);
     
     const [dataEvents, dataArchive] = await Promise.all(['/assets/data/events.json', '/assets/data/archiveEvents.json'].map(async (v): Promise<EventType[]> => {
       const resp = await fetch(v);
       return resp.json();
     }))
-    const now = dayjs().format('YYYY-MM-DD HH:mm');
+    const now = new Date();
     const events = [...dataEvents, ...dataArchive]
-      .map(v => ({ ...v, imageUrl: v.imageUrl || BASE_IMAGE }))
-      .sort((v1, v2) => v1.orderDate.localeCompare(v2.orderDate));
-    const fe = events.filter((v) => v.orderDate >= now);
-    const pe = events.filter((v) => v.orderDate < now).reverse();
-    setFutureEvents(fe);
-    setPastEvents(pe);
+      .map(v => ({
+        ...v,
+        imageUrl: v.imageUrl || BASE_IMAGE,
+        orderDate: new Date(v.orderDate),
+      }))
+      .map(v => ({
+        ...v,
+        when: v.when || `${days[v.orderDate.getDay()]} ${v.orderDate.getDate()} ${months[v.orderDate.getMonth()]} ${v.orderDate.getFullYear()} om ${v.orderDate.getHours()}:${v.orderDate.getMinutes() < 10 ? `0${v.orderDate.getMinutes()}` : v.orderDate.getMinutes()}`
+      }))
+      .sort((a, b) => {
+        return a.orderDate.getTime() - b.orderDate.getTime()
+      });
+
+      setFutureEvents(events.filter((v) => v.orderDate >= now));
+    setPastEvents(events.filter((v) => v.orderDate < now).reverse());
 
     setInitialized({
       ...initialized,
@@ -64,7 +75,6 @@ export const ContentProvider = ({children}: { children: React.ReactNode}) => {
     
     const response = await fetch(`/assets/data/timeline.json`);
     const data: TimelineJson[] = await response.json();
-    console.log(data);
     setTimeline(data.map((v) => ({
       title: v.date,
       cardTitle: v.date,
