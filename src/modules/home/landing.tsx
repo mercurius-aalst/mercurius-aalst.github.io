@@ -68,7 +68,7 @@ const Span = styled.div`
 const Down = styled(GoChevronDown)`
   position: absolute;
   left: 50%;
-  transform: translateX(calc(-50% - 1rem));
+  transform: translateX(-50%);
   bottom: 0rem;
   animation: ${slideInD} 1.5s ease-out 0.5s forwards;
   opacity: 0;

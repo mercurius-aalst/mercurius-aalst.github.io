@@ -84,16 +84,16 @@ const NewModal = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const [member, setMember] = React.useState<PraesidiumMember | undefined>(undefined);
 
-  const onEscape = (e: KeyboardEvent) => {
-    if(e.key === 'Escape') setMember(undefined);
-  }
+  const onEscape = React.useCallback((e: KeyboardEvent) => {
+    if(e.key === 'Escape') setSearchParams({});
+  }, [setSearchParams])
 
   React.useEffect(() => {
     document.addEventListener('keydown', onEscape);
     return () => {
       document.removeEventListener('keydown', onEscape);
     }
-  }, [])
+  }, [onEscape])
 
   React.useEffect(() => {
     if (!searchParams.get('functie')){
