@@ -57,7 +57,7 @@ export const ContentProvider = ({children}: { children: React.ReactNode}) => {
     })).sort((a, b) => {
       return a.orderDate.getTime() - b.orderDate.getTime()
     });
-    
+    console.log(events);
     setFutureEvents(events.filter((v) => v.orderDate >= now));
     setPastEvents(events.filter((v) => v.orderDate < now).reverse());
     setInitialized({
