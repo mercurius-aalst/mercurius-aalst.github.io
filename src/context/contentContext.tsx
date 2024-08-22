@@ -37,37 +37,42 @@ export const ContentProvider = ({children}: { children: React.ReactNode}) => {
   }, [initialized]);
 
   const initEvents = React.useCallback(async () => {
+    console.log(0)
     const days = ['Maandag', 'Dinsdag', 'Woensdag', 'Donderdag', 'Vrijdag', 'Zaterdag', 'Zondag'];
     const months = ['januari', 'februari', 'maart', 'april', 'mei', 'juni', 'juli', 'augustus', 'september', 'oktober', 'november', 'december'];
-
+    
     setLoading(true);
+    console.log(1)
     
     const [dataEvents, dataArchive] = await Promise.all(['/assets/data/events.json', '/assets/data/archiveEvents.json'].map(async (v): Promise<EventType[]> => {
       const resp = await fetch(v);
       return resp.json();
     }))
+    console.log(2)
     const now = new Date();
-    const events = [...dataEvents, ...dataArchive]
-      .map(v => ({
-        ...v,
-        imageUrl: v.imageUrl || BASE_IMAGE,
-        orderDate: new Date(v.orderDateString),
-      }))
-      .map(v => ({
-        ...v,
-        when: v.when || `${days[v.orderDate.getDay()]} ${v.orderDate.getDate()} ${months[v.orderDate.getMonth()]} ${v.orderDate.getFullYear()} om ${v.orderDate.getHours()}:${v.orderDate.getMinutes() < 10 ? `0${v.orderDate.getMinutes()}` : v.orderDate.getMinutes()}`
-      }))
-      .sort((a, b) => {
-        return a.orderDate.getTime() - b.orderDate.getTime()
-      });
-
-      setFutureEvents(events.filter((v) => v.orderDate >= now));
+    const events = [...dataEvents, ...dataArchive].map(v => ({
+      ...v,
+      imageUrl: v.imageUrl || BASE_IMAGE,
+      orderDate: new Date(v.orderDateString),
+    })).map(v => ({
+      ...v,
+      when: v.when || `${days[v.orderDate.getDay()]} ${v.orderDate.getDate()} ${months[v.orderDate.getMonth()]} ${v.orderDate.getFullYear()} om ${v.orderDate.getHours()}:${v.orderDate.getMinutes() < 10 ? `0${v.orderDate.getMinutes()}` : v.orderDate.getMinutes()}`
+    })).sort((a, b) => {
+      console.log(3)
+      return a.orderDate.getTime() - b.orderDate.getTime()
+    });
+    console.log(4)
+    
+    setFutureEvents(events.filter((v) => v.orderDate >= now));
+    console.log(5)
     setPastEvents(events.filter((v) => v.orderDate < now).reverse());
-
+    console.log(6)
+    console.log(events);
     setInitialized({
       ...initialized,
       events: true,
     });
+    console.log(7)
   }, [initialized]);
 
   const initTimeline = React.useCallback(async () => {
