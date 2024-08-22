@@ -47,6 +47,7 @@ export const ContentProvider = ({children}: { children: React.ReactNode}) => {
       return resp.json();
     }))
     const now = new Date();
+    console.log(dataEvents)
     const events = [...dataEvents, ...dataArchive].map(v => ({
       ...v,
       imageUrl: v.imageUrl || BASE_IMAGE,
