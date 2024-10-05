@@ -1,5 +1,78 @@
 [
   {
+    "imageUrl": "/assets/images/events/pizza-onesie-2024.jpg",
+    "title": "Pizza & Onesie Clubavond",
+    "what": "Nu de herfst toch stillaan begint aan te breken organiseren we onze gezellige Pizza & onesie clubavond. we moedigen iedereen aan om of de pizza te bestellen in de Zeppelin, of om gewoon iets anders te bestellen. Zo kunnen we allemaal samen gezellig lekker eten 😋",
+    "when": "Zaterdag 5 oktober om 19u",
+    "where": "Café De Zeppelin",
+    "who": "Iedereen",
+    "facebookUrl": "https://www.facebook.com/events/1487813122035590",
+    "mapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.203474185435!2d4.030516576586153!3d50.93844997168946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3bd52b9fb74a7%3A0xf95aa89b61578baf!2sZeppelin%20Aalst!5e0!3m2!1snl!2sbe!4v1721768313295!5m2!1snl!2sbe",
+    "orderDateString": "2023-08-31 20:00",
+    "url": "pizza-onesie-2024"
+  },
+  {
+    "imageUrl": "/assets/images/events/bowling-2024.jpg",
+    "title": "Bowling met Mercurius",
+    "what": "Laten we eens zien wie zijn bowlingskills kan bovenhalen en wie zijn eer kan verdedigen! 🎳",
+    "when": "Zaterdag 5 oktober om 16u",
+    "where": "Tragel Sport",
+    "who": "Iedereen",
+    "price": "Wordt ter plaatse betaald (Rekenen op een tweetal spelletjes)",
+    "facebookUrl": "https://www.facebook.com/events/400726309736343",
+    "mapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2513.573308801123!2d4.034030777037254!3d50.950103671691785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c397e4da0d23e5%3A0x2c7e5c6271dd7455!2sTragel%2C%20Aalst!5e0!3m2!1snl!2sbe!4v1728118927576!5m2!1snl!2sbe",
+    "orderDateString": "2024-10-05 16:00",
+    "url": "bowling-2024"
+  },
+  {
+    "imageUrl": "https://scontent-bru2-1.xx.fbcdn.net/v/t39.30808-6/458606249_1044553507673606_5669151090800390137_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=75d36f&_nc_ohc=dXAY8K0pIMoQ7kNvgEEIDmo&_nc_ht=scontent-bru2-1.xx&oh=00_AYA70-k5-tPiE99v_iZ4k6tJs45QQ7cFJASE7XmQu5v5gA&oe=66FAFC8D",
+    "title": "Springuur",
+    "what": "Het schooljaar is gestart, maar de echte start is op 27 september!💥\nSPRINGUUR 2024, HET STUDENT START EVENT van Aalst.🧅",
+    "where": "Hopmarkt",
+    "when": "Vrijdag 27 september 16:00",
+    "who": "Iedereen",
+    "facebookUrl": "https://www.facebook.com/events/8246494238769920",
+    "mapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.2416645595476!2d4.034307876958197!3d50.93774365215803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3bd5988d74827%3A0xc0dedec151fe0f68!2sHopmarkt%2C%209300%20Aalst!5e0!3m2!1snl!2sbe!4v1727342372668!5m2!1snl!2sbe",
+    "orderDateString": "2024-09-27 16:00",
+    "url": "levensloop-2024"
+  },
+  {
+    "imageUrl": "https://scontent-bru2-1.xx.fbcdn.net/v/t39.30808-6/456195652_872589381720362_7118227798780546212_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=75d36f&_nc_ohc=FbD6yFgp54wQ7kNvgFyrs0Q&_nc_ht=scontent-bru2-1.xx&_nc_gid=ANTYwEYZu_ooSi7BfBjQWZc&oh=00_AYBPkLCvOya5naHQLEgnVH0U_uo-IHpAC9yHjcJC71MnWg&oe=66FAEED6",
+    "title": "Levensloop",
+    "what": "Omdat velen van ons wel al eens op een of andere manier te maken hebben gehad met kanker, hebben wij besloten om ons dit jaar met de studentenclubs van Aalst in te zetten voor de 24 urenloop van levensloop! We proberen zo veel mogelijk geld in te zamelen voor de stichting tegen kanker en zo anderen te helpen!",
+    "where": "Stadspark Aalst",
+    "when": "Zaterdag 28 september 15:00 tot 29 september 15:00",
+    "who": "Iedereen",
+    "facebookUrl": "https://www.facebook.com/events/1533035387423027",
+    "registerUrl": "https://ap.lc/wmgrI",
+    "mapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5029.266947243951!2d4.043601176957887!3d50.93049685268334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3bd6afbc9b45f%3A0xe15f67c387218f7b!2sStadspark%20Aalst!5e0!3m2!1snl!2sbe!4v1727342063844!5m2!1snl!2sbe",
+    "orderDateString": "2024-09-28 19:00",
+    "url": "levensloop-2024"
+  },
+  {
+    "imageUrl": "/assets/images/events/gratis-vat-2024.jpg",
+    "title": "Gratis Vat",
+    "what": "Om de start van het academiejaar te vieren en daarmee de nieuwe studenten te verwelkomen is er een gratis vat in ons clubcafé, de Zeppelin.\nEen perfecte kans om kennis te maken met de nieuwe (reeds overtuigde) feuten en een proost te klinken op het prachtige jaar dat ons wacht als club.\nStudent en nog niet helemaal overtuigd om te laten dopen bij onze club? Wees toch even welkom en misschien word je wel overhaald door een toffe babbel met de aanwezige leden.",
+    "where": "Café De Zeppelin",
+    "when": "Vrijdag 20 september 2024 om 19:00",
+    "who": "Iedereen",
+    "facebookUrl": "https://www.facebook.com/events/1378387583550873",
+    "mapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.203474185435!2d4.030516576586153!3d50.93844997168946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3bd52b9fb74a7%3A0xf95aa89b61578baf!2sZeppelin%20Aalst!5e0!3m2!1snl!2sbe!4v1721768313295!5m2!1snl!2sbe",
+    "orderDateString": "2024-09-20 19:00",
+    "url": "gratis-vat-2024"
+  },
+  {
+    "imageUrl": "/assets/images/events/casino-clubavond-2024.png",
+    "title": "Casino Clubavond",
+    "what": "Om tijdens de zomer toch nog eens samen te komen!<br>Clubavond gezellig in de Zeppelin.<br>*** info Casino ***<br>Voor 1 drankbonnetje ontvang je 100 waarde in cips.<br>Op het einde van de avond kan je deze chips weer inwisselen tot drankbonnetjes. Per 100 krijg je terug een drankbonnetje.<br>Succes!<br>Blackjack, roulette en poker kunnen gespeeld worden<br>Voor de mensen die niet deelnemen is er altijd de gezellige babbel gezelschapspelen en biljart 🙂",
+    "where": "Café De Zeppelin",
+    "who": "Iedereen",
+    "facebookUrl": "https://www.facebook.com/events/2247788975581789",
+    "mapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.203474185435!2d4.030516576586153!3d50.93844997168946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3bd52b9fb74a7%3A0xf95aa89b61578baf!2sZeppelin%20Aalst!5e0!3m2!1snl!2sbe!4v1721768313295!5m2!1snl!2sbe",
+    "orderDateString": "2024-07-27 20:00",
+    "url": "casino-2024"
+  },
+  {
     "imageUrl": "/assets/images/events/fin-dexamen-2024.png",
     "title": "Fin d'Examen",
     "what": "Na een zware reeks examens kunnen we de zomer ingaan en eens samenkomen als club.<br>Prachtig om voor geïnteresseerden onze club een beetje te leren kennen en voor de actieve leden een gezellig samenkomen op een mooie dag.",
