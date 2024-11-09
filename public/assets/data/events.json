@@ -1,6 +1,18 @@
 [
   {
-      "imageUrl": "/assets/images/events/lan-2024.jpg",
+    "imageUrl": "/assets/images/events/schwamp-cantus-2024.jpg",
+    "title": "Cantus in the Schwamp",
+    "what": "Somebody once told me the world is gonna roll me, I ain't the sharpest tool in the shed...<br>ghm ghm... oow ja<br>Cantusje in the SHWAMP<br>Het thema is nu wel duidelijk denk ik 😅",
+    "when": "Zaterdag 16 november om 20u",
+    "where": "Het Wereldhuis",
+    "who": "Iedereen",
+    "facebookUrl": "https://www.facebook.com/events/1944689436039499",
+    "mapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2669.463458230693!2d4.028562903485164!3d50.93616416534186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3bd511182bd2d%3A0xa588b53bb02b7ee6!2sHet%20Wereldhuis!5e0!3m2!1snl!2sbe!4v1731157924744!5m2!1snl!2sbe",
+    "orderDateString": "2024-11-16 18:00",
+    "url": "schwamp-cantus-2024"
+  },
+  {
+    "imageUrl": "/assets/images/events/lan-2024.jpg",
     "title": "LAN-Party",
     "what": "Get your game on, because we're back in business with another LAN-Party!<br>Net zoals elk jaar gaan we weer proberen om er top-editie van te maken waar zowel alle deelnemers als gewone bezoekers zich kunnen amuseren met o.a. competities, free-to-play randanimatie (Sim-racing, VR, boardgames, ...) en een top sfeer!<br>Natuurlijk is dit keer op keer niet mogelijk zonder onze sponsors, waarvoor dit jaar hartelijk dank aan Behind Bytes, Café Zeppelin, 'T Frituurke, Toki Aalst en Belgian Student League.",
     "when": "Vrijdag 8 november om 18u",
