@@ -98,32 +98,32 @@
     ]
   },
   {
-    "fName": "Kylian",
-    "lName": "Lenoir",
-    "nName": "Peblu",
+    "fName": "Jason",
+    "lName": "Rawnsley",
+    "nName": "Gazon",
     "function": "Schachtentemmer",
-    "imageUrl": "/assets/images/praesidium/kylian.jpg",
     "url": "schachtentemmer",
+    "imageUrl": "/assets/images/praesidium/jason.jpg",
     "questions": [
       {
         "q": "Studie",
-        "a": "Grafische & Digitale Media"
+        "a": "Accountancy administration"
       },
       {
         "q": "Doopjaar",
-        "a": "2021-2022"
+        "a": "2023-2024"
       },
       {
         "q": "Meter(s)/Peter(s)",
-        "a": "Ballie"
+        "a": "Maajk & Bulkie"
       },
       {
         "q": "Favoriete cantuslied",
-        "a": "A la claire fontaine"
+        "a": "De Blauwvoet"
       },
       {
         "q": "Favoriete quote",
-        "a": "Be yourself, everyone else is already taken."
+        "a": "Gij Vieze Vuilerik"
       }
     ]
   },
@@ -210,41 +210,11 @@
     ]
   },
   {
-    "fName": "Jason",
-    "lName": "Rawnsley",
-    "nName": "Gazon",
-    "function": "Zedenmeester",
-    "url": "zedenmeester-1",
-    "imageUrl": "/assets/images/praesidium/jason.jpg",
-    "questions": [
-      {
-        "q": "Studie",
-        "a": "Accountancy administration"
-      },
-      {
-        "q": "Doopjaar",
-        "a": "2023-2024"
-      },
-      {
-        "q": "Meter(s)/Peter(s)",
-        "a": "Maajk & Bulkie"
-      },
-      {
-        "q": "Favoriete cantuslied",
-        "a": "De Blauwvoet"
-      },
-      {
-        "q": "Favoriete quote",
-        "a": "Gij Vieze Vuilerik"
-      }
-    ]
-  },
-  {
     "fName": "Leana",
     "lName": "Sasi Andrade",
     "function": "Zedenmeesteres",
     "imageUrl": "/assets/images/praesidium/leana.jpeg",
-    "url": "zedenmeester-2",
+    "url": "zedenmeester",
     "questions": [
       {
         "q": "Studie",
