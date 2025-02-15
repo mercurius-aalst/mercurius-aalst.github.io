@@ -1,5 +1,5 @@
 import Banner from "../../components/banner";
-import BannerImg from '/assets/images/landing-pic.jpg';
+import BannerImg from '/assets/images/landing-pic.jpeg';
 import { InnerDiv, OuterSec } from "../../components/standard";
 import Title from "../../components/title";
 import styled from "styled-components";

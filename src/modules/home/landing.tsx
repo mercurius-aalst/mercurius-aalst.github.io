@@ -1,5 +1,5 @@
 import styled, { keyframes } from 'styled-components';
-import LandingPic from '/assets/images/landing-pic.jpg';
+import LandingPic from '/assets/images/landing-pic.jpeg';
 import { mediaQuery } from '../../assets/styling';
 import { GoChevronDown } from "react-icons/go";
 

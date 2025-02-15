@@ -71,7 +71,7 @@ const MainRoot = () => {
   React.useEffect(() => {
     try {
       const imagesToPreload: string[] = [
-        '/assets/images/landing-pic.jpg'
+        '/assets/images/landing-pic.jpeg'
       ]
       Promise.all(imagesToPreload.map((url) => new Promise(function (resolve, reject) {
         const img = new Image();

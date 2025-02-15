@@ -6,7 +6,7 @@ const BannerImgDiv = styled.div<{$url: string, $event: number}>`
   height: ${p => p.$event ? '20rem' : '16rem'};
   background-image: url(${p => p.$url});
   background-size: cover;
-  background-position: center;
+  background-position: 50% 15%;
   z-index: -1;
   filter: grayscale(80%);
 `;

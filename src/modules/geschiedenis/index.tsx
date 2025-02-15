@@ -4,7 +4,7 @@ import Banner from '../../components/banner';
 import { useContent } from '../../context/contentContext';
 import Emergence from './emergence';
 import Timeline from './timeline';
-import BannerImg from '/assets/images/landing-pic.jpg';
+import BannerImg from '/assets/images/landing-pic.jpeg';
 import Helmet from '../../components/helmet';
 
 const Geschiedenis = () => {

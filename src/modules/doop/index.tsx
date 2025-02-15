@@ -3,7 +3,7 @@ import Banner from "../../components/banner";
 import Helmet from "../../components/helmet"
 import { InnerDiv, OuterSec } from "../../components/standard";
 import Title from "../../components/title";
-import BannerImg from '/assets/images/landing-pic.jpg';
+import BannerImg from '/assets/images/landing-pic.jpeg';
 import { boxShadow } from "../../assets/styling";
 import { Carousel } from "react-responsive-carousel";
 import './carousel.css';

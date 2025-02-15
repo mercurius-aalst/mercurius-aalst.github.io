@@ -1,5 +1,6 @@
 import Banner from "../../components/banner";
-import BannerImg from '/assets/images/landing-pic.jpg';
+import BannerImg from '/assets/images/landing-pic.jpeg';
+import PraesImg from '/assets/images/praesidium.jpg';
 import { InnerDiv, OuterSec } from "../../components/standard";
 import Title from "../../components/title";
 import CurrentPraesidium from "./currentPraesidium";
@@ -26,6 +27,9 @@ const Praesidium = () => {
         <OuterSec>
           <InnerDiv>
             <Title color="--white" text="Praesidium" />
+            <div style={{ width: '100%' }}>
+              <img src={PraesImg} style={{ width: '100%' }} />
+            </div>
             <CurrentPraesidium />
           </InnerDiv>
         </OuterSec>
