@@ -276,36 +276,6 @@
     ]
   },
   {
-    "fName": "Lisanne",
-    "lName": "Moens",
-    "nName": "Nightfall",
-    "function": "P.R.",
-    "imageUrl": "/assets/images/praesidium/lisanne.jpg",
-    "url": "pr",
-    "questions": [
-      {
-        "q": "Studie",
-        "a": "Biomedische laboratoriumtechnologiën (Forensisch onderzoek)"
-      },
-      {
-        "q": "Doopjaar",
-        "a": "2023-2024"
-      },
-      {
-        "q": "Meter(s)/Peter(s)",
-        "a": "Bulkie & Kleinen"
-      },
-      {
-        "q": "Favoriete cantuslied",
-        "a": "The Wild Rover"
-      },
-      {
-        "q": "Favoriete quote",
-        "a": "Think like a proton, always positive."
-      }
-    ]
-  },
-  {
     "fName": "Jonathan",
     "lName": "Couck",
     "nName": "Couckie",

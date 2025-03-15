@@ -34,8 +34,8 @@ const slideInD = keyframes`
 const Div = styled.div<{$img: string}>`
   color: var(--white);
   position: relative;
-  height: calc(100vh - 0rem); // -2.5rem
-  background-image: url(${p => p.$img});
+  height: calc(100vh - 0rem);
+  background: radial-gradient(95% 95% at 50% 50%, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.75) 100%), url(${p => p.$img}) 50% / cover no-repeat;
   background-size: cover;
   background-position: center;
   line-height: 2.5rem;

@@ -15,7 +15,7 @@ const SHeader = styled(OuterSec)<{ $isHome: number, $isOpen: number }>`
   width: 100%;
   display: flex;
   align-items: center;
-  background-color: ${p => p.$isHome ? (p.$isOpen ? 'transparent' : '#00000040') : 'var(--white)'};
+  background-color: ${p => p.$isHome ? 'transparent' : 'var(--white)'};
   color: ${p => p.$isHome ? 'var(--white)' : 'var(--green)'};
   padding: 1rem;
   box-shadow: ${p => p.$isHome ? 'none' : '0px 4px 4px 0px rgba(0,0,0,0.2)'};
