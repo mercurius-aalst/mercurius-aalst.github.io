@@ -1,5 +1,44 @@
 [
   {
+    "year": "2024-2025",
+    "praeses": "Jarno 'Cremer' De Cremer",
+    "image": "2023-2024.png",
+    "members": [
+      {
+        "function": "Vice-Praeses",
+        "name": "Gerben 'Marcel' De Wetter"
+      },
+      {
+        "function": "Ab-Actis",
+        "name": "Ruth 'Koeke' De Ridder"
+      },
+      {
+        "function": "Schachtentemmer",
+        "name": "Jason 'Gazon' Rawnsley"
+      },
+      {
+        "function": "Doopmeester",
+        "name": "Kiran 'Brum' Trifin"
+      },
+      {
+        "function": "Cantor",
+        "name": "Brenda 'Brentd' Van Gaver"
+      },
+      {
+        "function": "Quaestor",
+        "name": "Gohan 'Juan' Anné"
+      },
+      {
+        "function": "Zedenmeester",
+        "name": "Leana Sasi Andrade"
+      },
+      {
+        "function": "Webmaster",
+        "name": "Jonathan 'Couckie' Couck"
+      }
+    ]
+  },
+  {
     "year": "2023-2024",
     "praeses": "Jarno 'Mona' Simons",
     "image": "2023-2024.png",
