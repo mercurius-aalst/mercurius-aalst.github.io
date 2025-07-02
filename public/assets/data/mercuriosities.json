@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "title": "Test",
+    "description": "Description for Curiosity 1",
+    "pdf": "/assets/pdfs/test.pdf",
+    "year": 2024,
+    "month": "mei"
+  },
+  {
+    "id": "2",
+    "title": "Curiosity 2",
+    "description": "Description for Curiosity 2",
+    "pdf": "/pdfs/curiosity2.pdf",
+    "year": 2025,
+    "month": "februari"
+  }
+]
