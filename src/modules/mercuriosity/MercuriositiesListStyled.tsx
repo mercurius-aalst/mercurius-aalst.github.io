@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import styled from "styled-components";
 import { boxShadow, transition } from "../../assets/styling";
 import { Link } from "react-router-dom";
@@ -17,6 +17,8 @@ const Card = styled(Link)`
   display: flex;
   flex-direction: column;
   width: 100%;
+  max-width: 320px;
+  min-width: 180px;
   background: var(--white);
   border-radius: 1rem;
   overflow: hidden;
@@ -32,13 +34,13 @@ const Card = styled(Link)`
 const PreviewDiv = styled.div`
   position: relative;
   width: 100%;
-  padding-top: 52.34%;
-  flex: 1 1 0;
+  aspect-ratio: 210/297; /* A4 aspect ratio portrait */
   background: #222;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  /* No padding, so preview touches card border */
 `;
 const TextDiv = styled.div`
   display: flex;
@@ -57,28 +59,40 @@ const MText = styled.p`
   color: #444;
 `;
 
+
+
+import { Document, Page, pdfjs } from 'react-pdf';
+import workerSrc from 'pdfjs-dist/build/pdf.worker.min.mjs?url';
+pdfjs.GlobalWorkerOptions.workerSrc = workerSrc;
+import { useRef, useEffect, useState } from "react";
 const PDFPreview: React.FC<{ pdf: string }> = ({ pdf }) => {
-  const canvasRef = useRef<HTMLCanvasElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [pageWidth, setPageWidth] = useState<number>(210);
+
   useEffect(() => {
-    let pdfjsLib: any;
-    import("pdfjs-dist/build/pdf").then((lib) => {
-      pdfjsLib = lib;
-      pdfjsLib.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsLib.version}/pdf.worker.min.js`;
-      pdfjsLib.getDocument(pdf).promise.then((doc: any) => {
-        doc.getPage(1).then((page: any) => {
-          const viewport = page.getViewport({ scale: 1 });
-          const canvas = canvasRef.current;
-          if (canvas) {
-            canvas.height = viewport.height;
-            canvas.width = viewport.width;
-            const ctx = canvas.getContext("2d");
-            if (ctx) page.render({ canvasContext: ctx, viewport });
-          }
-        });
-      });
-    });
-  }, [pdf]);
-  return <canvas ref={canvasRef} style={{ width: "100%", height: "100%", display: "block" }} />;
+    const handleResize = () => {
+      if (containerRef.current) {
+        const width = containerRef.current.offsetWidth;
+        setPageWidth(Math.max(120, Math.min(width, 400)));
+      }
+    };
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  return (
+    <div ref={containerRef} style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'transparent' }}>
+      <Document file={pdf} loading={null} error={<span style={{color: 'red'}}>PDF niet gevonden</span>} noData={<span style={{color: 'red'}}>Geen PDF</span>}>
+        <Page
+          pageNumber={1}
+          width={pageWidth}
+          renderTextLayer={false}
+          renderAnnotationLayer={false}
+        />
+      </Document>
+    </div>
+  );
 };
 
 const MercuriositiesList: React.FC<{ curiosities: Mercuriosity[] }> = ({ curiosities }) => (
