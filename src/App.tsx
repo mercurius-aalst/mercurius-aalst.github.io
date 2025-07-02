@@ -54,7 +54,7 @@ function App() {
               element: <Elements.Mercuriosity />,
             },
             {
-              path: ':id',
+              path: ':month/:year/:id',
               element: <Elements.MercuriosityDetail />,
             },
           ]
