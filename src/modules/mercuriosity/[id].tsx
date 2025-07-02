@@ -30,7 +30,6 @@ const MercuriosityDetail: React.FC = () => {
 
   if (loading) return <div>Bezig met laden...</div>;
 
-  // Styled button like evenementen "next" button
   const ReturnButton = styled(Link)`
     background-color: var(--green);
     color: var(--white);
@@ -58,7 +57,7 @@ const MercuriosityDetail: React.FC = () => {
       <div style={{ display: 'flex', justifyContent: 'center', marginTop: '1.5rem' }}>
         <ReturnButton to="/mercuriosity">
           <span style={{ fontSize: '1.3em', lineHeight: 1, marginRight: '0.2em' }}>←</span>
-          Terug naar lijst
+          Terug naar Mercuriosity overzicht
         </ReturnButton>
       </div>
       <h1 style={{
@@ -80,6 +79,17 @@ const MercuriosityDetail: React.FC = () => {
             height="1131px"
             style={{ border: "1.5px solid #b5b5b5", borderRadius: "12px", boxShadow: "0 8px 32px rgba(0,0,0,0.13)" }}
             allowFullScreen
+            onError={(e) => {
+              e.currentTarget.style.display = 'none';
+              const errorDiv = document.createElement('div');
+              errorDiv.style.color = 'red';
+              errorDiv.style.fontWeight = '600';
+              errorDiv.style.fontSize = '1.2rem';
+              errorDiv.style.textAlign = 'center';
+              errorDiv.style.padding = '2rem';
+              errorDiv.textContent = 'PDF-bestand niet gevonden of kan niet geladen worden.';
+              e.currentTarget.parentNode?.appendChild(errorDiv);
+            }}
           />
         </div>
       ) : (

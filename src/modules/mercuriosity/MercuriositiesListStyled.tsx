@@ -103,7 +103,7 @@ const MercuriositiesList: React.FC<{ curiosities: Mercuriosity[] }> = ({ curiosi
     width: "100%"
   }}>
     {curiosities.map((item) => (
-      <Card key={item.id} to={`/mercuriosity/${item.month}/${item.year}/${item.id}`}>
+      <Card key={item.id} to={`/mercuriosity/${item.year}/${item.month}/${item.id}`}>
         <PreviewDiv>
           <PDFPreview pdf={item.pdf} />
         </PreviewDiv>
