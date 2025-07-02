@@ -57,6 +57,7 @@ const DesktopNav = () => {
       <SLink title='Geschiedenis' to='/geschiedenis' $active={+(pathname.includes('/geschiedenis'))} $isHome={+isHome}>Geschiedenis</SLink>
       <SLink title='Clublied' to='/clublied' $active={+(pathname.includes('/clublied'))} $isHome={+isHome}>Clublied</SLink>
       <SLink title='Evenementen' to='/evenementen' $active={+(pathname.includes('/evenementen'))} $isHome={+isHome}>Evenementen</SLink>
+      <SLink title='Mercuriosity' to='/mercuriosity' $active={+(pathname.includes('/mercuriosity'))} $isHome={+isHome}>Mercuriosity</SLink>
     </LinkDiv>
   );
 };

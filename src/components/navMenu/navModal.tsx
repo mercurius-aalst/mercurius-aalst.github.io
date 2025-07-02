@@ -54,6 +54,7 @@ const NavModal = (props: {open: boolean, setOpenNav: React.Dispatch<React.SetSta
         <SLink title='Geschiedenis' to='/geschiedenis' $active={+(pathname.includes('/geschiedenis'))}>Geschiedenis</SLink>
         <SLink title='Clublied' to='/clublied' $active={+(pathname.includes('/clublied'))}>Clublied</SLink>
         <SLink title='Events' to='/evenementen' $active={+(pathname.includes('/evenementen'))}>Evenementen</SLink>  
+        <SLink title='Mercuriosity' to='/mercuriosity' $active={+(pathname.includes('/mercuriosity'))}>Mercuriosity</SLink>
       </InnerNavDiv>
     </NavModalDiv>
   );

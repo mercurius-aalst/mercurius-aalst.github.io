@@ -46,6 +46,19 @@ function App() {
           path: 'doop',
           element: <Elements.Doop />
         },
+        {
+          path: 'mercuriosity',
+          children: [
+            {
+              path: '',
+              element: <Elements.Mercuriosity />,
+            },
+            {
+              path: ':id',
+              element: <Elements.MercuriosityDetail />,
+            },
+          ]
+        },
       ],
     }
   ]);
