@@ -1,18 +1,10 @@
 [
   {
     "id": "1",
-    "title": "Test",
-    "description": "Description for Curiosity 1",
-    "pdf": "/assets/pdfs/test.pdf",
-    "year": 2024,
-    "month": "mei"
-  },
-  {
-    "id": "2",
-    "title": "Curiosity 2",
-    "description": "Description for Curiosity 2",
-    "pdf": "/assets/pdfs/test2.pdf",
+    "title": "Eerste Editie",
+    "description": "De eerste editie van de NIEUWE Mercuriosity.",
+    "pdf": "/assets/pdfs/EersteEditie_Mercuriosity.pdf",
     "year": 2025,
-    "month": "februari"
+    "month": "Juli"
   }
 ]

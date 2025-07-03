@@ -53,12 +53,12 @@ const Filter: React.FC<FilterProps> = ({ years, months, selectedYear, selectedMo
   <FilterDiv>
     <Label htmlFor="year-select">Jaar:</Label>
     <Select id="year-select" value={selectedYear} onChange={e => onYearChange(e.target.value ? Number(e.target.value) : "") }>
-      <option value="">Alle jaren</option>
+      <option value="">Alle</option>
       {years.map(y => <option key={y} value={y}>{y}</option>)}
     </Select>
     <Label htmlFor="month-select">Maand:</Label>
     <Select id="month-select" value={selectedMonth} onChange={e => onMonthChange(e.target.value)}>
-      <option value="">Alle maanden</option>
+      <option value="">Alle</option>
       {months.map(m => <option key={m} value={m}>{m.charAt(0).toUpperCase() + m.slice(1)}</option>)}
     </Select>
   </FilterDiv>
