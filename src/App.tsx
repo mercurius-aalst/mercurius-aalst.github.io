@@ -1,4 +1,5 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import ErrorBoundary from './components/ErrorBoundary';
 import MainRoot from './roots/MainRoot';
 import { ContentProvider } from './context/contentContext';
 import Elements from './modules';
@@ -8,6 +9,7 @@ function App() {
     {
       path: '',
       element: <MainRoot />,
+      errorElement: <ErrorBoundary />,
       children: [
         {
           path: '',
@@ -31,6 +33,7 @@ function App() {
         },
         {
           path: 'evenementen',
+          errorElement: <ErrorBoundary />,
           children: [
             {
               path: '',
@@ -45,6 +48,20 @@ function App() {
         {
           path: 'doop',
           element: <Elements.Doop />
+        },
+        {
+          path: 'mercuriosity',
+          errorElement: <ErrorBoundary />,
+          children: [
+            {
+              path: '',
+              element: <Elements.Mercuriosity />,
+            },
+            {
+              path: ':year/:month/:id',
+              element: <Elements.MercuriosityDetail />,
+            },
+          ]
         },
       ],
     }
