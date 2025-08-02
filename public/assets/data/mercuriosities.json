@@ -6,5 +6,13 @@
     "pdf": "/assets/pdfs/EersteEditie_Mercuriosity.pdf",
     "year": 2025,
     "month": "Juli"
+  },
+  {
+    "id": "2",
+    "title": "Vakantie Editie",
+    "description": "Vol vakantiepret en herexamen tips",
+    "pdf": "/assets/pdfs/Vakantie-Editie.pdf",
+    "year": 2025,
+    "month": "Augustus"
   }
 ]
