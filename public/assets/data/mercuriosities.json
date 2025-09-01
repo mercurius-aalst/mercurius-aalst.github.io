@@ -1,11 +1,11 @@
 [
   {
-    "id": "1",
-    "title": "Eerste Editie",
-    "description": "De eerste editie van de NIEUWE Mercuriosity.",
-    "pdf": "/assets/pdfs/EersteEditie_Mercuriosity.pdf",
+    "id": "3",
+    "title": "Doop Editie",
+    "description": "een inkijk in ons studentenleven",
+    "pdf": "/assets/pdfs/Doop-Editie.pdf",
     "year": 2025,
-    "month": "Juli"
+    "month": "September"
   },
   {
     "id": "2",
@@ -14,5 +14,13 @@
     "pdf": "/assets/pdfs/Vakantie-Editie.pdf",
     "year": 2025,
     "month": "Augustus"
+  },
+  {
+    "id": "1",
+    "title": "Eerste Editie",
+    "description": "De eerste editie van de NIEUWE Mercuriosity.",
+    "pdf": "/assets/pdfs/EersteEditie_Mercuriosity.pdf",
+    "year": 2025,
+    "month": "Juli"
   }
 ]
