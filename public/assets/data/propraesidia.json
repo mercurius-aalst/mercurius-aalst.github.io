@@ -574,7 +574,16 @@
   {
     "year": "2011-2012",
     "praeses": "Michaël 'Ketten' De Corte",
-    "members": []
+    "members": [
+      {
+        "function": "Schachtentemmer",
+        "name": "Dwayne 'DJ' De Blander"
+      },
+      {
+        "function": "Webmaster",
+        "name": "Kevin 'Bulkie' Van den Bulcke"
+      }
+    ]
   },
   {
     "year": "2010-2011",
