@@ -1,145 +1,188 @@
 [
+   {
+    "imageUrl": "/assets/images/events/overdracht-2025.png",
+    "title": "Overdrachtscantus",
+    "what": "Na een rustige zomer is het tijd voor de fakkel officiëel door te geven aan het nieuwe praesidium!",
+    "when": "Zaterdag 6 september om 19u30",
+    "where": "Wereldhuis",
+    "who": "Leden van Mercurius",
+    "facebookUrl": "https://www.facebook.com/events/1291469632716187/?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22external_search_engine%22%7D%2C%7B%22mechanism%22%3A%22attachment%22%2C%22surface%22%3A%22newsfeed%22%7D]%2C%22ref_notif_type%22%3Anull%7D&locale=nl_BE",
+    "orderDateString": "2025-09-06 19:30",
+    "url": "overdracht-2025"
+  },
   {
-    "imageUrl": "/assets/images/events/upperdare-2025.png",
-    "title": "Upperdare Clubavond",
-    "what": "Mercurius en Café Zeppelin slaan de handen in elkaar en presenteren: Upperdare Clubavond!<br>Zin in een onvergetelijke en vooral sensuele avond?<br>Van verwenproducten tot sexy lingerie en speeltjes, Upperlady Hilde brengt het voor ons mee. Tijdens de Upperdare Clubavond krijg je de kans om in een gezellige sfeer onder vrienden en vriendinnen kennis te maken met een verleidelijk assortiment, waarvan je de producten mag aanraken, ruiken en zelfs proeven.",
-    "when": "Zaterdag 22 maart om 20u",
-    "where": "Café De Zeppelin",
+    "title": "Gratis vat",
+    "what": "Kom gezellig iets drinken in ons club cafe om onze gezellige club te leren kennen!",
+    "when": "Vrijdag 19 september om 20u",
+    "where": "Zeppelin",
     "who": "Iedereen",
-    "facebookUrl": "https://www.facebook.com/events/677657311269383",
-    "mapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.203474185435!2d4.030516576586153!3d50.93844997168946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3bd52b9fb74a7%3A0xf95aa89b61578baf!2sZeppelin%20Aalst!5e0!3m2!1snl!2sbe!4v1721768313295!5m2!1snl!2sbe",
-    "orderDateString": "2025-03-22 20:00",
-    "url": "upperdare-2025"
+    "orderDateString": "2025-09-19 20:00",
+    "url": "Gratis-vat-2025"
+  },
+  {
+    "title": "Feuten clubavond",
+    "what": "Heb je interesse in je te laten dopen bij mercurius maar zit je nog met enkele vragen? Dan kan je deze makkelijk stellen op onze feuten clubavond!",
+    "when": "Zaterdag 4 oktober om 20u",
+    "where": "Zeppelin",
+    "who": "Iedereen",
+    "orderDateString": "2025-10-4 20:00",
+    "url": "Feuten-clubavond-2025"
+  },
+  {
+    "title": "Doop + doopcantus",
+    "what": "Eindelijk is het zover, Mercurius kan een nieuwe lading feuten omtoveren tot volwaardige schachten! Na een onvergetelijke doop kunnen de schachten dan ook genieten van hun aller eerste cantus!",
+    "when": "Zaterdag 11 oktober",
+    "where": "Hogent",
+    "who": "Iedereen",
+    "orderDateString": "2025-10-11 14:00",
+    "url": "Doop-2025"
+  },
+  {
+    "title": "Nadoop + halloweencantus",
+    "what": "Kon je er niet bij zijn bij de doop? Of heb je je last minute toch nog laten overtuigen? Dit is je kans om toch nog schacht te worden! Afsluiten doen we met onze jaarlijkse HALLOWEEN Cantus!",
+    "when": "Zaterdag 25 oktober",
+    "where": "Hogent",
+    "who": "Iedereen",
+    "orderDateString": "2025-10-25 14:00",
+    "url": "Nadoop-2025"
+  },
+  {
+    "title": "Royalty clubavond",
+    "what": "Zijne majesteit Goten verzoekt u om in zijn bijzijn de dag van de dynastie te vieren. Zet je mooiste kroon op je hoofd en kom gezellig iets drinken in de Zeppelin.",
+    "when": "Zaterdag 15 novenmber",
+    "where": "Hogent",
+    "who": "Iedereen",
+    "orderDateString": "2025-11-15 14:00",
+    "url": "Royalty-clubavond-2025"
+  },
+  {
+    "title": "LAN-party",
+    "what": "Gamers, zet nog even je instellingen allemaal optimaal want HET gaming event van het jaar is aangebroken.",
+    "when": "Vrijdag 21 tot Zaterdag 22 novenmber",
+    "where": "Hogent",
+    "who": "Iedereen",
+    "orderDateString": "2025-11-21 19:00",
+    "url": "Lan-2025"
+  },
+  {
+    "title": "Schaatsen + cadeatujes clubavond",
+    "what": "Laat je beste schaats skils zien op de ijspiste. En geniet savonds van de gezelligste clubavond van het jaar. Het concept van de clubavond is simpel. Iedereen die een cadeautje koop, krijgt er ook eentje.",
+    "when": "Zaterdag 6 december",
+    "where": "zeppelin",
+    "who": "Iedereen",
+    "orderDateString": "2025-12-6 14:00",
+    "url": "Schaatsen-2025"
+  },
+  {
+    "title": "Kerstmarkt Düsseldorf",
+    "what": "Glühwein? Glühwein! Kom mee de gezellige kerstmarkt van Düsseldorf ontdekken. Vervoer is gerelgeld zoals altijd dus je kan van alle aspecten genieten.",
+    "when": "Zaterdag 13 december",
+    "where": "Hogent",
+    "who": "Iedereen",
+    "orderDateString": "2025-12-13 20:00",
+    "url": "kerstmarkt-2025"
+  },
+  {
+    "title": "Blokpauze clubavond",
+    "what": "Student zijn betekend ook een af en toe genieten. Als je genoeg hebt gezien van je boeken kan je deze avond genieten van wat rust en vrienden.",
+    "when": "Zaterdag 16 januari",
+    "where": "Zeppelin",
+    "who": "Iedereen",
+    "orderDateString": "2026-01-16 20:00",
+    "url": "blokpauze-2026"
+  },
+  {
+    "title": "Nieuwjaarsreceptie",
+    "what": "GELUKKIG NIEUWJAAR!!! Trek je mooiste kleren aan en geniet nog 1 keer van het nieuwe jaar. Na zo een drukke examenperiode is het hoogtijd om nog eens bij te praten. Natuurlijk met enkele hapjes voorien door onze oude garde.",
+    "when": "Zaterdag 31 januari",
+    "where": "Zeppelin",
+    "who": "Iedereen",
+    "orderDateString": "2026-01-31 20:00",
+    "url": "nieuwjaar-2026"
+  },
+  {
+    "title": "Clubavond",
+    "what": "thema nog te bepalen",
+    "when": "Zaterdag 21 februari",
+    "where": "Zeppelin",
+    "who": "Iedereen",
+    "orderDateString": "2026-02-21 20:00",
+    "url": "clubavond-2026"
+  },
+  {
+    "title": "Krambamboulicantus",
+    "what": " Krambambouli zo wordt geheten dat schuimend ROOD studentennat. Jaja tis weer zover, geniet van onze geweldige Krambambouli op  de lekkerste cantus van het jaar!",
+    "when": "Zaterdag 21 februari",
+    "where": "te bepalen",
+    "who": "Iedereen",
+    "orderDateString": "2026-02-28 20:00",
+    "url": "Krambambouli-2026"
+  },
+  {
+    "title": "Babbelaer clubavond",
+    "what": "Een clubavond in de babbelear",
+    "when": "Zaterdag 7 maart",
+    "where": "babbelaer",
+    "who": "Iedereen",
+    "orderDateString": "2026-03-07 20:00",
+    "url": "babbelaer-2026"
+  },
+  {
+    "title": "The great history cantus",
+    "what": "Ooit al eens willen cantussen met Einstein? Nu is je kans. Verkleed je als een historisch figuur op deze cantus.",
+    "when": "Zaterdag 21 maart",
+    "where": "tbd",
+    "who": "Leden van Mercurius",
+    "orderDateString": "2026-03-21 20:00",
+    "url": "History-2026"
+  },
+  {
+    "title": "Vriendjescantus",
+    "what": "Neem je vrienden mee naar deze cantus. Mensen die volgend jaar bij de club willen, of gewoon mensen die nieuwschierig zijn.. iedereen is welkom vandaag.",
+    "when": "Zaterdag 4 april",
+    "where": "tbd",
+    "who": "Leden van Mercurius",
+    "orderDateString": "2026-04-04 20:00",
+    "url": "vriendjes-2026"
+  },
+  {
+    "title": "Spelletjes clubavond + schaaktoernooi",
+    "what": "Gewoon een gezellige clubavond gevuld met spelletjes",
+    "when": "Zaterdag 11 april",
+    "where": "Zeppelin",
+    "who": "Iedereen",
+    "orderDateString": "2026-04-11 20:00",
+    "url": "spelletjes-2026"
   },
   {
     "title": "Clubweekend",
-    "what": "Het leukste weekend van het jaar staat weer voor de deur: het Mercurius clubweekend!<br>Omdat het vorig jaar zo fantastisch was keren we terug naar Geraardsbergen!<br>We logeren opnieuw in de Chirolokalen van 'Chiroheem De Korendries'. Ook dit jaar pakken we het clubweekend net even wat anders aan: Zo organiseren we op vrijdag onze jaarlijkse Biermeester! Over de organisatie hiervan komt later meer info in het event, voor de niet drinkers voorzien we een leuk alternatief!",
-    "when": "Vrijdag 18 april (17u) tot zondag 20 april",
-    "where": "De Korendries (Geraardsbergen)",
-    "facebookUrl": "https://www.facebook.com/events/555555080169859",
-    "mapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4130.348422910526!2d3.879374613237239!3d50.76654368324212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3a8ba34ca4721%3A0x6a4c2960f31aaa16!2sKorendries%20Chiroheem!5e0!3m2!1snl!2sbe!4v1743840826764!5m2!1snl!2sbe",
+    "what": "Het leukste weekend van het jaar staat weer voor de deur: het Mercurius clubweekend!",
+    "when": "Vrijdag 7 tot Zondag 19 april",
+    "where": "tbd",
     "who": "Leden van Mercurius",
-    "orderDateString": "2025-04-18 17:00",
-    "url": "clubweekend-2025"
+    "orderDateString": "2026-04-07 20:00",
+    "url": "Clubweekend-2026"
   },
   {
-    "title": "Krambambouli Cantus",
-    "what": "Waarde Mercurianen en sympathisanten<br>Het is zover. De 'Krambamboulicantus' Mercurius editie!<br>Is dit legendarisch? Voor zover wij weten wel.<br>De cantus zal normaal starten met het Io Vivat om 20:00uur. Tijdens het eerste deel van de cantus zal de Krambambouli opgewarmd worden.<br>Wanneer er aangegeven wordt dat het ritueel kan starten, zullen wij een korte tempus inlassen om alles in gereedheid te brengen.<br>Dit verwachten we rond 20:45uur - 21:00uur.<br>Vanaf dan hopen wij dus dat iedereen aanwezig kan zijn die graag het ritueel wil meemaken of graag Krambambouli wil drinken.<br>Alwaar wij als barmhartige Samaritanen de dorstigen zullen laven en de alcoholisten van hun dagelijkse portie alcohol zullen voorzien.<br>Kom dus zelf maar ontdekken dat krambambouli verre van schuimend nog blond, maar zeer zeker een overheerlijk ‘brandend rood’ studentennat is dat het praesidium samen met Dardo voor jullie zal bereiden.",
-    "when": "Zaterdag 15 maart om 20u",
-    "where": "Onthaalcomplex Keizershallen",
-    "who": "Leden van Mercurius + andere verenigingen",
-    "orderDateString": "2025-03-15 20:00",
-    "url": "krambambouli-2025"
-  },
-  {
-    "imageUrl": "/assets/images/events/mercurius-3-2025.jpg",
-    "title": "Mercurius³-Cantus",
-    "what": "Pro-seniores, commilitones en schachten van Aalst, Kortrijk en Hasselt!<br>The word is out. De Mercuriusen verenigen zich en komen alle 3 samen voor één fantastische cantus.<br>Het wordt een avond van andere gewoontes, nieuwe liederen, veel bier en vooral nieuwe vriendschappen.<br>Benieuwd naar dit alles? Benieuwd naar hoe we de geschiedenis boeken gaan ingaan met deze cantus? Wel…",
-    "when": "Zaterdag 22 februari om 20u",
-    "where": "Onthaalcomplex Keizershallen",
+    "title": "Ontgroening + ontgroeningscantus",
+    "what": "Het is tijd om onze schachten om te toveren tot volwaardige comelitones!",
+    "when": "Zaterdag 2 mei",
+    "where": "tbd",
     "who": "Leden van Mercurius",
-    "registerUrl": "https://l.facebook.com/l.php?u=https%3A%2F%2Fforms.office.com%2Fe%2FMSZKFxAvNA%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR3SvZjxRrB5C0JAu0UV66UTCkCBo7wPlSjtUXVQbxPKBeZGaimT1rtUzOc_aem_Jv44lLSNfxVbdvOEVADUEg&h=AT26husfX4rJatEo7yIocO3u_mgzcsvE1s7jraq0JwvsMv_6cfBBtR19vkAIX9Y3nroWGBrOALIFZtxmjGBdr4hXMSKQBVY__sN-7uFU5ZzS74WPt0asxYGLB3_pLylgZhTDeoHH7joPq-aKXcx1j5FLMw&__tn__=q&c[0]=AT13KjuTPcwUkg91Uuo99cQPGSDYI0W-ceOYZAjxA6Z3Q5-QRPMbF2AQrlGOsw0bpunJlcRRENbaEgQla5bdDYYwr8ZionIEkgUZOhgjYDnyToASYJpWBpEdbHzadkfSET04ebPiQ6-9xaQRo2i4hH_KIgMAODI7ChfgRg",
-    "facebookUrl": "https://www.facebook.com/events/626831909710090",
-    "mapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.2864488190344!2d4.03241937658605!3d50.93691537168917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3bdd7960eb0a7%3A0xa61c493cf4d608e2!2sOnthaalcomplex%20Keizershallen!5e0!3m2!1snl!2sbe!4v1739611914243!5m2!1snl!2sbe",
-    "orderDateString": "2025-02-22 20:00",
-    "url": "mercurius-3-2025"
+    "orderDateString": "2026-05-02 20:00",
+    "url": "ontgroening-2026"
   },
   {
-    "title": "Minder Tinder Clubavond",
-    "what": "Nu het tweede semester van start gaat willen we jullie allemaal graag nog eens zien op onze gezellige clubavond.<br>Minder Tinder? Wat bedoelen daar weer mee? Wel, deze avond ga je een bandje krijgen waarmee je kan zien wie er beschikbaar, onbeschikbaar of ready to mingle is. Een beetje Tinder irl. Wat dan erna gebeurd is niet meer onze verantwoordelijkheid 😅",
-    "when": "Zaterdag 15 februari om 20u",
-    "where": "Café De Zeppelin",
-    "who": "Iedereen",
-    "facebookUrl": "https://www.facebook.com/events/611042671861187",
-    "mapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.203474185435!2d4.030516576586153!3d50.93844997168946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3bd52b9fb74a7%3A0xf95aa89b61578baf!2sZeppelin%20Aalst!5e0!3m2!1snl!2sbe!4v1721768313295!5m2!1snl!2sbe",
-    "orderDateString": "2025-02-15 20:00",
-    "url": "minder-tinder-2025"
-  },
-  {
-    "imageUrl": "/assets/images/events/kerstmarkt-2024.jpg",
-    "title": "Kerstmarkt Keulen",
-    "what": "De feestdagen zijn weer in aantocht en dan kan een bezoekje aan de kerstmarkt van Keulen er niet aan ontbreken! Gezellig samen met de bus op trip, en een drankje naast de mooie kathedraal zijn weer iets om naar uit te kijken.",
-    "price": "Zie Facebook",
-    "when": "Zaterdag 14 december om 6u30",
-    "where": "Frans Blanckaertdreef",
-    "who": "Iedereen",
-    "registerUrl": "https://forms.gle/XkPPqw46sPZ3ieze6",
-    "facebookUrl": "https://www.facebook.com/events/1894653037689492",
-    "mapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.733218857286!2d4.040329476585554!3d50.928651871687414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3bd424ce8e36f%3A0x7753e2c7fc6e2c0d!2sFrans%20Blanckaertdreef%2C%209300%20Aalst!5e0!3m2!1snl!2sbe!4v1728119460559!5m2!1snl!2sbe",
-    "orderDateString": "2024-12-14 06:30",
-    "url": "kerstmarkt-2024"
-  },
-  {
-    "imageUrl": "/assets/images/events/cadeautjes-2024.png",
-    "title": "Cadeautjes Clubavond",
-    "what": "Na het gezellig schaatsen halen we de winterprik er nog meer in met onze cadeautjes clubavond. 🎁<br>Hoe werkt het ??<br>Het concept van onze cadeautjes clubavond is heel simpel!<br>Wie een cadeautje meebrengt, krijgt er ook eentje terug. 🔄<br>De bedoeling is dat je een cadeautje met een waarde tussen €5 en €10 meeneemt naar de clubavond. Doorheen de avond zullen we dan een beetje zoals de secret santa een naam trekken en zo de cadeautjes uitdelen.<br>Maak het origineel maar onthoud wel dat eender wie je cadeautje kan ontvangen dus kies verstandig!",
-    "when": "Zaterdag 30 november om 20u",
-    "where": "Café De Zeppelin",
-    "who": "Iedereen",
-    "facebookUrl": "https://www.facebook.com/events/1095790541933840",
-    "mapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.203474185435!2d4.030516576586153!3d50.93844997168946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3bd52b9fb74a7%3A0xf95aa89b61578baf!2sZeppelin%20Aalst!5e0!3m2!1snl!2sbe!4v1721768313295!5m2!1snl!2sbe",
-    "orderDateString": "2024-11-30 20:00",
-    "url": "cadeautjes-2024"
-  },
-  {
-    "imageUrl": "/assets/images/events/on-ice-2024.jpg",
-    "title": "Mercurius On Ice",
-    "when": "Zaterdag 30 november om 14u",
-    "where": "Schaatsbaan Lebbeke",
-    "who": "Iedereen",
-    "registerUrl": "https://forms.gle/pQGwvJgT5yGEBEsR7",
-    "facebookUrl": "https://www.facebook.com/events/1776625509771727",
-    "mapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2518.1725062711294!2d4.076486276848659!3d50.86500605742824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3bc71140a84db%3A0x41b9541e0c0cd5ed!2sSport%20Vlaanderen%20Liedekerke!5e0!3m2!1snl!2sbe!4v1732352724461!5m2!1snl!2sbe",
-    "orderDateString": "2024-11-30 14:00",
-    "url": "on-ice-2024"
-  },
-  {
-    "imageUrl": "/assets/images/events/schwamp-cantus-2024.jpg",
-    "title": "Cantus in the Schwamp",
-    "what": "Somebody once told me the world is gonna roll me, I ain't the sharpest tool in the shed...<br>ghm ghm... oow ja<br>Cantusje in the SHWAMP<br>Het thema is nu wel duidelijk denk ik 😅",
-    "when": "Zaterdag 16 november om 20u",
-    "where": "Het Wereldhuis",
-    "who": "Iedereen",
-    "facebookUrl": "https://www.facebook.com/events/1944689436039499",
-    "mapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2669.463458230693!2d4.028562903485164!3d50.93616416534186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3bd511182bd2d%3A0xa588b53bb02b7ee6!2sHet%20Wereldhuis!5e0!3m2!1snl!2sbe!4v1731157924744!5m2!1snl!2sbe",
-    "orderDateString": "2024-11-16 18:00",
-    "url": "schwamp-cantus-2024"
-  },
-  {
-    "imageUrl": "/assets/images/events/lan-2024.jpg",
-    "title": "LAN-Party",
-    "what": "Get your game on, because we're back in business with another LAN-Party!<br>Net zoals elk jaar gaan we weer proberen om er top-editie van te maken waar zowel alle deelnemers als gewone bezoekers zich kunnen amuseren met o.a. competities, free-to-play randanimatie (Sim-racing, VR, boardgames, ...) en een top sfeer!<br>Natuurlijk is dit keer op keer niet mogelijk zonder onze sponsors, waarvoor dit jaar hartelijk dank aan Behind Bytes, Café Zeppelin, 'T Frituurke, Toki Aalst en Belgian Student League.",
-    "when": "Vrijdag 8 november om 18u",
-    "where": "HOGENT stadscampus Aalst",
-    "who": "Iedereen",
-    "facebookUrl": "https://www.facebook.com/events/552187004163000",
-    "mapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.264902406002!2d4.030750076586064!3d50.93731387168932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3bd50b5a1d121%3A0x7a151c3b40f58c76!2sHOGENT%20campus%20Aalst!5e0!3m2!1snl!2sbe!4v1729264498653!5m2!1snl!2sbe",
-    "orderDateString": "2024-11-08 18:00",
-    "url": "lan-2024"
-  },
-  {
-    "imageUrl": "/assets/images/events/nadoop-2024.jpg",
-    "title": "Nadoop Mercurius",
-    "what": "Voor diegene die toch nog even te lang twijfelden is er ook nog de Nadoop die je de kans geeft om een lid te worden van onze club.",
-    "when": "Zaterdag 26 oktober om 13u",
-    "where": "TBA",
+    "title": "Praesesverkiezing",
+    "what": "Na een prachtig jaar is het tijd om onze nieuwe praeses te verkiezen voor het jaar 2026/2027",
+    "when": "Zaterdag 9 mei",
+    "where": "tbd",
     "who": "Leden van Mercurius",
-    "facebookUrl": "https://www.facebook.com/events/1195944225031601",
-    "orderDateString": "2024-10-26 13:00",
-    "url": "nadoop-2024"
-  },
-  {
-    "imageUrl": "/assets/images/events/doop-2024.jpg",
-    "title": "Doop Mercurius: Medieval",
-    "what": "Blij dat je dit evenement gevonden hebt. Hoogstwaarschijnlijk hebben onze posters, flyers en heuse verkooppraatjes op de campus jullie aandacht getrokken.<br>Wij doen niet meer aan traditioneel dopen en voorzien een leuk alternatief namelijk laserschooting.<br>- De Laserschooting is een gesloten activiteit (Enkel feuten (mensen die geïnteresseerd zijn om zich te laten dopen) en Mercurianen zijn welkom.<br>- Het thema van de doop is 'Medieval'. Er wordt dus verwacht dat deelnemers zich verkleden in het thema. (denk aan ridders, prinsessen,...)<br>- In de voormiddag is er eerst teambuilding waar je beperkt vuil kan worden, breng reserve kledij mee. Indien nodig zul je de mogelijkheid hebben om te douchen. (voorzie dus ook een handdoek en zeep)<br>- Voor personen die zich laten dopen bij de club is de Lasershooting GRATIS.<br>- Mercurianen dienen op voorhand €20 te betalen op volgend rekeningnummer met vermelding van ‘naam + doop’",
-    "when": "Zaterdag 12 oktober om 10u",
-    "where": "Frans Blanckaertdreef",
-    "who": "Leden van Mercurius",
-    "price": "Gratis voor degene die zich laten dopen, €20 voor Mercurianen",
-    "facebookUrl": "https://www.facebook.com/events/1475925043086696",
-    "registerUrl": "https://forms.gle/afCoT3tZGoFAZgrC8",
-    "mapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.733218857286!2d4.040329476585554!3d50.928651871687414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3bd424ce8e36f%3A0x7753e2c7fc6e2c0d!2sFrans%20Blanckaertdreef%2C%209300%20Aalst!5e0!3m2!1snl!2sbe!4v1728119460559!5m2!1snl!2sbe",
-    "orderDateString": "2024-10-12 10:00",
-    "url": "doop-2024"
+    "orderDateString": "2026-05-09 20:00",
+    "url": "verkiezing-2026"
   }
+
+
+
+
 ]
