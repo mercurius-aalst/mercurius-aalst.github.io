@@ -1,5 +1,13 @@
 [
   {
+    "id": "4",
+    "title": "Halloween Editie",
+    "description": "Een inkijk in ons studentenleven",
+    "pdf": "/assets/pdfs/Halloween-editie.pdf",
+    "year": 2025,
+    "month": "Oktober"
+  },
+  {
     "id": "3",
     "title": "Doop Editie",
     "description": "Een inkijk in ons studentenleven",
