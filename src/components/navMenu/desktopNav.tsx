@@ -57,7 +57,7 @@ const DesktopNav = () => {
       <SLink title='Clublied' to='/clublied' $active={+(pathname.includes('/clublied'))} $isHome={+isHome}>Clublied</SLink>
       <SLink title='Evenementen' to='/evenementen' $active={+(pathname.includes('/evenementen'))} $isHome={+isHome}>Evenementen</SLink>
       <SLink title='Mercuriosity' to='/mercuriosity' $active={+(pathname.includes('/mercuriosity'))} $isHome={+isHome}>Mercuriosity</SLink>
-      <SLink as="a" href="https://lan.mercurius-aalst.be" target="_blank" rel="noopener noreferrer" title="LAN" $isHome={+isHome}>LAN</SLink>
+      <SLink to=""as="a" href="https://lan.mercurius-aalst.be" target="_blank" rel="noopener noreferrer" title="LAN" $isHome={+isHome}>LAN</SLink>
     </LinkDiv>
   );
 };
