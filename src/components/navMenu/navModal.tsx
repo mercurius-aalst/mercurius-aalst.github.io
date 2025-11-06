@@ -55,6 +55,7 @@ const NavModal = (props: {open: boolean, setOpenNav: React.Dispatch<React.SetSta
         <SLink title='Clublied' to='/clublied' $active={+(pathname.includes('/clublied'))}>Clublied</SLink>
         <SLink title='Events' to='/evenementen' $active={+(pathname.includes('/evenementen'))}>Evenementen</SLink>  
         <SLink title='Mercuriosity' to='/mercuriosity' $active={+(pathname.includes('/mercuriosity'))}>Mercuriosity</SLink>
+        <SLink as="a" href="https://lan.mercurius-aalst.be" target="_blank" rel="noopener noreferrer" title="LAN">LAN</SLink>
       </InnerNavDiv>
     </NavModalDiv>
   );
