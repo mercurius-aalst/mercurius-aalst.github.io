@@ -1,5 +1,13 @@
 [
   {
+    "id": "5",
+    "title": "Halloween Editie",
+    "description": "Eat, sleep, game, repeat!",
+    "pdf": "/assets/pdfs/Gamer_editie.pdf",
+    "year": 2025,
+    "month": "November"
+  },
+  {
     "id": "4",
     "title": "Halloween Editie",
     "description": "Kom in de gezellige spooky sfeer",
