@@ -1,5 +1,13 @@
 [
   {
+    "id": "6",
+    "title": "Kerst Editie",
+    "description": "Merry christmas and a happy new year!",
+    "pdf": "/assets/pdfs/Kerst-editie.pdf",
+    "year": 2025,
+    "month": "December"
+  },
+  {
     "id": "5",
     "title": "Gamer Editie",
     "description": "Eat, sleep, game, repeat!",
