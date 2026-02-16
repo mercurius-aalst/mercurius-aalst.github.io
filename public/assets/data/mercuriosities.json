@@ -1,5 +1,13 @@
 [
   {
+    "id": "7",
+    "title": "Carnavalentijn editie Editie",
+    "description": "Oilsjt viert Carnavalentijn!",
+    "pdf": "/assets/pdfs/Carnavalentijn_editie.pdf",
+    "year": 2026,
+    "month": "Januari"
+  },
+  {
     "id": "6",
     "title": "Kerst Editie",
     "description": "Merry christmas and a happy new year!",
