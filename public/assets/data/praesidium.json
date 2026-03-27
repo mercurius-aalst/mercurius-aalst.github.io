@@ -194,32 +194,6 @@
     ]
   },
   {
-    "fName": "Gohan",
-    "lName": "Anné",
-    "nName": "Juan",
-    "function": "Quaestor",
-    "imageUrl": "/assets/images/praesidium/gohan.jpg",
-    "url": "quaestor",
-    "questions": [
-      {
-        "q": "Studie",
-        "a": "Graduaat Accounting Administration"
-      },
-      {
-        "q": "Meter(s)/Peter(s)",
-        "a": "Pieter"
-      },
-      {
-        "q": "Doopjaar",
-        "a": "2021-2022"
-      },
-      {
-        "q": "Favoriete cantuslied",
-        "a": "The Wild Rover"
-      }
-    ]
-  },
-  {
     "fName": "Xander",
     "lName": "Verduyckt",
     "nName": "Skanders",
