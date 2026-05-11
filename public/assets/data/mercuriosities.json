@@ -1,5 +1,13 @@
 [
   {
+    "id": "8",
+    "title": "Tijdreis Editie",
+    "description": "A trip down memory lane!",
+    "pdf": "/assets/pdfs/Tijdreis-editie_compressed.pdf",
+    "year": 2026,
+    "month": "Mei"
+  },
+  {
     "id": "7",
     "title": "Carnavalentijn editie Editie",
     "description": "Oilsjt viert Carnavalentijn!",
