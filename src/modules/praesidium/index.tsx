@@ -27,9 +27,9 @@ const Praesidium = () => {
         <OuterSec>
           <InnerDiv>
             <Title color="--white" text="Praesidium" />
-            <div style={{ width: '100%' }}>
+            {/*<div style={{ width: '100%' }}>
               <img src={PraesImg} style={{ width: '100%' }} />
-            </div>
+            </div>*/}
             <CurrentPraesidium />
           </InnerDiv>
         </OuterSec>

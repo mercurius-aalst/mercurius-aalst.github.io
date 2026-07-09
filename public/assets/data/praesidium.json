@@ -1,39 +1,38 @@
 [
   {
-    "fName": "Jack",
-    "lName": "Anné",
-    "nName": "Dak",
+    "fName": "Brent",
+    "lName": "Lissens",
     "function": "Praeses",
-    "imageUrl": "/assets/images/praesidium/goten.jpg",
+    "imageUrl": "/assets/images/praesidium/Brent.jpg",
     "url": "praeses",
     "questions": [
       {
         "q": "Studie",
-        "a": "Biomedische (MLT) HoGent"
+        "a": "Toegepaste Informatica"
       },
       {
         "q": "Doopjaar",
-        "a": "2022-2023"
+        "a": "2024-2025"
       },
       {
         "q": "Meter(s)/Peter(s)",
-        "a": "Kiran en Maaike"
+        "a": "Mona, Duivenmelker, Kano en Bidoof"
       },
       {
         "q": "Favoriete cantuslied",
-        "a": "Auld lang syne'"
+        "a": "Annemarieke"
       },
       {
         "q": "Favoriete quote",
-        "a": "I wish I could sleep forever"
+        "a": "Zonder drank gene klank!"
       },
       {
         "q": "Favoriete Mercurius herinnering",
-        "a": "Krambambouli cantus (24-25) 1ste keer cantor"
+        "a": "LAN 2025"
       },
       {
         "q": "Beste drank ever",
-        "a": "Rosé wijn of limonade van Delhaize"
+        "a": "Moscow Mule"
       }
     ]
   },
@@ -47,7 +46,7 @@
     "questions": [
       {
         "q": "Studie",
-        "a": "Systeem- en netwerkbeheer"
+        "a": "leerkracht secundair onderwijs"
       },
       {
         "q": "Doopjaar",
@@ -76,44 +75,39 @@
     ]
   },
   {
-    "fName": "Lorenzo",
-    "lName": "Troch",
-    "nName": "Kip",
+    "fName": "Marthe",
+    "lName": "Strybol",
     "function": "Ab-Actis",
-    "imageUrl": "/assets/images/praesidium/Lorenzo.jpg",
+    "imageUrl": "/assets/images/praesidium/Marthe-Strybol.jpg",
     "url": "ab-actis",
     "questions": [
       {
         "q": "Studie",
-        "a": "Bedrijfsmanagement (Accountancy & Fiscaliteit)"
+        "a": "graduaat programmeren"
       },
       {
         "q": "Doopjaar",
-        "a": "2022-2023"
+        "a": "2025-2026"
       },
       {
         "q": "Meter(s)/Peter(s)",
-        "a": "Kano"
+        "a": "Sven en Brent"
       },
       {
         "q": "Favoriete cantuslied",
-        "a": "Krambambouli"
+        "a": "Sarie Marais"
       },
       {
         "q": "Favoriete quote",
-        "a": "The ability to speak does not make you intelligent."
+        "a": "Shoot for the moon, even if you miss, you'll land among the stars"
       },
       {
         "q": "Favoriete Mercurius herinnering",
-        "a": "3x op rij super smash bros winnen op LAN"
+        "a": "Alles/ kan niet kiezen"
       },
       {
-        "q": "Favoriete drank",
-        "a": "Coca-Cola (simpele ziel)"
-      },
-      {
-        "q": "Favoriete lettertype",
-        "a": "Helvetica"
+        "q": "Beste drank ever",
+        "a": "Cola Zero"
       }
     ]
   },
@@ -127,7 +121,11 @@
     "questions": [
       {
         "q": "Studie",
-        "a": "graduaat systeem- en netwerkbeheer"
+        "a": "graduaat systeem- en netwerkbeheer (afgestudeerd)"
+      },
+      {
+        "q": "Job",
+        "a": "IT support specialist"
       },
       {
         "q": "Doopjaar",
@@ -156,62 +154,99 @@
     ]
   },
   {
-    "fName": "Antonio",
-    "lName": "Radojcic",
-    "nName": "Radijs",
+    "fName": "Jack",
+    "lName": "Truyts",
+    "nName": "Sjakie",
     "function": "Cantor",
-    "imageUrl": "/assets/images/praesidium/Antonio.jpg",
+    "imageUrl": "/assets/images/praesidium/Jack.jpg",
     "url": "cantor",
     "questions": [
       {
         "q": "Studie",
-        "a": "Toegepaste Informatica "
+        "a": "Laboratorium assistentie"
       },
       {
         "q": "Doopjaar",
-        "a": "2024-2025"
+        "a": "2022-2023"
       },
       {
         "q": "Meter(s)/Peter(s)",
-        "a": "Marcel"
+        "a": "Kiran en Maaike"
       },
       {
         "q": "Favoriete cantuslied",
-        "a": "veel. (cockles and mussels/juchheidi alsk moet kiezen)"
+        "a": "Leave her Johny"
       },
       {
         "q": "Favoriete quote",
-        "a": " if they talk behind your back, fart"
+        "a": "I wish I could sleep forever"
       },
       {
         "q": "Favoriete Mercurius herinnering",
-        "a": "samen de krambambouli cantussen "
+        "a": "Praeses van Mercurius mogen zijn"
       },
       {
-        "q": "Favoriete drank",
-        "a": "rum & coke"
+        "q": "Beste drank ever",
+        "a": "Rosé wijn of limonade van Delhaize"
       }
     ]
   },
   {
-    "fName": "Xander",
-    "lName": "Verduyckt",
-    "nName": "Skanders",
+    "fName": "Geike",
+    "lName": "Aelbrecht",
+    "nName": "",
     "function": "Zedenmeester",
-    "imageUrl": "/assets/images/praesidium/Xander.jpg",
+    "imageUrl": "/assets/images/praesidium/Geike.jpg",
     "url": "zedenmeester",
     "questions": [
       {
         "q": "Studie",
-        "a": "Toegepaste Informatica "
+        "a": ""
       },
       {
         "q": "Doopjaar",
-        "a": "2024-2025"
+        "a": "2025-2026"
       },
       {
         "q": "Meter(s)/Peter(s)",
-        "a": "Brum & Gazon"
+        "a": "Stef & Bidoof"
+      },
+      {
+        "q": "Favoriete cantuslied",
+        "a": ""
+      },
+      {
+        "q": "Favoriete quote",
+        "a": ""
+      },
+      {
+        "q": "Favoriete Mercurius herinnering",
+        "a": ""
+      },
+      {
+        "q": "Beste drank ever",
+        "a": ""
+      }
+    ]
+  },
+    {
+    "fName": "Soetkin",
+    "lName": "De Vree",
+    "function": "Quastor",
+    "imageUrl": "/assets/images/praesidium/Soetkin.jpg",
+    "url": "Quastor",
+    "questions": [
+      {
+        "q": "Studie",
+        "a": "leerkracht secundair onderwijs voor wiskunde en informatica"
+      },
+      {
+        "q": "Doopjaar",
+        "a": "2022-2023"
+      },
+      {
+        "q": "Meter(s)/Peter(s)",
+        "a": "Cremer & Kiran"
       },
       {
         "q": "Favoriete cantuslied",
@@ -219,37 +254,81 @@
       },
       {
         "q": "Favoriete quote",
-        "a": "Vakantiedaugen zen gelijk as frit: ge genietj er mier van as ge ze ni teltj"
+        "a": "Yesterday is history, tomorrow is a mystery, but today is a gift. That’s why they call it the present."
       },
       {
         "q": "Favoriete Mercurius herinnering",
-        "a": "Clubweekend"
+        "a": "na 4 jaar zijn het er te veel om 1 te kiezen"
       },
       {
         "q": "Beste drank ever",
-        "a": "Bier"
+        "a": "pasoa met monster (mango of peach)"
       }
     ]
   },
   {
-    "fName": "Kiran",
-    "lName": "Trifin",
-    "nName": "Brum",
+    "fName": "David",
+    "lName": "Beerens",
     "function": "Sport & Cultuur",
-    "imageUrl": "/assets/images/praesidium/kiran.jpg",
+    "imageUrl": "/assets/images/praesidium/David.jpg",
     "url": "sport-en-cultuur",
     "questions": [
       {
         "q": "Studie",
-        "a": "Automotive management"
+        "a": "motomechanica"
+      },
+      {
+        "q": "Job",
+        "a": "medewerker motokledingwinke"
       },
       {
         "q": "Doopjaar",
-        "a": "2021-2022"
+        "a": "2024-2025"
       },
       {
         "q": "Meter(s)/Peter(s)",
-        "a": "Luna & Duivenmelker"
+        "a": "Cremer & Senne"
+      },
+      {
+        "q": "Favoriete cantuslied",
+        "a": "Lief klein konijntje"
+      },
+      {
+        "q": "Favoriete quote",
+        "a": "ik ben broke"
+      },
+      {
+        "q": "Favoriete Mercurius herinnering",
+        "a": "clubweekend 2026"
+      },
+      {
+        "q": "Beste drank ever",
+        "a": "Monster ultra paradise"
+      }
+    ]
+  },
+  {
+    "fName": "Lars",
+    "lName": "De Vos",
+    "function": "Webmaster",
+    "imageUrl": "/assets/images/praesidium/Lars.JPEG",
+    "url": "webmaster",
+    "questions": [
+      {
+        "q": "Studie",
+        "a": "Toegepaste Informatica (afgestudeerd)"
+      },
+      {
+        "q": "Job",
+        "a": "Infrastructure Engineer"
+      },
+      {
+        "q": "Doopjaar",
+        "a": "2023-2024"
+      },
+      {
+        "q": "Meter(s)/Peter(s)",
+        "a": "Leana & Gohan"
       },
       {
         "q": "Favoriete cantuslied",
@@ -257,91 +336,19 @@
       },
       {
         "q": "Favoriete quote",
-        "a": "Life is like a penis. Sometimes it's up, sometimes it's down, but it won't stay hard forever."
+        "a": "To infinity and beyond!"
       },
       {
         "q": "Favoriete Mercurius herinnering",
-        "a": "LAN 24-25"
+        "a": "LAN 2025"
       },
       {
         "q": "Beste drank ever",
-        "a": "Long island ice tea"
-      }
-
-    ]
-  },
-  {
-    "fName": "Marthe",
-    "lName": "Eyckerman",
-    "nName": "Filterke",
-    "function": "PR",
-    "imageUrl": "/assets/images/praesidium/Marthe.jpg",
-    "url": "pr",
-    "questions": [
-      {
-        "q": "Studie",
-        "a": "Toegepaste psychologie "
-      },
-      {
-        "q": "Doopjaar",
-        "a": "2024-2025"
-      },
-      {
-        "q": "Meter(s)/Peter(s)",
-        "a": "Brum & Gazon"
-      },
-      {
-        "q": "Favoriete cantuslied",
-        "a": "Geneverlied"
-      },
-      {
-        "q": "Favoriete quote",
-        "a": "one person’s craziness is another person’s reality"
-      },
-      {
-        "q": "Favoriete Mercurius herinnering",
-        "a": "kerstmarkt in Keulen "
-      },
-      {
-        "q": "Beste drank ever",
-        "a": "dark ‘n stormy"
-      }
-    ]
-  },
-  {
-    "fName": "Brent",
-    "lName": "Lissens",
-    "function": "Webmaster",
-    "imageUrl": "/assets/images/praesidium/Brent.jpg",
-    "url": "webmaster",
-    "questions": [
-      {
-        "q": "Doopjaar",
-        "a": "2024-2025"
-      },
-      {
-        "q": "Meter(s)/Peter(s)",
-        "a": "Mona, Duivenmelker, Kano en Bidoof"
-      },
-      {
-        "q": "Favoriete cantuslied",
-        "a": "Annemarieke"
-      },
-      {
-        "q": "Favoriete quote",
-        "a": "Zonder drank gene klank!"
-      },
-      {
-        "q": "Favoriete Mercurius herinnering",
-        "a": "LAN2024!!"
-      },
-      {
-        "q": "Favoriete drank",
-        "a": "Moskow mule"
+        "a": "Koffie"
       },
       {
         "q": "Favoriete programmeertaal",
-        "a": "They all give me a headache"
+        "a": "Brainfuck"
       }
     ]
   }

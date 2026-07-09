@@ -1,5 +1,44 @@
 [
   {
+    "year": "2025-2026",
+    "praeses": "Jack 'Dak' Truyts",
+    "image": "2023-2024.png",
+    "members": [
+      {
+        "function": "Vice-Praeses",
+        "name": "Séte 'Saté' Van Nuffel"
+      },
+      {
+        "function": "Ab-Actis",
+        "name": "Lorenzo 'Kip' Troch"
+      },
+      {
+        "function": "Schachtentemmer",
+        "name": "Gerben 'Marcel' De Wetter"
+      },
+      {
+        "function": "Cantor",
+        "name": "Antonio 'Radijs' Radojcic"
+      },
+      {
+        "function": "Sport & Cultuur",
+        "name": "Kiran 'Brum' Triffin"
+      },
+      {
+        "function": "Zedenmeester",
+        "name": "Xander 'Skanders' Verduyckt"
+      },
+      {
+        "function": "P.R.",
+        "name": "Marthe 'Filterke' Eyckerman"
+      },
+      {
+        "function": "Webmaster",
+        "name": "Brent Lissens"
+      }
+    ]
+  },
+  {
     "year": "2024-2025",
     "praeses": "Jarno 'Cremer' De Cremer",
     "image": "2023-2024.png",
