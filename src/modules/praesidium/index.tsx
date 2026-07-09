@@ -1,6 +1,6 @@
 import Banner from "../../components/banner";
 import BannerImg from '/assets/images/landing-pic.jpeg';
-import PraesImg from '/assets/images/praesidium.jpg';
+{/*import PraesImg from '/assets/images/praesidium.jpg';*/}
 import { InnerDiv, OuterSec } from "../../components/standard";
 import Title from "../../components/title";
 import CurrentPraesidium from "./currentPraesidium";
