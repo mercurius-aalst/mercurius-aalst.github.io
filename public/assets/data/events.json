@@ -1,4 +1,69 @@
 [
-  
+  {
+    "title": "Parkconcerten",
+    "what": "De zomer is volop bezig en daar moeten we toch van genieten? Vergezel ons op de parkconcerten voor een fantastische avond met optredens van de 'Stoefkabassen', 'De Parel Danst' en 'Aaron Blommaert'",
+    "when": "Donderdag 6 augustus",
+    "where": "Stadspark Aalst",
+    "who": "Iedereen",
+    "orderDateString": "2026-08-06",
+    "url": "Parkconcerten"
+  },
+  {
+    "title": "Onthaaldag op Odisee",
+    "what": "",
+    "when": "Zaterdag 5 september",
+    "where": "Odisee Aalst",
+    "who": "Iedereen",
+    "orderDateString": "2026-09-05",
+    "url": ""
+  },
+  {
+    "title": "Overdrachtscantus",
+    "what": "Het nieuwe academiejaar staat voor de deur en het nieuw Praesidium staat te popelen om er in te vliegen, dus is het tijd voor de overdrachtscantus. Samen wuiven we het oude praesidium uit en verwelkomen we het nieuwe met een fantastische cantus!",
+    "when": "Zaterdag 5 september",
+    "where": "Het Wereldhuis, Nieuwbeekstraat 35 9300 Aalst",
+    "who": "Leden van Mercurius (gesloten activiteit)",
+    "orderDateString": "2026-09-05",
+    "facebookUrl": "",
+    "url": ""
+  },
+  {
+    "title": "Onthaalweek",
+    "what": "Onthaalweek op campus Odisee",
+    "when": "",
+    "where": "Odisee",
+    "who": "Iedereen",
+    "orderDateString": "2026-09-12 8:00",
+    "url": "Onthaalweek-2026"
+  },
+  {
+    "title": "Gratis vat",
+    "what": "Mercurius trakteert! Kom samen met ons iets drinken in ons club café en leer onze club beter kennen.",
+    "when": "Vrijdag 18 september",
+    "where": "Zeppelin",
+    "who": "Iedereen",
+    "orderDateString": "2026-09-18",
+    "url": "Gratis-Vat-2026"
+  },
+  {
+    "title": "Springuur",
+    "what": "Het academiejaar is weer ingezet, maar dat kan niet zonder een feestje natuurlijk.",
+    "when": "Vrijdag 25 september",
+    "where": "TBA",
+    "who": "Iedereen",
+    "orderDateString": "2026-09-25",
+    "facebookUrl": "",
+    "url": "Springuur-2026"
+  },
+  {
+    "title": "Feuten Clubavond",
+    "what": "Ben je aan het overwegen om je te laten dopen bij onze fantastische club maar zit je met nog vragen? Dan ben je zeker welkom op deze clubavond waar jij ons op de rooster mag leggen om je twijfels te laten verdwijnen.",
+    "when": "Zaterdag 3 oktober",
+    "where": "Zeppelin",
+    "who": "Open activiteit",
+    "orderDateString": "2026-10-03",
+    "facebookUrl": "",
+    "url": "Feuten-clubavond-2026"
+  }
 
 ]
