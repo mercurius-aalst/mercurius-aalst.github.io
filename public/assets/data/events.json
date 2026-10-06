@@ -66,15 +66,34 @@
     "url": "Feuten-clubavond-2026"
   },
   {
-    "title": "Feuten Clubavond",
-    "what": "Het is weer tijd voor onze jaarlijkse doop, een fijne teambuilding gevolgd door een ware strijd tijdens de lasershoot.
-Wij kijken er alvast naar uit om de nieuwe feuten te verwelkomen en een fijne dag te beleven.",
+    "title": "80's & 90's doop",
+    "what": "Het is weer tijd voor onze jaarlijkse doop, een fijne teambuilding gevolgd door een ware strijd tijdens de lasershoot. Wij kijken er alvast naar uit om de nieuwe feuten te verwelkomen en een fijne dag te beleven.",
     "when": "Zaterdag 10 oktober",
     "where": "Sportzaal de voorstad",
     "who": "Open activiteit",
     "orderDateString": "2026-10-10",
     "facebookUrl": "https://www.facebook.com/events/2509263729581781",
-    "url": "Feuten-clubavond-2026"
+    "url": "doop-2026"
+  },
+  {
+    "title": "Mercurius verbroederingscantus",
+    "what": "We komen samen",
+    "when": "Vrijdag 23 oktober",
+    "where": "/",
+    "who": "Leden van Mercurius (gesloten activiteit)",
+    "orderDateString": "2026-10-23",
+    "facebookUrl": "",
+    "url": "doop-2026"
+  },
+  {
+    "title": "nadoop",
+    "what": "Kon je er niet bij zijn bij onze doop, of is je nieuwschierigheid toch gewekt? Geen zorgen we hebben altijd nog onze na-doop.",
+    "when": "Zaterdag 31 oktober",
+    "where": "/",
+    "who": "Open activiteit",
+    "orderDateString": "2026-10-31",
+    "facebookUrl": "",
+    "url": "doop-2026"
   }
 
 ]
